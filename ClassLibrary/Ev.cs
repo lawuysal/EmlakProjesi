@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace EmlakProjesi.ClassLibrary
 {
-    public class Ev
+    public abstract class Ev
     {
         public enum EvCesidi
         {
@@ -29,6 +29,7 @@ namespace EmlakProjesi.ClassLibrary
         private int emlakNumarasi = -99;
         static private List<int> emlakNumarasiListesi = new List<int>();
         private EvCesidi cesit = EvCesidi.Belirtilmemis;
+        private double getiriOrani = 1.0d;
 
 
         // Properties
@@ -185,9 +186,29 @@ namespace EmlakProjesi.ClassLibrary
                 return DateTime.Now.Year - yapimTarihi;
             }
         }
+        public double GetiriOrani
+        {
+            get
+            {
+                return getiriOrani;
+            }
+            set
+            {
+                if (value < 0.05 || value > 0.15 )
+                {
+                    getiriOrani = 1.0;
+                }
+                else
+                {
+                    getiriOrani = value;
+                }
+            }
+        }
         
 
         // Constructors
+        public Ev ()
+        { }
         public Ev (int odaSayisi, int katNumarasi, string semt, double alan, int yapimTarihi)
         {
             OdaSayisi = odaSayisi;
@@ -206,15 +227,6 @@ namespace EmlakProjesi.ClassLibrary
 
             // TODO: Log the created house
         } 
-        public Ev(string semt, double alan)
-        {
-            OdaSayisi = odaSayisi;
-            KatNumarasi = katNumarasi;
-            Semt = semt;
-            Alan = alan;
-
-            // TODO: Log the created house
-        }
         public Ev(int odaSayisi, int katNumarasi,  double alan)
         {
             OdaSayisi = odaSayisi;
@@ -226,9 +238,9 @@ namespace EmlakProjesi.ClassLibrary
         }
 
         // Methods
-        private string EvCesidiParser ()
+        protected string EvCesidiParser()
         {
-            switch (cesit)
+            switch (Cesit)
             {
                 case EvCesidi.Daire:
                     return "Daire";
@@ -246,40 +258,7 @@ namespace EmlakProjesi.ClassLibrary
                     return "Ev Cesidi Yok Hatasi";
             }
         }
-        public string EvBilgileri ()
-        {
-            // TODO: Log that the house information requested
-            string aktiflikDurumu;
-            if (isAktif)
-            {
-                aktiflikDurumu = "Aktif";
-            }
-            else
-            {
-                aktiflikDurumu = "Aktif değil";
-            }
-            string bilgiler = string.Format(
-                "Oda Sayisi: {0}\n" +
-                "Kat Numarasi {1}\n" +
-                "Semt: {2}\n" +
-                "Alani: {3}\n" +
-                "Yapim Tarihi: {4}\n" +
-                "Bina Yasi: {5}\n" +
-                "Aktflik Durumu: {6}\n" +
-                "Emlak Numarasi: {7}\n" +
-                "Ev Cesidi: {8}\n", 
-                odaSayisi,
-                katNumarasi,
-                semt,
-                alan,
-                yapimTarihi,
-                BinaYasi,
-                aktiflikDurumu,
-                emlakNumarasi,
-                EvCesidiParser()
-                );
-            return bilgiler;
-        }
+        public abstract string EvBilgileri();
         public double FiyatHesapla()
         {
             // TODO: Log the function call
@@ -294,7 +273,7 @@ namespace EmlakProjesi.ClassLibrary
                // TODO: Log the exception
             }
 
-            return katSayi * odaSayisi * alan;
+            return (katSayi * odaSayisi * alan)/10;
         }
     }
 }
