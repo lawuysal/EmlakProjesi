@@ -62,7 +62,7 @@ namespace EmlakProjesi.ClassLibrary
             }
             set
             {
-                if (value <= 0)
+                if (value < -1)
                 {
                     katNumarasi = 0;
                 }
