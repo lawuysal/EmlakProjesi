@@ -38,7 +38,24 @@ namespace EmlakProjesi
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
+            string secilenIlce = ilceComboBox.SelectedItem.ToString() ?? "besiktas";
+            List<string> semtler = new List<string>();
 
+            using (StreamReader sr = new StreamReader("semtler\\" + secilenIlce+".txt"))
+            {
+                string line;
+                while ((line = sr.ReadLine()) != null)
+                {
+                    semtler.Add(line);
+                }
+            }
+
+            semtComboBox.Items.Clear(); 
+
+            foreach (string semt in semtler)
+            {
+                semtComboBox.Items.Add(semt);
+            }
         }
 
         private void label9_Click(object sender, EventArgs e)

@@ -41,6 +41,19 @@
             yeniEvKayitPanel = new Panel();
             yeniEvKayitLabel = new Label();
             yeniKayitSayfasi = new Panel();
+            button1 = new Button();
+            label12 = new Label();
+            evTuruComboBox = new ComboBox();
+            getiriYuzdesiNumeric = new NumericUpDown();
+            label11 = new Label();
+            label10 = new Label();
+            evCesidiComboBox = new ComboBox();
+            label9 = new Label();
+            emlakNumarasiNumeric = new NumericUpDown();
+            label8 = new Label();
+            yapimYiliNumeric = new NumericUpDown();
+            label7 = new Label();
+            evAlaniTextBox = new TextBox();
             label6 = new Label();
             semtComboBox = new ComboBox();
             label5 = new Label();
@@ -52,19 +65,6 @@
             label2 = new Label();
             yeniSorguSayfasi = new Panel();
             label1 = new Label();
-            textBox1 = new TextBox();
-            label7 = new Label();
-            label8 = new Label();
-            numericUpDown1 = new NumericUpDown();
-            label9 = new Label();
-            numericUpDown2 = new NumericUpDown();
-            label10 = new Label();
-            comboBox1 = new ComboBox();
-            label11 = new Label();
-            numericUpDown3 = new NumericUpDown();
-            label12 = new Label();
-            comboBox2 = new ComboBox();
-            button1 = new Button();
             headerPanel.SuspendLayout();
             navBarPanel.SuspendLayout();
             satilikEvlerPanel.SuspendLayout();
@@ -72,12 +72,12 @@
             yeniSorguPanel.SuspendLayout();
             yeniEvKayitPanel.SuspendLayout();
             yeniKayitSayfasi.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)getiriYuzdesiNumeric).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)emlakNumarasiNumeric).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)yapimYiliNumeric).BeginInit();
             ((System.ComponentModel.ISupportInitialize)katNumarasiSeciciNumeric).BeginInit();
             ((System.ComponentModel.ISupportInitialize)odaSayisiSeciciNumeric).BeginInit();
             yeniSorguSayfasi.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)numericUpDown1).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)numericUpDown2).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)numericUpDown3).BeginInit();
             SuspendLayout();
             // 
             // headerPanel
@@ -208,17 +208,17 @@
             yeniKayitSayfasi.BackColor = Color.Gray;
             yeniKayitSayfasi.Controls.Add(button1);
             yeniKayitSayfasi.Controls.Add(label12);
-            yeniKayitSayfasi.Controls.Add(comboBox2);
-            yeniKayitSayfasi.Controls.Add(numericUpDown3);
+            yeniKayitSayfasi.Controls.Add(evTuruComboBox);
+            yeniKayitSayfasi.Controls.Add(getiriYuzdesiNumeric);
             yeniKayitSayfasi.Controls.Add(label11);
             yeniKayitSayfasi.Controls.Add(label10);
-            yeniKayitSayfasi.Controls.Add(comboBox1);
+            yeniKayitSayfasi.Controls.Add(evCesidiComboBox);
             yeniKayitSayfasi.Controls.Add(label9);
-            yeniKayitSayfasi.Controls.Add(numericUpDown2);
+            yeniKayitSayfasi.Controls.Add(emlakNumarasiNumeric);
             yeniKayitSayfasi.Controls.Add(label8);
-            yeniKayitSayfasi.Controls.Add(numericUpDown1);
+            yeniKayitSayfasi.Controls.Add(yapimYiliNumeric);
             yeniKayitSayfasi.Controls.Add(label7);
-            yeniKayitSayfasi.Controls.Add(textBox1);
+            yeniKayitSayfasi.Controls.Add(evAlaniTextBox);
             yeniKayitSayfasi.Controls.Add(label6);
             yeniKayitSayfasi.Controls.Add(semtComboBox);
             yeniKayitSayfasi.Controls.Add(label5);
@@ -232,6 +232,134 @@
             yeniKayitSayfasi.Name = "yeniKayitSayfasi";
             yeniKayitSayfasi.Size = new Size(992, 656);
             yeniKayitSayfasi.TabIndex = 2;
+            // 
+            // button1
+            // 
+            button1.BackColor = Color.SteelBlue;
+            button1.ForeColor = Color.White;
+            button1.Location = new Point(401, 500);
+            button1.Name = "button1";
+            button1.Size = new Size(151, 29);
+            button1.TabIndex = 22;
+            button1.Text = "Kayıdı Oluştur";
+            button1.UseVisualStyleBackColor = false;
+            // 
+            // label12
+            // 
+            label12.AutoSize = true;
+            label12.ForeColor = Color.White;
+            label12.Location = new Point(543, 388);
+            label12.Name = "label12";
+            label12.Size = new Size(60, 20);
+            label12.TabIndex = 21;
+            label12.Text = "Ev Türü:";
+            // 
+            // evTuruComboBox
+            // 
+            evTuruComboBox.FormattingEnabled = true;
+            evTuruComboBox.Items.AddRange(new object[] { "Kiralık", "Satılık" });
+            evTuruComboBox.Location = new Point(543, 411);
+            evTuruComboBox.Name = "evTuruComboBox";
+            evTuruComboBox.Size = new Size(151, 28);
+            evTuruComboBox.TabIndex = 20;
+            // 
+            // getiriYuzdesiNumeric
+            // 
+            getiriYuzdesiNumeric.Location = new Point(263, 411);
+            getiriYuzdesiNumeric.Maximum = new decimal(new int[] { 15, 0, 0, 0 });
+            getiriYuzdesiNumeric.Minimum = new decimal(new int[] { 5, 0, 0, 0 });
+            getiriYuzdesiNumeric.Name = "getiriYuzdesiNumeric";
+            getiriYuzdesiNumeric.Size = new Size(150, 27);
+            getiriYuzdesiNumeric.TabIndex = 19;
+            getiriYuzdesiNumeric.Value = new decimal(new int[] { 5, 0, 0, 0 });
+            // 
+            // label11
+            // 
+            label11.AutoSize = true;
+            label11.ForeColor = Color.White;
+            label11.Location = new Point(263, 388);
+            label11.Name = "label11";
+            label11.Size = new Size(102, 20);
+            label11.TabIndex = 18;
+            label11.Text = "Getiri Yüzdesi:";
+            // 
+            // label10
+            // 
+            label10.AutoSize = true;
+            label10.ForeColor = Color.White;
+            label10.Location = new Point(543, 315);
+            label10.Name = "label10";
+            label10.Size = new Size(71, 20);
+            label10.TabIndex = 16;
+            label10.Text = "Ev Çeşidi:";
+            // 
+            // evCesidiComboBox
+            // 
+            evCesidiComboBox.FormattingEnabled = true;
+            evCesidiComboBox.Items.AddRange(new object[] { "Daire", "Bahçeli", "Müstakil", "Dubleks", "Stüdyo", "Belirtilmemiş" });
+            evCesidiComboBox.Location = new Point(543, 338);
+            evCesidiComboBox.Name = "evCesidiComboBox";
+            evCesidiComboBox.Size = new Size(151, 28);
+            evCesidiComboBox.TabIndex = 15;
+            // 
+            // label9
+            // 
+            label9.AutoSize = true;
+            label9.ForeColor = Color.White;
+            label9.Location = new Point(543, 248);
+            label9.Name = "label9";
+            label9.Size = new Size(119, 20);
+            label9.TabIndex = 14;
+            label9.Text = "Emlak Numarasi:";
+            label9.Click += label9_Click;
+            // 
+            // emlakNumarasiNumeric
+            // 
+            emlakNumarasiNumeric.Location = new Point(543, 271);
+            emlakNumarasiNumeric.Maximum = new decimal(new int[] { 999999, 0, 0, 0 });
+            emlakNumarasiNumeric.Minimum = new decimal(new int[] { 100001, 0, 0, 0 });
+            emlakNumarasiNumeric.Name = "emlakNumarasiNumeric";
+            emlakNumarasiNumeric.Size = new Size(150, 27);
+            emlakNumarasiNumeric.TabIndex = 13;
+            emlakNumarasiNumeric.Value = new decimal(new int[] { 100001, 0, 0, 0 });
+            emlakNumarasiNumeric.ValueChanged += numericUpDown2_ValueChanged;
+            // 
+            // label8
+            // 
+            label8.AutoSize = true;
+            label8.ForeColor = Color.White;
+            label8.Location = new Point(543, 180);
+            label8.Name = "label8";
+            label8.Size = new Size(77, 20);
+            label8.TabIndex = 12;
+            label8.Text = "Yapim Yılı:";
+            // 
+            // yapimYiliNumeric
+            // 
+            yapimYiliNumeric.Location = new Point(543, 203);
+            yapimYiliNumeric.Maximum = new decimal(new int[] { 2040, 0, 0, 0 });
+            yapimYiliNumeric.Minimum = new decimal(new int[] { 1850, 0, 0, 0 });
+            yapimYiliNumeric.Name = "yapimYiliNumeric";
+            yapimYiliNumeric.Size = new Size(150, 27);
+            yapimYiliNumeric.TabIndex = 11;
+            yapimYiliNumeric.Value = new decimal(new int[] { 1850, 0, 0, 0 });
+            // 
+            // label7
+            // 
+            label7.AutoSize = true;
+            label7.ForeColor = Color.White;
+            label7.Location = new Point(543, 116);
+            label7.Name = "label7";
+            label7.Size = new Size(77, 20);
+            label7.TabIndex = 10;
+            label7.Text = "Evin Alanı:";
+            // 
+            // evAlaniTextBox
+            // 
+            evAlaniTextBox.Location = new Point(543, 139);
+            evAlaniTextBox.Name = "evAlaniTextBox";
+            evAlaniTextBox.Size = new Size(150, 27);
+            evAlaniTextBox.TabIndex = 9;
             // 
             // label6
             // 
@@ -341,134 +469,6 @@
             label1.TabIndex = 1;
             label1.Text = "label1";
             // 
-            // textBox1
-            // 
-            textBox1.Location = new Point(543, 139);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(150, 27);
-            textBox1.TabIndex = 9;
-            // 
-            // label7
-            // 
-            label7.AutoSize = true;
-            label7.ForeColor = Color.White;
-            label7.Location = new Point(543, 116);
-            label7.Name = "label7";
-            label7.Size = new Size(77, 20);
-            label7.TabIndex = 10;
-            label7.Text = "Evin Alanı:";
-            // 
-            // label8
-            // 
-            label8.AutoSize = true;
-            label8.ForeColor = Color.White;
-            label8.Location = new Point(543, 180);
-            label8.Name = "label8";
-            label8.Size = new Size(77, 20);
-            label8.TabIndex = 12;
-            label8.Text = "Yapim Yılı:";
-            // 
-            // numericUpDown1
-            // 
-            numericUpDown1.Location = new Point(543, 203);
-            numericUpDown1.Maximum = new decimal(new int[] { 2040, 0, 0, 0 });
-            numericUpDown1.Minimum = new decimal(new int[] { 1850, 0, 0, 0 });
-            numericUpDown1.Name = "numericUpDown1";
-            numericUpDown1.Size = new Size(150, 27);
-            numericUpDown1.TabIndex = 11;
-            numericUpDown1.Value = new decimal(new int[] { 1850, 0, 0, 0 });
-            // 
-            // label9
-            // 
-            label9.AutoSize = true;
-            label9.ForeColor = Color.White;
-            label9.Location = new Point(543, 248);
-            label9.Name = "label9";
-            label9.Size = new Size(119, 20);
-            label9.TabIndex = 14;
-            label9.Text = "Emlak Numarasi:";
-            label9.Click += label9_Click;
-            // 
-            // numericUpDown2
-            // 
-            numericUpDown2.Location = new Point(543, 271);
-            numericUpDown2.Maximum = new decimal(new int[] { 999999, 0, 0, 0 });
-            numericUpDown2.Minimum = new decimal(new int[] { 100001, 0, 0, 0 });
-            numericUpDown2.Name = "numericUpDown2";
-            numericUpDown2.Size = new Size(150, 27);
-            numericUpDown2.TabIndex = 13;
-            numericUpDown2.Value = new decimal(new int[] { 100001, 0, 0, 0 });
-            numericUpDown2.ValueChanged += numericUpDown2_ValueChanged;
-            // 
-            // label10
-            // 
-            label10.AutoSize = true;
-            label10.ForeColor = Color.White;
-            label10.Location = new Point(543, 315);
-            label10.Name = "label10";
-            label10.Size = new Size(71, 20);
-            label10.TabIndex = 16;
-            label10.Text = "Ev Çeşidi:";
-            // 
-            // comboBox1
-            // 
-            comboBox1.FormattingEnabled = true;
-            comboBox1.Items.AddRange(new object[] { "Daire", "Bahçeli", "Müstakil", "Dubleks", "Stüdyo", "Belirtilmemiş" });
-            comboBox1.Location = new Point(543, 338);
-            comboBox1.Name = "comboBox1";
-            comboBox1.Size = new Size(151, 28);
-            comboBox1.TabIndex = 15;
-            // 
-            // label11
-            // 
-            label11.AutoSize = true;
-            label11.ForeColor = Color.White;
-            label11.Location = new Point(263, 388);
-            label11.Name = "label11";
-            label11.Size = new Size(88, 20);
-            label11.TabIndex = 18;
-            label11.Text = "Getiri Oranı:";
-            // 
-            // numericUpDown3
-            // 
-            numericUpDown3.Location = new Point(263, 411);
-            numericUpDown3.Maximum = new decimal(new int[] { 15, 0, 0, 0 });
-            numericUpDown3.Minimum = new decimal(new int[] { 5, 0, 0, 0 });
-            numericUpDown3.Name = "numericUpDown3";
-            numericUpDown3.Size = new Size(150, 27);
-            numericUpDown3.TabIndex = 19;
-            numericUpDown3.Value = new decimal(new int[] { 5, 0, 0, 0 });
-            // 
-            // label12
-            // 
-            label12.AutoSize = true;
-            label12.ForeColor = Color.White;
-            label12.Location = new Point(543, 388);
-            label12.Name = "label12";
-            label12.Size = new Size(60, 20);
-            label12.TabIndex = 21;
-            label12.Text = "Ev Türü:";
-            // 
-            // comboBox2
-            // 
-            comboBox2.FormattingEnabled = true;
-            comboBox2.Items.AddRange(new object[] { "Kiralık", "Satılık" });
-            comboBox2.Location = new Point(543, 411);
-            comboBox2.Name = "comboBox2";
-            comboBox2.Size = new Size(151, 28);
-            comboBox2.TabIndex = 20;
-            // 
-            // button1
-            // 
-            button1.BackColor = Color.SteelBlue;
-            button1.ForeColor = Color.White;
-            button1.Location = new Point(401, 500);
-            button1.Name = "button1";
-            button1.Size = new Size(151, 29);
-            button1.TabIndex = 22;
-            button1.Text = "Kayıdı Oluştur";
-            button1.UseVisualStyleBackColor = false;
-            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
@@ -494,13 +494,13 @@
             yeniEvKayitPanel.PerformLayout();
             yeniKayitSayfasi.ResumeLayout(false);
             yeniKayitSayfasi.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)getiriYuzdesiNumeric).EndInit();
+            ((System.ComponentModel.ISupportInitialize)emlakNumarasiNumeric).EndInit();
+            ((System.ComponentModel.ISupportInitialize)yapimYiliNumeric).EndInit();
             ((System.ComponentModel.ISupportInitialize)katNumarasiSeciciNumeric).EndInit();
             ((System.ComponentModel.ISupportInitialize)odaSayisiSeciciNumeric).EndInit();
             yeniSorguSayfasi.ResumeLayout(false);
             yeniSorguSayfasi.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)numericUpDown1).EndInit();
-            ((System.ComponentModel.ISupportInitialize)numericUpDown2).EndInit();
-            ((System.ComponentModel.ISupportInitialize)numericUpDown3).EndInit();
             ResumeLayout(false);
         }
 
@@ -531,16 +531,16 @@
         private Label label6;
         private ComboBox semtComboBox;
         private Label label8;
-        private NumericUpDown numericUpDown1;
+        private NumericUpDown yapimYiliNumeric;
         private Label label7;
-        private TextBox textBox1;
+        private TextBox evAlaniTextBox;
         private Label label9;
-        private NumericUpDown numericUpDown2;
+        private NumericUpDown emlakNumarasiNumeric;
         private Label label10;
-        private ComboBox comboBox1;
+        private ComboBox evCesidiComboBox;
         private Label label12;
-        private ComboBox comboBox2;
-        private NumericUpDown numericUpDown3;
+        private ComboBox evTuruComboBox;
+        private NumericUpDown getiriYuzdesiNumeric;
         private Label label11;
         private Button button1;
     }
