@@ -30,6 +30,7 @@ namespace EmlakProjesi.ClassLibrary
         static private List<int> emlakNumarasiListesi = new List<int>();
         private EvCesidi cesit = EvCesidi.Belirtilmemis;
         private double getiriOrani = 1.0d;
+        private string evinFotograflariKlasorYolu = "Yok.";
 
 
         // Properties
@@ -201,6 +202,25 @@ namespace EmlakProjesi.ClassLibrary
                 else
                 {
                     getiriOrani = value;
+                }
+            }
+        }
+        public string EvinFotograflariKlasoru
+        {
+            get
+            {
+                return evinFotograflariKlasorYolu;
+            }
+            set
+            {
+                if (string.IsNullOrWhiteSpace(value))
+                {
+                    evinFotograflariKlasorYolu = "Yok.";
+                    // TODO: Log the entered value
+                }
+                else
+                {
+                    evinFotograflariKlasorYolu = value;
                 }
             }
         }

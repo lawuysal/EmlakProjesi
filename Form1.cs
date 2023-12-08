@@ -5,6 +5,12 @@ namespace EmlakProjesi
         public Form1()
         {
             InitializeComponent();
+
+        }
+
+        private void headerTitle_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

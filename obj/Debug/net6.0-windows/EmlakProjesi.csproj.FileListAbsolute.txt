@@ -1,0 +1,16 @@
+C:\Users\raylaw\Desktop\Code\Csh\EmlakProjesi\bin\Debug\net6.0-windows\EmlakProjesi.exe
+C:\Users\raylaw\Desktop\Code\Csh\EmlakProjesi\bin\Debug\net6.0-windows\EmlakProjesi.deps.json
+C:\Users\raylaw\Desktop\Code\Csh\EmlakProjesi\bin\Debug\net6.0-windows\EmlakProjesi.runtimeconfig.json
+C:\Users\raylaw\Desktop\Code\Csh\EmlakProjesi\bin\Debug\net6.0-windows\EmlakProjesi.dll
+C:\Users\raylaw\Desktop\Code\Csh\EmlakProjesi\bin\Debug\net6.0-windows\EmlakProjesi.pdb
+C:\Users\raylaw\Desktop\Code\Csh\EmlakProjesi\obj\Debug\net6.0-windows\EmlakProjesi.Form1.resources
+C:\Users\raylaw\Desktop\Code\Csh\EmlakProjesi\obj\Debug\net6.0-windows\EmlakProjesi.csproj.GenerateResource.cache
+C:\Users\raylaw\Desktop\Code\Csh\EmlakProjesi\obj\Debug\net6.0-windows\EmlakProjesi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\raylaw\Desktop\Code\Csh\EmlakProjesi\obj\Debug\net6.0-windows\EmlakProjesi.AssemblyInfoInputs.cache
+C:\Users\raylaw\Desktop\Code\Csh\EmlakProjesi\obj\Debug\net6.0-windows\EmlakProjesi.AssemblyInfo.cs
+C:\Users\raylaw\Desktop\Code\Csh\EmlakProjesi\obj\Debug\net6.0-windows\EmlakProjesi.csproj.CoreCompileInputs.cache
+C:\Users\raylaw\Desktop\Code\Csh\EmlakProjesi\obj\Debug\net6.0-windows\EmlakProjesi.dll
+C:\Users\raylaw\Desktop\Code\Csh\EmlakProjesi\obj\Debug\net6.0-windows\refint\EmlakProjesi.dll
+C:\Users\raylaw\Desktop\Code\Csh\EmlakProjesi\obj\Debug\net6.0-windows\EmlakProjesi.pdb
+C:\Users\raylaw\Desktop\Code\Csh\EmlakProjesi\obj\Debug\net6.0-windows\EmlakProjesi.genruntimeconfig.cache
+C:\Users\raylaw\Desktop\Code\Csh\EmlakProjesi\obj\Debug\net6.0-windows\ref\EmlakProjesi.dll
