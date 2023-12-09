@@ -65,6 +65,7 @@
             label2 = new Label();
             yeniSorguSayfasi = new Panel();
             label1 = new Label();
+            button1 = new Button();
             headerPanel.SuspendLayout();
             navBarPanel.SuspendLayout();
             satilikEvlerPanel.SuspendLayout();
@@ -206,6 +207,7 @@
             // yeniKayitSayfasi
             // 
             yeniKayitSayfasi.BackColor = Color.Gray;
+            yeniKayitSayfasi.Controls.Add(button1);
             yeniKayitSayfasi.Controls.Add(kayitOlusturButton);
             yeniKayitSayfasi.Controls.Add(label12);
             yeniKayitSayfasi.Controls.Add(evTuruComboBox);
@@ -470,6 +472,16 @@
             label1.TabIndex = 1;
             label1.Text = "label1";
             // 
+            // button1
+            // 
+            button1.Location = new Point(89, 389);
+            button1.Name = "button1";
+            button1.Size = new Size(94, 29);
+            button1.TabIndex = 23;
+            button1.Text = "button1";
+            button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click_1;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
@@ -544,5 +556,6 @@
         private NumericUpDown getiriYuzdesiNumeric;
         private Label label11;
         private Button kayitOlusturButton;
+        private Button button1;
     }
 }

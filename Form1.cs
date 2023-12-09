@@ -1,3 +1,5 @@
+using EmlakProjesi.ClassLibrary;
+
 namespace EmlakProjesi
 {
     public partial class Form1 : Form
@@ -53,27 +55,34 @@ namespace EmlakProjesi
         private void button1_Click(object sender, EventArgs e)
         {
             string evTuru = evTuruComboBox.SelectedItem.ToString() ?? "Kiralýk";
+            Ev yeniEv;
 
-            if (evTuru == "Kiralýk") 
-            {                 
-                KiralikEv kiralikEv = new KiralikEv();
-                kiralikEv.OdaSayisi = Convert.ToInt32(odaSayisiNumericUpDown.Value);
-                kiralikEv.KatNumarasi = Convert.ToInt32(katNumarasiNumericUpDown.Value);
-                kiralikEv.Semt = semtComboBox.SelectedItem.ToString();
-                kiralikEv.Alan = Convert.ToDouble(alanNumericUpDown.Value);
-                kiralikEv.YapimTarihi = Convert.ToInt32(yapimTarihiNumericUpDown.Value);
-                kiralikEv.EmlakNumarasi = Convert.ToInt32(emlakNumarasiNumericUpDown.Value);
-                kiralikEv.Cesit = (Ev.EvCesidi)Enum.Parse(typeof(Ev.EvCesidi), evCesidiComboBox.SelectedItem.ToString());
-                kiralikEv.GetiriOrani = Convert.ToDouble(getiriOraniNumericUpDown.Value);
-                kiralikEv.EvinFotograflariKlasorYolu = evinFotograflariKlasorYoluTextBox.Text;
-                kiralikEv.KiraciAdi = kiraciAdiTextBox.Text;
-                kiralikEv.KiraSuresi = Convert.ToInt32(kiraSuresiNumericUpDown.Value);
-                kiralikEv.Depozito = Convert.ToInt32(depozitoNumericUpDown.Value);
-                kiralikEv.DepozitoDurumu = depozitoDurumuCheckBox.Checked;
-            
-                kiralikEvler.Add(kiralikEv);
+            if (evTuru == "Kiralýk")
+            {
+                yeniEv = new KiralikEv();
             }
-            
+            else
+            {
+                yeniEv = new SatilikEv();
+            }
+
+            yeniEv.OdaSayisi = Convert.ToInt32(odaSayisiSeciciNumeric.Value);
+            yeniEv.KatNumarasi = Convert.ToInt32(katNumarasiSeciciNumeric.Value);
+            yeniEv.Semt = semtComboBox.SelectedItem.ToString() ?? "Bilinmiyor";
+            yeniEv.Alan = Convert.ToDouble(evAlaniTextBox.Text);
+            yeniEv.YapimTarihi = Convert.ToInt32(yapimYiliNumeric.Value);
+            yeniEv.EmlakNumarasi = Convert.ToInt32(emlakNumarasiNumeric.Value);
+            yeniEv.Cesit = (Ev.EvCesidi)Enum.Parse(typeof(Ev.EvCesidi), evCesidiComboBox.SelectedItem.ToString() ?? "Bilinmiyor");
+            yeniEv.GetiriOrani = Convert.ToDouble(getiriYuzdesiNumeric.Value);
+
+            string sonuc = App.evKaydet(yeniEv);
+            MessageBox.Show(sonuc);
+
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            MessageBox.Show(App.evListesi.Count.ToString());
         }
     }
 }

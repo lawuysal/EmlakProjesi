@@ -10,7 +10,7 @@ namespace EmlakProjesi
 {
     internal class App
     {
-        public static Ev evListesi = new Ev();
+        public static List<Ev> evListesi = new List<Ev>();
         public static void ilceleriYukle(ref ComboBox ilceComboBox, ref ComboBox semtComboBox)
         {
             string secilenIlce = ilceComboBox.SelectedItem.ToString() ?? "besiktas";
@@ -32,5 +32,19 @@ namespace EmlakProjesi
                 semtComboBox.Items.Add(semt);
             }
         }
+        public static string evKaydet(Ev yeniEv)
+        {
+            if (!evListesi.Any(ev => ev.EmlakNumarasi == yeniEv.EmlakNumarasi))
+            {
+                evListesi.Add(yeniEv);
+                return "Yeni ev başarıyla kaydedildi!";
+            }
+            else
+            {
+                return "Bu emlak numarası zaten kayıtlı!";
+            }
+            
+        }
+         
     }
 }
