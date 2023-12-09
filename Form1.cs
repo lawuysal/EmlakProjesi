@@ -29,11 +29,13 @@ namespace EmlakProjesi
 
         private void yeniSorguLabel_Click(object sender, EventArgs e)
         {
-            yeniSorguSayfasi.BringToFront();
+            /*
+            kiralikEvlerSayfasi.BringToFront();
             yeniEvKayitPanel.BackColor = Color.SeaGreen;
             yeniSorguPanel.BackColor = Color.MediumAquamarine;
             kiralikEvlerPanel.BackColor = Color.SeaGreen;
             satilikEvlerPanel.BackColor = Color.SeaGreen;
+            */
         }
 
         private void label4_Click(object sender, EventArgs e)
@@ -55,6 +57,7 @@ namespace EmlakProjesi
         {
         }
 
+        // Create a new Ev object and save it to the list
         private void button1_Click(object sender, EventArgs e)
         {
             string evTuru = evTuruComboBox.SelectedItem.ToString() ?? "Kiralýk";
@@ -72,12 +75,12 @@ namespace EmlakProjesi
             yeniEv.OdaSayisi = Convert.ToInt32(odaSayisiSeciciNumeric.Value);
             yeniEv.KatNumarasi = Convert.ToInt32(katNumarasiSeciciNumeric.Value);
             yeniEv.Semt = semtComboBox.SelectedItem.ToString() ?? "Bilinmiyor";
+            yeniEv.Ilce = ilceComboBox.SelectedItem.ToString() ?? "Bilinmiyor";
             yeniEv.Alan = Convert.ToDouble(evAlaniTextBox.Text);
             yeniEv.YapimTarihi = Convert.ToInt32(yapimYiliNumeric.Value);
             yeniEv.EmlakNumarasi = Convert.ToInt32(emlakNumarasiNumeric.Value);
             yeniEv.Cesit = (Ev.EvCesidi)Enum.Parse(typeof(Ev.EvCesidi), evCesidiComboBox.SelectedItem.ToString() ?? "Bilinmiyor");
             yeniEv.GetiriOrani = Convert.ToDouble(getiriYuzdesiNumeric.Value);
-            //yeniEv.Turu = evTuruComboBox.SelectedItem.ToString() ?? "Kiralýk";
 
             string sonuc = App.evKaydet(yeniEv);
             MessageBox.Show(sonuc);
@@ -93,6 +96,15 @@ namespace EmlakProjesi
         {
             //string readingRecordsFileAnswer = App.evleriDosyadanOku();
             //MessageBox.Show(readingRecordsFileAnswer);
+        }
+
+        private void kiralikEvlerLabel_Click(object sender, EventArgs e)
+        {
+            kiralikEvlerSayfasi.BringToFront();
+            yeniEvKayitPanel.BackColor = Color.SeaGreen;
+            yeniSorguPanel.BackColor = Color.SeaGreen;
+            kiralikEvlerPanel.BackColor = Color.MediumAquamarine;
+            satilikEvlerPanel.BackColor = Color.SeaGreen;
         }
     }
 }

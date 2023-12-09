@@ -65,8 +65,9 @@
             label3 = new Label();
             odaSayisiSeciciNumeric = new NumericUpDown();
             label2 = new Label();
-            yeniSorguSayfasi = new Panel();
+            kiralikEvlerSayfasi = new Panel();
             label1 = new Label();
+            panel1 = new Panel();
             headerPanel.SuspendLayout();
             navBarPanel.SuspendLayout();
             satilikEvlerPanel.SuspendLayout();
@@ -79,7 +80,7 @@
             ((System.ComponentModel.ISupportInitialize)yapimYiliNumeric).BeginInit();
             ((System.ComponentModel.ISupportInitialize)katNumarasiSeciciNumeric).BeginInit();
             ((System.ComponentModel.ISupportInitialize)odaSayisiSeciciNumeric).BeginInit();
-            yeniSorguSayfasi.SuspendLayout();
+            kiralikEvlerSayfasi.SuspendLayout();
             SuspendLayout();
             // 
             // headerPanel
@@ -121,7 +122,7 @@
             // 
             menuLabel.AutoSize = true;
             menuLabel.ForeColor = Color.White;
-            menuLabel.Location = new Point(47, 20);
+            menuLabel.Location = new Point(52, 20);
             menuLabel.Name = "menuLabel";
             menuLabel.Size = new Size(51, 20);
             menuLabel.TabIndex = 2;
@@ -164,6 +165,7 @@
             kiralikEvlerLabel.Size = new Size(86, 20);
             kiralikEvlerLabel.TabIndex = 0;
             kiralikEvlerLabel.Text = "Kiralık Evler";
+            kiralikEvlerLabel.Click += kiralikEvlerLabel_Click;
             // 
             // yeniSorguPanel
             // 
@@ -476,33 +478,44 @@
             label2.TabIndex = 0;
             label2.Text = "Yeni Ev Kayıdı Oluştur";
             // 
-            // yeniSorguSayfasi
+            // kiralikEvlerSayfasi
             // 
-            yeniSorguSayfasi.BackColor = Color.RosyBrown;
-            yeniSorguSayfasi.Controls.Add(label1);
-            yeniSorguSayfasi.Location = new Point(1207, 85);
-            yeniSorguSayfasi.Name = "yeniSorguSayfasi";
-            yeniSorguSayfasi.Size = new Size(992, 656);
-            yeniSorguSayfasi.TabIndex = 0;
+            kiralikEvlerSayfasi.BackColor = Color.RosyBrown;
+            kiralikEvlerSayfasi.Controls.Add(label1);
+            kiralikEvlerSayfasi.Controls.Add(panel1);
+            kiralikEvlerSayfasi.Location = new Point(168, 85);
+            kiralikEvlerSayfasi.Name = "kiralikEvlerSayfasi";
+            kiralikEvlerSayfasi.Size = new Size(992, 656);
+            kiralikEvlerSayfasi.TabIndex = 0;
             // 
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(396, 98);
+            label1.Font = new Font("Segoe UI", 20F, FontStyle.Regular, GraphicsUnit.Point);
+            label1.ForeColor = Color.White;
+            label1.Location = new Point(395, 20);
             label1.Name = "label1";
-            label1.Size = new Size(50, 20);
-            label1.TabIndex = 1;
-            label1.Text = "label1";
+            label1.Size = new Size(190, 46);
+            label1.TabIndex = 25;
+            label1.Text = "Kiralık Evler";
+            // 
+            // panel1
+            // 
+            panel1.BackColor = Color.Gainsboro;
+            panel1.Location = new Point(16, 107);
+            panel1.Name = "panel1";
+            panel1.Size = new Size(960, 474);
+            panel1.TabIndex = 0;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1924, 753);
-            Controls.Add(yeniSorguSayfasi);
-            Controls.Add(yeniKayitSayfasi);
+            ClientSize = new Size(1175, 753);
             Controls.Add(navBarPanel);
             Controls.Add(headerPanel);
+            Controls.Add(yeniKayitSayfasi);
+            Controls.Add(kiralikEvlerSayfasi);
             Name = "Form1";
             Text = "Form1";
             headerPanel.ResumeLayout(false);
@@ -524,8 +537,8 @@
             ((System.ComponentModel.ISupportInitialize)yapimYiliNumeric).EndInit();
             ((System.ComponentModel.ISupportInitialize)katNumarasiSeciciNumeric).EndInit();
             ((System.ComponentModel.ISupportInitialize)odaSayisiSeciciNumeric).EndInit();
-            yeniSorguSayfasi.ResumeLayout(false);
-            yeniSorguSayfasi.PerformLayout();
+            kiralikEvlerSayfasi.ResumeLayout(false);
+            kiralikEvlerSayfasi.PerformLayout();
             ResumeLayout(false);
         }
 
@@ -544,8 +557,7 @@
         private Label yeniSorguLabel;
         private Panel yeniKayitSayfasi;
         private Label menuLabel;
-        private Label label1;
-        private Panel yeniSorguSayfasi;
+        private Panel kiralikEvlerSayfasi;
         private Label label2;
         private Label label3;
         private NumericUpDown odaSayisiSeciciNumeric;
@@ -570,5 +582,7 @@
         private Button kayitOlusturButton;
         private Button button1;
         private Button button2;
+        private Label label1;
+        private Panel panel1;
     }
 }
