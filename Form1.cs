@@ -38,24 +38,7 @@ namespace EmlakProjesi
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
-            string secilenIlce = ilceComboBox.SelectedItem.ToString() ?? "besiktas";
-            List<string> semtler = new List<string>();
-
-            using (StreamReader sr = new StreamReader("semtler\\" + secilenIlce+".txt"))
-            {
-                string line;
-                while ((line = sr.ReadLine()) != null)
-                {
-                    semtler.Add(line);
-                }
-            }
-
-            semtComboBox.Items.Clear(); 
-
-            foreach (string semt in semtler)
-            {
-                semtComboBox.Items.Add(semt);
-            }
+            App.ilceleriYukle(ref ilceComboBox, ref semtComboBox);
         }
 
         private void label9_Click(object sender, EventArgs e)
@@ -65,6 +48,32 @@ namespace EmlakProjesi
 
         private void numericUpDown2_ValueChanged(object sender, EventArgs e)
         {
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            string evTuru = evTuruComboBox.SelectedItem.ToString() ?? "Kiralýk";
+
+            if (evTuru == "Kiralýk") 
+            {                 
+                KiralikEv kiralikEv = new KiralikEv();
+                kiralikEv.OdaSayisi = Convert.ToInt32(odaSayisiNumericUpDown.Value);
+                kiralikEv.KatNumarasi = Convert.ToInt32(katNumarasiNumericUpDown.Value);
+                kiralikEv.Semt = semtComboBox.SelectedItem.ToString();
+                kiralikEv.Alan = Convert.ToDouble(alanNumericUpDown.Value);
+                kiralikEv.YapimTarihi = Convert.ToInt32(yapimTarihiNumericUpDown.Value);
+                kiralikEv.EmlakNumarasi = Convert.ToInt32(emlakNumarasiNumericUpDown.Value);
+                kiralikEv.Cesit = (Ev.EvCesidi)Enum.Parse(typeof(Ev.EvCesidi), evCesidiComboBox.SelectedItem.ToString());
+                kiralikEv.GetiriOrani = Convert.ToDouble(getiriOraniNumericUpDown.Value);
+                kiralikEv.EvinFotograflariKlasorYolu = evinFotograflariKlasorYoluTextBox.Text;
+                kiralikEv.KiraciAdi = kiraciAdiTextBox.Text;
+                kiralikEv.KiraSuresi = Convert.ToInt32(kiraSuresiNumericUpDown.Value);
+                kiralikEv.Depozito = Convert.ToInt32(depozitoNumericUpDown.Value);
+                kiralikEv.DepozitoDurumu = depozitoDurumuCheckBox.Checked;
+            
+                kiralikEvler.Add(kiralikEv);
+            }
+            
         }
     }
 }

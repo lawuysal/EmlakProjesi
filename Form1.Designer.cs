@@ -41,7 +41,7 @@
             yeniEvKayitPanel = new Panel();
             yeniEvKayitLabel = new Label();
             yeniKayitSayfasi = new Panel();
-            button1 = new Button();
+            kayitOlusturButton = new Button();
             label12 = new Label();
             evTuruComboBox = new ComboBox();
             getiriYuzdesiNumeric = new NumericUpDown();
@@ -206,7 +206,7 @@
             // yeniKayitSayfasi
             // 
             yeniKayitSayfasi.BackColor = Color.Gray;
-            yeniKayitSayfasi.Controls.Add(button1);
+            yeniKayitSayfasi.Controls.Add(kayitOlusturButton);
             yeniKayitSayfasi.Controls.Add(label12);
             yeniKayitSayfasi.Controls.Add(evTuruComboBox);
             yeniKayitSayfasi.Controls.Add(getiriYuzdesiNumeric);
@@ -233,16 +233,17 @@
             yeniKayitSayfasi.Size = new Size(992, 656);
             yeniKayitSayfasi.TabIndex = 2;
             // 
-            // button1
+            // kayitOlusturButton
             // 
-            button1.BackColor = Color.SteelBlue;
-            button1.ForeColor = Color.White;
-            button1.Location = new Point(401, 500);
-            button1.Name = "button1";
-            button1.Size = new Size(151, 29);
-            button1.TabIndex = 22;
-            button1.Text = "Kayıdı Oluştur";
-            button1.UseVisualStyleBackColor = false;
+            kayitOlusturButton.BackColor = Color.SteelBlue;
+            kayitOlusturButton.ForeColor = Color.White;
+            kayitOlusturButton.Location = new Point(401, 500);
+            kayitOlusturButton.Name = "kayitOlusturButton";
+            kayitOlusturButton.Size = new Size(151, 29);
+            kayitOlusturButton.TabIndex = 22;
+            kayitOlusturButton.Text = "Kayıdı Oluştur";
+            kayitOlusturButton.UseVisualStyleBackColor = false;
+            kayitOlusturButton.Click += button1_Click;
             // 
             // label12
             // 
@@ -542,6 +543,6 @@
         private ComboBox evTuruComboBox;
         private NumericUpDown getiriYuzdesiNumeric;
         private Label label11;
-        private Button button1;
+        private Button kayitOlusturButton;
     }
 }
