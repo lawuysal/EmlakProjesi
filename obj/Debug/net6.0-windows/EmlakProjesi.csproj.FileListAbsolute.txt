@@ -21,3 +21,4 @@ C:\Users\raylaw\Desktop\Code\Csh\EmlakProjesi\bin\Debug\net6.0-windows\ClassLibr
 C:\Users\raylaw\Desktop\Code\Csh\EmlakProjesi\bin\Debug\net6.0-windows\ClassLibrary.dll
 C:\Users\raylaw\Desktop\Code\Csh\EmlakProjesi\bin\Debug\net6.0-windows\ClassLibrary.pdb
 C:\Users\raylaw\Desktop\Code\Csh\EmlakProjesi\obj\Debug\net6.0-windows\EmlakProjesi.csproj.CopyComplete
+C:\Users\raylaw\Desktop\Code\Csh\EmlakProjesi\bin\Debug\net6.0-windows\Newtonsoft.Json.dll

@@ -1,0 +1,1 @@
+[{"KiraciAdi":"Bilinmiyor","KiraSuresi":0,"Depozito":20000,"OdaSayisi":3,"KatNumarasi":4,"Semt":"Galatasaray","Alan":45.0,"YapimTarihi":1853,"IsAktif":true,"EmlakNumarasi":100005,"Cesit":1,"BinaYasi":170,"GetiriOrani":1.0,"EvinFotograflariKlasoru":"Yok."}]

@@ -1,0 +1,1 @@
+[{"EvSahibiAdi":"Bilinmiyor","OdaSayisi":6,"KatNumarasi":5,"Semt":"Bağlarbaşı","Alan":90.0,"YapimTarihi":1857,"IsAktif":true,"EmlakNumarasi":100001,"Cesit":4,"BinaYasi":166,"GetiriOrani":1.0,"EvinFotograflariKlasoru":"Yok."}]

@@ -41,6 +41,8 @@
             yeniEvKayitPanel = new Panel();
             yeniEvKayitLabel = new Label();
             yeniKayitSayfasi = new Panel();
+            button2 = new Button();
+            button1 = new Button();
             kayitOlusturButton = new Button();
             label12 = new Label();
             evTuruComboBox = new ComboBox();
@@ -65,7 +67,6 @@
             label2 = new Label();
             yeniSorguSayfasi = new Panel();
             label1 = new Label();
-            button1 = new Button();
             headerPanel.SuspendLayout();
             navBarPanel.SuspendLayout();
             satilikEvlerPanel.SuspendLayout();
@@ -207,6 +208,7 @@
             // yeniKayitSayfasi
             // 
             yeniKayitSayfasi.BackColor = Color.Gray;
+            yeniKayitSayfasi.Controls.Add(button2);
             yeniKayitSayfasi.Controls.Add(button1);
             yeniKayitSayfasi.Controls.Add(kayitOlusturButton);
             yeniKayitSayfasi.Controls.Add(label12);
@@ -234,6 +236,26 @@
             yeniKayitSayfasi.Name = "yeniKayitSayfasi";
             yeniKayitSayfasi.Size = new Size(992, 656);
             yeniKayitSayfasi.TabIndex = 2;
+            // 
+            // button2
+            // 
+            button2.Location = new Point(37, 379);
+            button2.Name = "button2";
+            button2.Size = new Size(192, 29);
+            button2.TabIndex = 24;
+            button2.Text = "read records";
+            button2.UseVisualStyleBackColor = true;
+            button2.Click += button2_Click;
+            // 
+            // button1
+            // 
+            button1.Location = new Point(37, 306);
+            button1.Name = "button1";
+            button1.Size = new Size(192, 29);
+            button1.TabIndex = 23;
+            button1.Text = "show record count";
+            button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click_1;
             // 
             // kayitOlusturButton
             // 
@@ -472,16 +494,6 @@
             label1.TabIndex = 1;
             label1.Text = "label1";
             // 
-            // button1
-            // 
-            button1.Location = new Point(89, 389);
-            button1.Name = "button1";
-            button1.Size = new Size(94, 29);
-            button1.TabIndex = 23;
-            button1.Text = "button1";
-            button1.UseVisualStyleBackColor = true;
-            button1.Click += button1_Click_1;
-            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
@@ -557,5 +569,6 @@
         private Label label11;
         private Button kayitOlusturButton;
         private Button button1;
+        private Button button2;
     }
 }

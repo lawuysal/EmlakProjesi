@@ -1,4 +1,5 @@
 using EmlakProjesi.ClassLibrary;
+using Newtonsoft.Json;
 
 namespace EmlakProjesi
 {
@@ -7,6 +8,8 @@ namespace EmlakProjesi
         public Form1()
         {
             InitializeComponent();
+            string readingRecordsFileAnswer = App.evleriDosyadanOku();
+            MessageBox.Show(readingRecordsFileAnswer);
 
         }
 
@@ -74,6 +77,7 @@ namespace EmlakProjesi
             yeniEv.EmlakNumarasi = Convert.ToInt32(emlakNumarasiNumeric.Value);
             yeniEv.Cesit = (Ev.EvCesidi)Enum.Parse(typeof(Ev.EvCesidi), evCesidiComboBox.SelectedItem.ToString() ?? "Bilinmiyor");
             yeniEv.GetiriOrani = Convert.ToDouble(getiriYuzdesiNumeric.Value);
+            //yeniEv.Turu = evTuruComboBox.SelectedItem.ToString() ?? "Kiralýk";
 
             string sonuc = App.evKaydet(yeniEv);
             MessageBox.Show(sonuc);
@@ -83,6 +87,12 @@ namespace EmlakProjesi
         private void button1_Click_1(object sender, EventArgs e)
         {
             MessageBox.Show(App.evListesi.Count.ToString());
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            //string readingRecordsFileAnswer = App.evleriDosyadanOku();
+            //MessageBox.Show(readingRecordsFileAnswer);
         }
     }
 }

@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "G7e50E6P+0lsIpuk3ijXLz5OCFWOIGQNOLfsZxyTUoleyIkf3tiirtB4Stm02ujj0AWeaiyojkxLVp3yPrJdhQ==",
+  "dgSpecHash": "CWRyeFtp2KgBio9vLN3DIk0zg6C1Lto1yNJ6kdXWq8VruN51hE4xD/94lHZkpWCIz7R3BQw2heLAIE4Xi8yKNw==",
   "success": true,
   "projectFilePath": "C:\\Users\\raylaw\\Desktop\\Code\\Csh\\EmlakProjesi\\EmlakProjesi.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\raylaw\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
   "logs": []
 }
