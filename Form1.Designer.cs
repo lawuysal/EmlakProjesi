@@ -68,9 +68,9 @@
             kiralikEvlerSayfasi = new Panel();
             label1 = new Label();
             kiralikEvlerListePanel = new Panel();
-            panel1 = new Panel();
+            ayrintiSayfasi = new Panel();
             label13 = new Label();
-            panel2 = new Panel();
+            ayrintiSayfasiPanel = new Panel();
             headerPanel.SuspendLayout();
             navBarPanel.SuspendLayout();
             satilikEvlerPanel.SuspendLayout();
@@ -84,7 +84,7 @@
             ((System.ComponentModel.ISupportInitialize)katNumarasiSeciciNumeric).BeginInit();
             ((System.ComponentModel.ISupportInitialize)odaSayisiSeciciNumeric).BeginInit();
             kiralikEvlerSayfasi.SuspendLayout();
-            panel1.SuspendLayout();
+            ayrintiSayfasi.SuspendLayout();
             SuspendLayout();
             // 
             // headerPanel
@@ -511,15 +511,16 @@
             kiralikEvlerListePanel.Size = new Size(960, 474);
             kiralikEvlerListePanel.TabIndex = 0;
             // 
-            // panel1
+            // ayrintiSayfasi
             // 
-            panel1.BackColor = Color.Tan;
-            panel1.Controls.Add(label13);
-            panel1.Controls.Add(panel2);
-            panel1.Location = new Point(168, 85);
-            panel1.Name = "panel1";
-            panel1.Size = new Size(992, 656);
-            panel1.TabIndex = 26;
+            ayrintiSayfasi.BackColor = Color.Tan;
+            ayrintiSayfasi.Controls.Add(label13);
+            ayrintiSayfasi.Controls.Add(ayrintiSayfasiPanel);
+            ayrintiSayfasi.Location = new Point(168, 85);
+            ayrintiSayfasi.Name = "ayrintiSayfasi";
+            ayrintiSayfasi.Size = new Size(992, 656);
+            ayrintiSayfasi.TabIndex = 26;
+            ayrintiSayfasi.Paint += ayrintiSayfasi_Paint;
             // 
             // label13
             // 
@@ -532,13 +533,13 @@
             label13.TabIndex = 25;
             label13.Text = "Ayrıntılı Görünüm";
             // 
-            // panel2
+            // ayrintiSayfasiPanel
             // 
-            panel2.BackColor = Color.Gainsboro;
-            panel2.Location = new Point(16, 107);
-            panel2.Name = "panel2";
-            panel2.Size = new Size(960, 474);
-            panel2.TabIndex = 0;
+            ayrintiSayfasiPanel.BackColor = Color.Gainsboro;
+            ayrintiSayfasiPanel.Location = new Point(16, 107);
+            ayrintiSayfasiPanel.Name = "ayrintiSayfasiPanel";
+            ayrintiSayfasiPanel.Size = new Size(960, 474);
+            ayrintiSayfasiPanel.TabIndex = 0;
             // 
             // Form1
             // 
@@ -547,9 +548,9 @@
             ClientSize = new Size(1193, 753);
             Controls.Add(navBarPanel);
             Controls.Add(headerPanel);
-            Controls.Add(panel1);
-            Controls.Add(kiralikEvlerSayfasi);
             Controls.Add(yeniKayitSayfasi);
+            Controls.Add(ayrintiSayfasi);
+            Controls.Add(kiralikEvlerSayfasi);
             Name = "Form1";
             Text = "Form1";
             headerPanel.ResumeLayout(false);
@@ -573,8 +574,8 @@
             ((System.ComponentModel.ISupportInitialize)odaSayisiSeciciNumeric).EndInit();
             kiralikEvlerSayfasi.ResumeLayout(false);
             kiralikEvlerSayfasi.PerformLayout();
-            panel1.ResumeLayout(false);
-            panel1.PerformLayout();
+            ayrintiSayfasi.ResumeLayout(false);
+            ayrintiSayfasi.PerformLayout();
             ResumeLayout(false);
         }
 
@@ -620,8 +621,8 @@
         private Button button2;
         private Label label1;
         private Panel kiralikEvlerListePanel;
-        private Panel panel1;
+        private Panel ayrintiSayfasi;
         private Label label13;
-        private Panel panel2;
+        private Panel ayrintiSayfasiPanel;
     }
 }

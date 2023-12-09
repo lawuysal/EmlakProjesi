@@ -96,7 +96,7 @@ namespace EmlakProjesi
                 myPanel.Location = new Point(100, 50 + (i * 130));
                 myPanel.BackColor = Color.White;
                 listePanel.Controls.Add(myPanel);
-                myPanel.Tag = new ListeEventArgs(kiralikEvListesi[i].EmlakNumarasi);
+                myPanel.Tag = new ListeEventArgs(kiralikEvListesi[i].EmlakNumarasi, kiralikEvListesi[i].KiraHesapla());
                 myPanel.Click += eventHandler;
 
                 Label konum = new Label();
@@ -150,10 +150,114 @@ namespace EmlakProjesi
                 i++;
             }
         }
-        public static void evAyrintilariGoster(int emlakNumarasi, ref Panel evAyrintilariLabel)
+        public static void evAyrintilariGoster(int _emlakNumarasi, double _fiyat, ref Panel evAyrintilariPanel)
         {
-            Ev ev = evListesi.Find(ev => ev.EmlakNumarasi == emlakNumarasi);
-            evAyrintilariLabel.Text = ev.EvBilgileri();
+            Ev ev = evListesi.Find(ev => ev.EmlakNumarasi == _emlakNumarasi);
+            
+
+            Label konum = new Label();
+            konum.Name = "konum";
+            konum.Text = $"Konum: {ev.Ilce}, { ev.Semt}";
+            konum.Size = new Size(300, 25);
+            konum.Location = new Point(20, 20);
+            konum.Font = new Font("Segue UI", 12);
+            evAyrintilariPanel.Controls.Add(konum);
+
+            Label odaSayisi = new Label();
+            odaSayisi.Name = "odaSayisi";
+            if (ev.OdaSayisi != 1)
+            {
+                odaSayisi.Text = $"Oda Sayısı: {ev.OdaSayisi - 1} + 1";
+            }
+            else
+            {
+                odaSayisi.Text = $"Oda Sayısı: {ev.OdaSayisi} + 0";
+            }
+            odaSayisi.Size = new Size(300, 25);
+            odaSayisi.Location = new Point(20, 65);
+            odaSayisi.Font = new Font("Segue UI", 12);
+            evAyrintilariPanel.Controls.Add(odaSayisi);
+
+            Label evinAlani = new Label();
+            evinAlani.Name = "evinAlani";
+            evinAlani.Text = $"Ev Alanı: {ev.Alan} m²";
+            evinAlani.Size = new Size(300, 25);
+            evinAlani.Location = new Point(20, 110);
+            evinAlani.Font = new Font("Segue UI", 12);
+            evAyrintilariPanel.Controls.Add(evinAlani);
+
+            Label evinCesidi = new Label();
+            evinCesidi.Name = "evinCesidi";
+            evinCesidi.Text = $"Ev Çeşidi: {ev.Cesit}";
+            evinCesidi.Size = new Size(300, 25);
+            evinCesidi.Location = new Point(20, 155);
+            evinCesidi.Font = new Font("Segue UI", 12);
+            evAyrintilariPanel.Controls.Add(evinCesidi);
+
+            Label katNumarasi = new Label();
+            katNumarasi.Name = "katNumarasi";
+            katNumarasi.Text = $"Kat Numarası: {ev.KatNumarasi}";
+            katNumarasi.Size = new Size(300, 25);
+            katNumarasi.Location = new Point(20, 200);
+            katNumarasi.Font = new Font("Segue UI", 12);
+            evAyrintilariPanel.Controls.Add(katNumarasi);
+
+            Label yapimTarihi = new Label();
+            yapimTarihi.Name = "yapimTarihi";
+            yapimTarihi.Text = $"Yapım Tarihi: {ev.YapimTarihi}";
+            yapimTarihi.Size = new Size(300, 25);
+            yapimTarihi.Location = new Point(20, 245);
+            yapimTarihi.Font = new Font("Segue UI", 12);
+            evAyrintilariPanel.Controls.Add(yapimTarihi);
+
+            Label binaYasi = new Label();
+            binaYasi.Name = "binaYasi";
+            binaYasi.Text = $"Bina Yaşı: {ev.BinaYasi}";
+            binaYasi.Size = new Size(300, 25);
+            binaYasi.Location = new Point(20, 290);
+            binaYasi.Font = new Font("Segue UI", 12);
+            evAyrintilariPanel.Controls.Add(binaYasi);
+
+            Label aktiflikDurumu = new Label();
+            aktiflikDurumu.Name = "aktiflikDurumu";
+            if (ev.IsAktif)
+            {
+                aktiflikDurumu.Text = $"Aktiflik Durumu: Kiralanabilir";
+            }
+            else
+            {
+                aktiflikDurumu.Text = $"Aktiflik Durumu: Kiralanamaz";
+            }
+            aktiflikDurumu.Size = new Size(300, 25);
+            aktiflikDurumu.Location = new Point(320, 20);
+            aktiflikDurumu.Font = new Font("Segue UI", 12);
+            evAyrintilariPanel.Controls.Add(aktiflikDurumu);
+
+            Label fiyat = new Label();
+            fiyat.Name = "fiyat";
+            fiyat.Text = $"Fiyat: {_fiyat} TL";
+            fiyat.Size = new Size(300, 25);
+            fiyat.Location = new Point(320, 65);
+            fiyat.Font = new Font("Segue UI", 12);
+            evAyrintilariPanel.Controls.Add(fiyat);
+
+            Label emlakNumarasi = new Label();
+            emlakNumarasi.Name = "emlakNumarasi";
+            emlakNumarasi.Text = $"Emlak Numarası: {ev.EmlakNumarasi}";
+            emlakNumarasi.Size = new Size(300, 25);
+            emlakNumarasi.Location = new Point(320, 110);
+            emlakNumarasi.Font = new Font("Segue UI", 12);
+            evAyrintilariPanel.Controls.Add(emlakNumarasi);
+
+            Label getiriOrani = new Label();
+            getiriOrani.Name = "getiriOrani";
+            getiriOrani.Text = $"Getiri Oranı: {ev.GetiriOrani}";
+            getiriOrani.Size = new Size(300, 25);
+            getiriOrani.Location = new Point(320, 155);
+            getiriOrani.Font = new Font("Segue UI", 12);
+            evAyrintilariPanel.Controls.Add(getiriOrani);
+
+            
         }
          
     }

@@ -82,7 +82,10 @@ namespace EmlakProjesi
             yeniEv.YapimTarihi = Convert.ToInt32(yapimYiliNumeric.Value);
             yeniEv.EmlakNumarasi = Convert.ToInt32(emlakNumarasiNumeric.Value);
             yeniEv.Cesit = (Ev.EvCesidi)Enum.Parse(typeof(Ev.EvCesidi), evCesidiComboBox.SelectedItem.ToString() ?? "Bilinmiyor");
-            yeniEv.GetiriOrani = Convert.ToDouble(getiriYuzdesiNumeric.Value);
+            // Changes its value to decimal point number like if its 5, it will be 0.05
+            yeniEv.GetiriOrani = Convert.ToDouble(getiriYuzdesiNumeric.Value) / 100;
+
+
 
             string sonuc = App.evKaydet(yeniEv);
             MessageBox.Show(sonuc);
@@ -110,14 +113,24 @@ namespace EmlakProjesi
             satilikEvlerPanel.BackColor = Color.SeaGreen;
         }
 
-        private static void DynamicPanel_Click(object sender, EventArgs e)
+        private void DynamicPanel_Click(object sender, EventArgs e)
         {
 
             Panel clickedPanel = sender as Panel;
             if (clickedPanel != null && clickedPanel.Tag is ListeEventArgs listeEventArgs)
             {
-                MessageBox.Show("Clicked: " + clickedPanel.Name + " " + listeEventArgs.EmlakNumarasi);
+                ayrintiSayfasiPanel.Controls.Clear();
+                App.evAyrintilariGoster(listeEventArgs.EmlakNumarasi, listeEventArgs.Fiyat, ref ayrintiSayfasiPanel);
+                ayrintiSayfasi.BringToFront();
+                kiralikEvlerListePanel.Controls.Clear();
+
+                //MessageBox.Show("Clicked: " + clickedPanel.Name + " " + listeEventArgs.EmlakNumarasi);
             }
+        }
+
+        private void ayrintiSayfasi_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }

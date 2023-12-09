@@ -9,10 +9,12 @@ namespace EmlakProjesi
     class ListeEventArgs : EventArgs
     {
         public int EmlakNumarasi { get; set; }
+        public double Fiyat { get; set; }
 
-        public ListeEventArgs(int emlakNumarasi)
+        public ListeEventArgs(int emlakNumarasi, double fiyat)
         {
             EmlakNumarasi = emlakNumarasi;
+            Fiyat = fiyat;
         }
     }
 }
