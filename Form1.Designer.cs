@@ -67,7 +67,10 @@
             label2 = new Label();
             kiralikEvlerSayfasi = new Panel();
             label1 = new Label();
+            kiralikEvlerListePanel = new Panel();
             panel1 = new Panel();
+            label13 = new Label();
+            panel2 = new Panel();
             headerPanel.SuspendLayout();
             navBarPanel.SuspendLayout();
             satilikEvlerPanel.SuspendLayout();
@@ -81,6 +84,7 @@
             ((System.ComponentModel.ISupportInitialize)katNumarasiSeciciNumeric).BeginInit();
             ((System.ComponentModel.ISupportInitialize)odaSayisiSeciciNumeric).BeginInit();
             kiralikEvlerSayfasi.SuspendLayout();
+            panel1.SuspendLayout();
             SuspendLayout();
             // 
             // headerPanel
@@ -482,7 +486,7 @@
             // 
             kiralikEvlerSayfasi.BackColor = Color.RosyBrown;
             kiralikEvlerSayfasi.Controls.Add(label1);
-            kiralikEvlerSayfasi.Controls.Add(panel1);
+            kiralikEvlerSayfasi.Controls.Add(kiralikEvlerListePanel);
             kiralikEvlerSayfasi.Location = new Point(168, 85);
             kiralikEvlerSayfasi.Name = "kiralikEvlerSayfasi";
             kiralikEvlerSayfasi.Size = new Size(992, 656);
@@ -499,23 +503,53 @@
             label1.TabIndex = 25;
             label1.Text = "Kiralık Evler";
             // 
+            // kiralikEvlerListePanel
+            // 
+            kiralikEvlerListePanel.BackColor = Color.Gainsboro;
+            kiralikEvlerListePanel.Location = new Point(16, 107);
+            kiralikEvlerListePanel.Name = "kiralikEvlerListePanel";
+            kiralikEvlerListePanel.Size = new Size(960, 474);
+            kiralikEvlerListePanel.TabIndex = 0;
+            // 
             // panel1
             // 
-            panel1.BackColor = Color.Gainsboro;
-            panel1.Location = new Point(16, 107);
+            panel1.BackColor = Color.Tan;
+            panel1.Controls.Add(label13);
+            panel1.Controls.Add(panel2);
+            panel1.Location = new Point(168, 85);
             panel1.Name = "panel1";
-            panel1.Size = new Size(960, 474);
-            panel1.TabIndex = 0;
+            panel1.Size = new Size(992, 656);
+            panel1.TabIndex = 26;
+            // 
+            // label13
+            // 
+            label13.AutoSize = true;
+            label13.Font = new Font("Segoe UI", 20F, FontStyle.Regular, GraphicsUnit.Point);
+            label13.ForeColor = Color.White;
+            label13.Location = new Point(338, 20);
+            label13.Name = "label13";
+            label13.Size = new Size(282, 46);
+            label13.TabIndex = 25;
+            label13.Text = "Ayrıntılı Görünüm";
+            // 
+            // panel2
+            // 
+            panel2.BackColor = Color.Gainsboro;
+            panel2.Location = new Point(16, 107);
+            panel2.Name = "panel2";
+            panel2.Size = new Size(960, 474);
+            panel2.TabIndex = 0;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1175, 753);
+            ClientSize = new Size(1193, 753);
             Controls.Add(navBarPanel);
             Controls.Add(headerPanel);
-            Controls.Add(yeniKayitSayfasi);
+            Controls.Add(panel1);
             Controls.Add(kiralikEvlerSayfasi);
+            Controls.Add(yeniKayitSayfasi);
             Name = "Form1";
             Text = "Form1";
             headerPanel.ResumeLayout(false);
@@ -539,6 +573,8 @@
             ((System.ComponentModel.ISupportInitialize)odaSayisiSeciciNumeric).EndInit();
             kiralikEvlerSayfasi.ResumeLayout(false);
             kiralikEvlerSayfasi.PerformLayout();
+            panel1.ResumeLayout(false);
+            panel1.PerformLayout();
             ResumeLayout(false);
         }
 
@@ -583,6 +619,9 @@
         private Button button1;
         private Button button2;
         private Label label1;
+        private Panel kiralikEvlerListePanel;
         private Panel panel1;
+        private Label label13;
+        private Panel panel2;
     }
 }

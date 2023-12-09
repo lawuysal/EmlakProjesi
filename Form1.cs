@@ -3,6 +3,7 @@ using Newtonsoft.Json;
 
 namespace EmlakProjesi
 {
+
     public partial class Form1 : Form
     {
         public Form1()
@@ -20,6 +21,7 @@ namespace EmlakProjesi
 
         private void yeniEvKayitLabel_Click(object sender, EventArgs e)
         {
+            kiralikEvlerListePanel.Controls.Clear();
             yeniKayitSayfasi.BringToFront();
             yeniEvKayitPanel.BackColor = Color.MediumAquamarine;
             yeniSorguPanel.BackColor = Color.SeaGreen;
@@ -100,11 +102,22 @@ namespace EmlakProjesi
 
         private void kiralikEvlerLabel_Click(object sender, EventArgs e)
         {
+            App.kiralikEvleriListele(ref kiralikEvlerListePanel, DynamicPanel_Click);
             kiralikEvlerSayfasi.BringToFront();
             yeniEvKayitPanel.BackColor = Color.SeaGreen;
             yeniSorguPanel.BackColor = Color.SeaGreen;
             kiralikEvlerPanel.BackColor = Color.MediumAquamarine;
             satilikEvlerPanel.BackColor = Color.SeaGreen;
+        }
+
+        private static void DynamicPanel_Click(object sender, EventArgs e)
+        {
+
+            Panel clickedPanel = sender as Panel;
+            if (clickedPanel != null && clickedPanel.Tag is ListeEventArgs listeEventArgs)
+            {
+                MessageBox.Show("Clicked: " + clickedPanel.Name + " " + listeEventArgs.EmlakNumarasi);
+            }
         }
     }
 }
