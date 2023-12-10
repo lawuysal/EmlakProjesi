@@ -113,7 +113,8 @@ namespace EmlakProjesi
                 ref kiralikEvlerListePanel,
                 DynamicPanel_Click,
                 duzenlemeSayfasinaGit_Click,
-                _isAktifOlmayanlariKiralikListedeGoster_
+                _isAktifOlmayanlariKiralikListedeGoster_,
+                silmeIsleminiBaslat_Click
                 );
             kiralikEvlerSayfasi.BringToFront();
             yeniEvKayitPanel.BackColor = Color.SeaGreen;
@@ -138,6 +139,29 @@ namespace EmlakProjesi
             }
         }
 
+        private void silmeIsleminiBaslat_Click (object sender, EventArgs e)
+        {
+            MessageBox.Show("Kayýt siliniyor...");
+            Button button = sender as Button;
+            if (button != null && button.Tag is ListeEventArgs listeEventArgs)
+            {
+                App.evKayidiSil(listeEventArgs.EmlakNumarasi);
+                kiralikEvlerListePanel.Controls.Clear();
+                App.kiralikEvleriListele(
+                ref kiralikEvlerListePanel,
+                DynamicPanel_Click,
+                duzenlemeSayfasinaGit_Click,
+                _isAktifOlmayanlariKiralikListedeGoster_,
+                silmeIsleminiBaslat_Click);
+
+                kiralikEvlerSayfasi.BringToFront();
+                yeniEvKayitPanel.BackColor = Color.SeaGreen;
+                yeniSorguPanel.BackColor = Color.SeaGreen;
+                kiralikEvlerPanel.BackColor = Color.MediumAquamarine;
+                satilikEvlerPanel.BackColor = Color.SeaGreen;
+            }
+        }
+
         private void duzenlemeSayfasinaGit_Click(object sender, EventArgs e)
         {
             Button button = sender as Button;
@@ -149,6 +173,7 @@ namespace EmlakProjesi
                 App.evDuzenle(
                     listeEventArgs.EmlakNumarasi,
                     listeEventArgs.Fiyat,
+
                     ref duzenlemeSayfasiPanel,
                     ref duzenleOdaSayisiBox,
                     ref duzenleKatNumarasiBox,
@@ -242,7 +267,8 @@ namespace EmlakProjesi
                 ref kiralikEvlerListePanel,
                 DynamicPanel_Click,
                 duzenlemeSayfasinaGit_Click,
-                _isAktifOlmayanlariKiralikListedeGoster_
+                _isAktifOlmayanlariKiralikListedeGoster_,
+                silmeIsleminiBaslat_Click
                 );
             kiralikEvlerSayfasi.BringToFront();
             yeniEvKayitPanel.BackColor = Color.SeaGreen;

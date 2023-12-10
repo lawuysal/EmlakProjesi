@@ -85,7 +85,7 @@ namespace EmlakProjesi
                 return "Kayıtlı evler başarıyla yüklendi!";
             }
         }
-        public static void kiralikEvleriListele(ref Panel listePanel, EventHandler ayrintiEventHandler, EventHandler duzenleEventHandler, bool aktifOlmayanGoster)
+        public static void kiralikEvleriListele(ref Panel listePanel, EventHandler ayrintiEventHandler, EventHandler duzenleEventHandler, bool aktifOlmayanGoster, EventHandler silmeEventHandler)
         {
             listePanel.AutoScroll = true;
             int i = 0;
@@ -168,6 +168,8 @@ namespace EmlakProjesi
                     sil.Location = new Point(600, 25);
                     sil.Font = new Font("Segue UI", 8);
                     myPanel.Controls.Add(sil);
+                    sil.Tag = new ListeEventArgs(kiralikEvListesi[i].EmlakNumarasi, kiralikEvListesi[i].KiraHesapla());
+                    sil.Click += silmeEventHandler;
 
                     if (!kiralikEvListesi[i].IsAktif)
                     {
@@ -437,6 +439,26 @@ namespace EmlakProjesi
 
             
 
+        }
+
+        public static void evKayidiSil(int emlakNumarasi)
+        {
+            Ev ev = evListesi.Find(ev => ev.EmlakNumarasi == emlakNumarasi);
+            KiralikEv kiralikEv = new KiralikEv();
+            SatilikEv satilikEv = new SatilikEv();
+
+            if (ev is KiralikEv)
+            {
+                kiralikEv = kiralikEvListesi.Find(ev => ev.EmlakNumarasi == emlakNumarasi);
+                kiralikEvListesi.Remove(kiralikEv);
+            }
+            else if (ev is SatilikEv)
+            {
+                satilikEv = satilikEvListesi.Find(ev => ev.EmlakNumarasi == emlakNumarasi);
+                satilikEvListesi.Remove(satilikEv);
+            }
+
+            evListesi.Remove(ev);
         }
         
     }
