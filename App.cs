@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 using EmlakProjesi.ClassLibrary;
 using Newtonsoft.Json;
 
@@ -84,73 +85,109 @@ namespace EmlakProjesi
                 return "Kayıtlı evler başarıyla yüklendi!";
             }
         }
-        public static void kiralikEvleriListele(ref Panel listePanel, EventHandler eventHandler)
+        public static void kiralikEvleriListele(ref Panel listePanel, EventHandler ayrintiEventHandler, EventHandler duzenleEventHandler, bool aktifOlmayanGoster)
         {
             listePanel.AutoScroll = true;
             int i = 0;
-            while (i < kiralikEvListesi.Count)
+            int k = 0;
+            bool aktiflikGostermeDurumu = false;
+            if (aktifOlmayanGoster)
             {
-                Panel myPanel = new Panel();
-                myPanel.Name = "kiralikEv" + i.ToString();
-                myPanel.Size = new Size(750, 100);
-                myPanel.Location = new Point(100, 50 + (i * 130));
-                myPanel.BackColor = Color.White;
-                listePanel.Controls.Add(myPanel);
-                myPanel.Tag = new ListeEventArgs(kiralikEvListesi[i].EmlakNumarasi, kiralikEvListesi[i].KiraHesapla());
-                myPanel.Click += eventHandler;
+                aktiflikGostermeDurumu = true;
+            }
+            else
+            {
+                aktiflikGostermeDurumu = false;
+            }
 
-                Label konum = new Label();
-                konum.Name = "konum" + i.ToString();
-                konum.Text = (i+1) + "-) " + kiralikEvListesi[i].Ilce + ", " + 
-                    kiralikEvListesi[i].Semt + "  |  " + kiralikEvListesi[i].FiyatHesapla() + " TL";
-                konum.Size = new Size(600, 25);
-                konum.Location = new Point(10, 10);
-                konum.Font = new Font("Segue UI", 12);
-                myPanel.Controls.Add(konum);
-
-                Label odaSayisi = new Label();
-                odaSayisi.Name = "odaSayisi" + i.ToString();
-                if (kiralikEvListesi[i].OdaSayisi != 1)
+            while (i < kiralikEvListesi.Count )
+            {
+                if (kiralikEvListesi[i].IsAktif == true || aktiflikGostermeDurumu)
                 {
-                    odaSayisi.Text = "Oda Sayısı: " + (kiralikEvListesi[i].OdaSayisi - 1).ToString() + " + 1";
+                    Panel myPanel = new Panel();
+                    myPanel.Name = "kiralikEv" + i.ToString();
+                    myPanel.Size = new Size(750, 100);
+                    myPanel.Location = new Point(100, 50 + (k * 130));
+                    myPanel.BackColor = Color.White;
+                    listePanel.Controls.Add(myPanel);
+                    myPanel.Tag = new ListeEventArgs(kiralikEvListesi[i].EmlakNumarasi, kiralikEvListesi[i].KiraHesapla());
+                    myPanel.Click += ayrintiEventHandler;
+
+                    Label konum = new Label();
+                    konum.Name = "konum" + i.ToString();
+                    konum.Text = (k + 1) + "-) " + kiralikEvListesi[i].Ilce + ", " +
+                        kiralikEvListesi[i].Semt + "  |  " + kiralikEvListesi[i].FiyatHesapla() + " TL";
+                    konum.Size = new Size(450, 25);
+                    konum.Location = new Point(10, 10);
+                    konum.Font = new Font("Segue UI", 12);
+                    myPanel.Controls.Add(konum);
+
+                    Label odaSayisi = new Label();
+                    odaSayisi.Name = "odaSayisi" + i.ToString();
+                    if (kiralikEvListesi[i].OdaSayisi != 1)
+                    {
+                        odaSayisi.Text = "Oda Sayısı: " + (kiralikEvListesi[i].OdaSayisi - 1).ToString() + " + 1";
+                    }
+                    else
+                    {
+                        odaSayisi.Text = "Oda Sayısı: " + kiralikEvListesi[i].OdaSayisi.ToString() + " + 0";
+                    }
+                    odaSayisi.Size = new Size(150, 25);
+                    odaSayisi.Location = new Point(10, 65);
+                    odaSayisi.Font = new Font("Segue UI", 8);
+                    myPanel.Controls.Add(odaSayisi);
+
+                    Label evinAlani = new Label();
+                    evinAlani.Name = "evinAlani" + i.ToString();
+                    evinAlani.Text = "Ev Alanı: " + kiralikEvListesi[i].Alan.ToString() + " m²";
+                    evinAlani.Size = new Size(150, 25);
+                    evinAlani.Location = new Point(160, 65);
+                    evinAlani.Font = new Font("Segue UI", 8);
+                    myPanel.Controls.Add(evinAlani);
+
+                    Label evinCesidi = new Label();
+                    evinCesidi.Name = "evinCesidi" + i.ToString();
+                    evinCesidi.Text = "Ev Çeşidi: " + kiralikEvListesi[i].Cesit.ToString();
+                    evinCesidi.Size = new Size(150, 25);
+                    evinCesidi.Location = new Point(310, 65);
+                    evinCesidi.Font = new Font("Segue UI", 8);
+                    myPanel.Controls.Add(evinCesidi);
+
+                    Label binaYasi = new Label();
+                    binaYasi.Name = "binaYasi" + i.ToString();
+                    binaYasi.Text = "Bina Yaşı: " + kiralikEvListesi[i].BinaYasi + " ";
+                    binaYasi.Size = new Size(150, 25);
+                    binaYasi.Location = new Point(480, 65);
+                    binaYasi.Font = new Font("Segue UI", 8);
+                    myPanel.Controls.Add(binaYasi);
+
+                    Button sil = new Button();
+                    sil.Name = "sil" + i.ToString();
+                    sil.Text = "🗑";
+                    sil.Size = new Size(80, 30);
+                    sil.Location = new Point(600, 25);
+                    sil.Font = new Font("Segue UI", 8);
+                    myPanel.Controls.Add(sil);
+
+                    if (!kiralikEvListesi[i].IsAktif)
+                    {
+                        Label aktiflikDurumu = new Label();
+                        aktiflikDurumu.Name = "aktiflikDurumu" + i.ToString();
+                        aktiflikDurumu.Text = "Aktif Değil!";
+                        aktiflikDurumu.Size = new Size(150, 25);
+                        aktiflikDurumu.Location = new Point(480, 30);
+                        aktiflikDurumu.Font = new Font("Segue UI", 8);
+                        aktiflikDurumu.ForeColor = Color.Red;
+                        myPanel.Controls.Add(aktiflikDurumu);
+                    }
+
+                    k++;
                 }
-                else
-                {
-                    odaSayisi.Text = "Oda Sayısı: " + kiralikEvListesi[i].OdaSayisi.ToString() + " + 0";
-                }
-                odaSayisi.Size = new Size(150, 25);
-                odaSayisi.Location = new Point(10, 65);
-                odaSayisi.Font = new Font("Segue UI", 8);
-                myPanel.Controls.Add(odaSayisi);
-
-                Label evinAlani = new Label();
-                evinAlani.Name = "evinAlani" + i.ToString();
-                evinAlani.Text = "Ev Alanı: " + kiralikEvListesi[i].Alan.ToString() + " m²";
-                evinAlani.Size = new Size(150, 25);
-                evinAlani.Location = new Point(160, 65);
-                evinAlani.Font = new Font("Segue UI", 8);
-                myPanel.Controls.Add(evinAlani);
-
-                Label evinCesidi = new Label();
-                evinCesidi.Name = "evinCesidi" + i.ToString();
-                evinCesidi.Text = "Ev Çeşidi: " + kiralikEvListesi[i].Cesit.ToString();
-                evinCesidi.Size = new Size(150, 25);
-                evinCesidi.Location = new Point(310, 65);
-                evinCesidi.Font = new Font("Segue UI", 8);
-                myPanel.Controls.Add(evinCesidi);
-
-                Label binaYasi = new Label();
-                binaYasi.Name = "binaYasi" + i.ToString();
-                binaYasi.Text = "Bina Yaşı: " + kiralikEvListesi[i].BinaYasi + " ";
-                binaYasi.Size = new Size(150, 25);
-                binaYasi.Location = new Point(480, 65);
-                binaYasi.Font = new Font("Segue UI", 8);
-                myPanel.Controls.Add(binaYasi);
 
                 i++;
             }
         }
-        public static void evAyrintilariGoster(int _emlakNumarasi, double _fiyat, ref Panel evAyrintilariPanel)
+        public static void evAyrintilariGoster(int _emlakNumarasi, double _fiyat, ref Panel evAyrintilariPanel, EventHandler duzenlemeEventHandler)
         {
             Ev ev = evListesi.Find(ev => ev.EmlakNumarasi == _emlakNumarasi);
             
@@ -159,22 +196,15 @@ namespace EmlakProjesi
             konum.Name = "konum";
             konum.Text = $"Konum: {ev.Ilce}, { ev.Semt}";
             konum.Size = new Size(300, 25);
-            konum.Location = new Point(20, 20);
+            konum.Location = new Point(190, 70);
             konum.Font = new Font("Segue UI", 12);
             evAyrintilariPanel.Controls.Add(konum);
 
             Label odaSayisi = new Label();
             odaSayisi.Name = "odaSayisi";
-            if (ev.OdaSayisi != 1)
-            {
-                odaSayisi.Text = $"Oda Sayısı: {ev.OdaSayisi - 1} + 1";
-            }
-            else
-            {
-                odaSayisi.Text = $"Oda Sayısı: {ev.OdaSayisi} + 0";
-            }
+            odaSayisi.Text = $"Oda Sayısı: {ev.OdaSayisi}";
             odaSayisi.Size = new Size(300, 25);
-            odaSayisi.Location = new Point(20, 65);
+            odaSayisi.Location = new Point(190, 115);
             odaSayisi.Font = new Font("Segue UI", 12);
             evAyrintilariPanel.Controls.Add(odaSayisi);
 
@@ -182,7 +212,7 @@ namespace EmlakProjesi
             evinAlani.Name = "evinAlani";
             evinAlani.Text = $"Ev Alanı: {ev.Alan} m²";
             evinAlani.Size = new Size(300, 25);
-            evinAlani.Location = new Point(20, 110);
+            evinAlani.Location = new Point(190, 160);
             evinAlani.Font = new Font("Segue UI", 12);
             evAyrintilariPanel.Controls.Add(evinAlani);
 
@@ -190,7 +220,7 @@ namespace EmlakProjesi
             evinCesidi.Name = "evinCesidi";
             evinCesidi.Text = $"Ev Çeşidi: {ev.Cesit}";
             evinCesidi.Size = new Size(300, 25);
-            evinCesidi.Location = new Point(20, 155);
+            evinCesidi.Location = new Point(190, 205);
             evinCesidi.Font = new Font("Segue UI", 12);
             evAyrintilariPanel.Controls.Add(evinCesidi);
 
@@ -198,7 +228,7 @@ namespace EmlakProjesi
             katNumarasi.Name = "katNumarasi";
             katNumarasi.Text = $"Kat Numarası: {ev.KatNumarasi}";
             katNumarasi.Size = new Size(300, 25);
-            katNumarasi.Location = new Point(20, 200);
+            katNumarasi.Location = new Point(190, 250);
             katNumarasi.Font = new Font("Segue UI", 12);
             evAyrintilariPanel.Controls.Add(katNumarasi);
 
@@ -206,7 +236,7 @@ namespace EmlakProjesi
             yapimTarihi.Name = "yapimTarihi";
             yapimTarihi.Text = $"Yapım Tarihi: {ev.YapimTarihi}";
             yapimTarihi.Size = new Size(300, 25);
-            yapimTarihi.Location = new Point(20, 245);
+            yapimTarihi.Location = new Point(190, 295);
             yapimTarihi.Font = new Font("Segue UI", 12);
             evAyrintilariPanel.Controls.Add(yapimTarihi);
 
@@ -214,7 +244,7 @@ namespace EmlakProjesi
             binaYasi.Name = "binaYasi";
             binaYasi.Text = $"Bina Yaşı: {ev.BinaYasi}";
             binaYasi.Size = new Size(300, 25);
-            binaYasi.Location = new Point(20, 290);
+            binaYasi.Location = new Point(190, 340);
             binaYasi.Font = new Font("Segue UI", 12);
             evAyrintilariPanel.Controls.Add(binaYasi);
 
@@ -229,7 +259,7 @@ namespace EmlakProjesi
                 aktiflikDurumu.Text = $"Aktiflik Durumu: Kiralanamaz";
             }
             aktiflikDurumu.Size = new Size(300, 25);
-            aktiflikDurumu.Location = new Point(320, 20);
+            aktiflikDurumu.Location = new Point(490, 70);
             aktiflikDurumu.Font = new Font("Segue UI", 12);
             evAyrintilariPanel.Controls.Add(aktiflikDurumu);
 
@@ -237,7 +267,7 @@ namespace EmlakProjesi
             fiyat.Name = "fiyat";
             fiyat.Text = $"Fiyat: {_fiyat} TL";
             fiyat.Size = new Size(300, 25);
-            fiyat.Location = new Point(320, 65);
+            fiyat.Location = new Point(490, 115);
             fiyat.Font = new Font("Segue UI", 12);
             evAyrintilariPanel.Controls.Add(fiyat);
 
@@ -245,7 +275,7 @@ namespace EmlakProjesi
             emlakNumarasi.Name = "emlakNumarasi";
             emlakNumarasi.Text = $"Emlak Numarası: {ev.EmlakNumarasi}";
             emlakNumarasi.Size = new Size(300, 25);
-            emlakNumarasi.Location = new Point(320, 110);
+            emlakNumarasi.Location = new Point(490, 160);
             emlakNumarasi.Font = new Font("Segue UI", 12);
             evAyrintilariPanel.Controls.Add(emlakNumarasi);
 
@@ -253,12 +283,161 @@ namespace EmlakProjesi
             getiriOrani.Name = "getiriOrani";
             getiriOrani.Text = $"Getiri Oranı: {ev.GetiriOrani}";
             getiriOrani.Size = new Size(300, 25);
-            getiriOrani.Location = new Point(320, 155);
+            getiriOrani.Location = new Point(490, 205);
             getiriOrani.Font = new Font("Segue UI", 12);
             evAyrintilariPanel.Controls.Add(getiriOrani);
 
+            Button evFotoKlasoruAc = new Button();
+            evFotoKlasoruAc.Name = "evFotoKlasoruAc";
+            evFotoKlasoruAc.Text = "Fotoğraflar";
+            evFotoKlasoruAc.Size = new Size(200, 40);
+            evFotoKlasoruAc.Location = new Point(490, 270);
+            evFotoKlasoruAc.Font = new Font("Segue UI", 12);
+            evFotoKlasoruAc.Click += (sender, e) =>
+            {
+                System.Diagnostics.Process.Start("explorer.exe", ev.EvinFotograflariKlasoru);
+            };
+            evAyrintilariPanel.Controls.Add(evFotoKlasoruAc);
+
+            Button duzenleyeGit = new Button();
+            duzenleyeGit.Name = "duzenleyeGit";
+            duzenleyeGit.Text = "Düzenle";
+            duzenleyeGit.Size = new Size(200, 40);
+            duzenleyeGit.Location = new Point(490, 325);
+            duzenleyeGit.Font = new Font("Segue UI", 12);
+            evAyrintilariPanel.Controls.Add(duzenleyeGit);
+            duzenleyeGit.Tag = new ListeEventArgs(ev.EmlakNumarasi, _fiyat);
+            duzenleyeGit.Click += duzenlemeEventHandler;
+
+        }
+        public static void evDuzenle(
+            int _emlakNumarasi, 
+            double _fiyat, 
+            ref Panel duzenlemePanel,
+            ref NumericUpDown duzenleOdaSayisiBox,
+            ref NumericUpDown duzenleKatNumarasiBox,
+            ref ComboBox duzenleIlceBox,
+            ref ComboBox duzenleSemtBox,
+            ref NumericUpDown duzenleGetiriYuzdesiBox,
+            ref TextBox duzenleEvAlaniBox,
+            ref NumericUpDown duzenleYapimYiliBox,
+            ref NumericUpDown duzenleEmlakNumarasiBox,
+            ref ComboBox duzenleEvCesidiBox,
+            ref ComboBox duzenleEvTuruBox,
+            ref ComboBox duzenleAktiflikBox
+            )
+        {
+            Ev ev = evListesi.Find(ev => ev.EmlakNumarasi == _emlakNumarasi);
+            KiralikEv kiralikEv = new KiralikEv();
+            SatilikEv satilikEv = new SatilikEv();
+            if (ev != null)
+            {
+                if (ev is KiralikEv)
+                {
+                    kiralikEv  = ev as KiralikEv;
+                    duzenleOdaSayisiBox.Value = kiralikEv.OdaSayisi;
+                    duzenleKatNumarasiBox.Value = kiralikEv.KatNumarasi;
+                    duzenleIlceBox.SelectedItem = kiralikEv.Ilce;
+                    duzenleSemtBox.SelectedItem = kiralikEv.Semt;
+                    duzenleGetiriYuzdesiBox.Value = (decimal)kiralikEv.GetiriOrani * 100;
+                    duzenleEvAlaniBox.Text = kiralikEv.Alan.ToString();
+                    duzenleYapimYiliBox.Value = kiralikEv.YapimTarihi;
+                    duzenleEmlakNumarasiBox.Value = kiralikEv.EmlakNumarasi;
+                    duzenleEvCesidiBox.SelectedItem = kiralikEv.Cesit.ToString();
+                    duzenleEvTuruBox.SelectedItem = kiralikEv is KiralikEv ? "Kiralık" : "Satılık";
+                    duzenleAktiflikBox.SelectedItem = kiralikEv.IsAktif ? "Aktif" : "Aktif değil";
+                }
+                else if (ev is SatilikEv)
+                {
+                    satilikEv = ev as SatilikEv;
+                    duzenleOdaSayisiBox.Value = kiralikEv.OdaSayisi;
+                    duzenleKatNumarasiBox.Value = kiralikEv.KatNumarasi;
+                    duzenleIlceBox.SelectedItem = kiralikEv.Ilce;
+                    duzenleSemtBox.SelectedItem = kiralikEv.Semt;
+                    duzenleGetiriYuzdesiBox.Value = (decimal)kiralikEv.GetiriOrani * 100;
+                    duzenleEvAlaniBox.Text = kiralikEv.Alan.ToString();
+                    duzenleYapimYiliBox.Value = kiralikEv.YapimTarihi;
+                    duzenleEmlakNumarasiBox.Value = kiralikEv.EmlakNumarasi;
+                    duzenleEvCesidiBox.SelectedItem = kiralikEv.Cesit;
+                    duzenleEvTuruBox.SelectedItem = kiralikEv is KiralikEv ? "Kiralık" : "Satılık";
+                    duzenleAktiflikBox.SelectedItem = kiralikEv.IsAktif ? "Aktif" : "Aktif değil";
+                }
+            }
+
+
+            
+            
             
         }
-         
+
+        public static void evDuzenlemeKaydet(
+            int _emlakNumarasi,
+            double _fiyat,
+            ref Panel kiralikEvlerSayfasi,
+            ref Panel duzenlemePanel,
+            ref NumericUpDown duzenleOdaSayisiBox,
+            ref NumericUpDown duzenleKatNumarasiBox,
+            ref ComboBox duzenleIlceBox,
+            ref ComboBox duzenleSemtBox,
+            ref NumericUpDown duzenleGetiriYuzdesiBox,
+            ref TextBox duzenleEvAlaniBox,
+            ref NumericUpDown duzenleYapimYiliBox,
+            ref NumericUpDown duzenleEmlakNumarasiBox,
+            ref ComboBox duzenleEvCesidiBox,
+            ref ComboBox duzenleEvTuruBox,
+            ref ComboBox duzenleAktiflikBox)
+        {
+            Ev ev = evListesi.Find(ev => ev.EmlakNumarasi == _emlakNumarasi);
+            KiralikEv kiralikEv = new KiralikEv();
+            SatilikEv satilikEv = new SatilikEv();
+
+            if (ev != null)
+            {
+                if (ev is KiralikEv)
+                {
+                    kiralikEv = kiralikEvListesi.Find(ev => ev.EmlakNumarasi == _emlakNumarasi);
+
+                    kiralikEv.OdaSayisi = Convert.ToInt32(duzenleOdaSayisiBox.Value);
+                    kiralikEv.KatNumarasi = Convert.ToInt32(duzenleKatNumarasiBox.Value);
+                    kiralikEv.Semt = duzenleSemtBox.SelectedItem.ToString() ?? "Bilinmiyor";
+                    kiralikEv.Ilce = duzenleIlceBox.SelectedItem.ToString() ?? "Bilinmiyor";
+                    kiralikEv.Alan = Convert.ToDouble(duzenleEvAlaniBox.Text);
+                    kiralikEv.Cesit = (Ev.EvCesidi)Enum.Parse(typeof(Ev.EvCesidi), duzenleEvCesidiBox.SelectedItem.ToString() ?? "Bilinmiyor");
+                    kiralikEv.YapimTarihi = Convert.ToInt32(duzenleYapimYiliBox.Value);
+                    kiralikEv.EmlakNumarasi = Convert.ToInt32(duzenleEmlakNumarasiBox.Value);
+                    kiralikEv.GetiriOrani = Convert.ToDouble(duzenleGetiriYuzdesiBox.Value) / 100;
+                    kiralikEv.IsAktif = duzenleAktiflikBox.SelectedItem.ToString() == "Aktif" ? true : false;
+
+                    ev = kiralikEv;
+
+                    evleriDosyayaYaz();
+                    evListesi.Clear();
+                    evleriDosyadanOku();
+                    
+
+                }
+                else if (ev is SatilikEv)
+                {
+                    satilikEv = satilikEvListesi.Find(ev => ev.EmlakNumarasi == _emlakNumarasi);
+
+                    satilikEv.OdaSayisi = Convert.ToInt32(duzenleOdaSayisiBox.Value);
+                    satilikEv.KatNumarasi = Convert.ToInt32(duzenleKatNumarasiBox.Value);
+                    satilikEv.Semt = duzenleSemtBox.SelectedItem.ToString() ?? "Bilinmiyor";
+                    satilikEv.Ilce = duzenleIlceBox.SelectedItem.ToString() ?? "Bilinmiyor";
+                    satilikEv.Alan = Convert.ToDouble(duzenleEvAlaniBox.Text);
+                    satilikEv.Cesit = (Ev.EvCesidi)Enum.Parse(typeof(Ev.EvCesidi), duzenleEvCesidiBox.SelectedItem.ToString() ?? "Bilinmiyor");
+                    satilikEv.YapimTarihi = Convert.ToInt32(duzenleYapimYiliBox.Value);
+                    satilikEv.EmlakNumarasi = Convert.ToInt32(duzenleEmlakNumarasiBox.Value);
+                    satilikEv.GetiriOrani = Convert.ToDouble(duzenleGetiriYuzdesiBox.Value) / 100;
+                    satilikEv.IsAktif = duzenleAktiflikBox.SelectedItem.ToString() == "Aktif" ? true : false;
+
+                    ev = satilikEv;
+                }
+            }
+
+            
+
+        }
+        
     }
 }

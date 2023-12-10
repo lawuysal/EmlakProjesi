@@ -6,6 +6,8 @@ namespace EmlakProjesi
 
     public partial class Form1 : Form
     {
+        ListeEventArgs _ARGS_ = new ListeEventArgs(1, 1);
+        bool _isAktifOlmayanlariKiralikListedeGoster_ = false;
         public Form1()
         {
             InitializeComponent();
@@ -84,6 +86,8 @@ namespace EmlakProjesi
             yeniEv.Cesit = (Ev.EvCesidi)Enum.Parse(typeof(Ev.EvCesidi), evCesidiComboBox.SelectedItem.ToString() ?? "Bilinmiyor");
             // Changes its value to decimal point number like if its 5, it will be 0.05
             yeniEv.GetiriOrani = Convert.ToDouble(getiriYuzdesiNumeric.Value) / 100;
+            Directory.CreateDirectory("fotoðraflar\\" + yeniEv.EmlakNumarasi.ToString());
+            yeniEv.EvinFotograflariKlasoru = "fotoðraflar\\" + yeniEv.EmlakNumarasi.ToString();
 
 
 
@@ -105,7 +109,12 @@ namespace EmlakProjesi
 
         private void kiralikEvlerLabel_Click(object sender, EventArgs e)
         {
-            App.kiralikEvleriListele(ref kiralikEvlerListePanel, DynamicPanel_Click);
+            App.kiralikEvleriListele(
+                ref kiralikEvlerListePanel,
+                DynamicPanel_Click,
+                duzenlemeSayfasinaGit_Click,
+                _isAktifOlmayanlariKiralikListedeGoster_
+                );
             kiralikEvlerSayfasi.BringToFront();
             yeniEvKayitPanel.BackColor = Color.SeaGreen;
             yeniSorguPanel.BackColor = Color.SeaGreen;
@@ -113,6 +122,7 @@ namespace EmlakProjesi
             satilikEvlerPanel.BackColor = Color.SeaGreen;
         }
 
+        // For navigating to detailed view
         private void DynamicPanel_Click(object sender, EventArgs e)
         {
 
@@ -120,7 +130,7 @@ namespace EmlakProjesi
             if (clickedPanel != null && clickedPanel.Tag is ListeEventArgs listeEventArgs)
             {
                 ayrintiSayfasiPanel.Controls.Clear();
-                App.evAyrintilariGoster(listeEventArgs.EmlakNumarasi, listeEventArgs.Fiyat, ref ayrintiSayfasiPanel);
+                App.evAyrintilariGoster(listeEventArgs.EmlakNumarasi, listeEventArgs.Fiyat, ref ayrintiSayfasiPanel, duzenlemeSayfasinaGit_Click);
                 ayrintiSayfasi.BringToFront();
                 kiralikEvlerListePanel.Controls.Clear();
 
@@ -128,9 +138,117 @@ namespace EmlakProjesi
             }
         }
 
+        private void duzenlemeSayfasinaGit_Click(object sender, EventArgs e)
+        {
+            Button button = sender as Button;
+            _ARGS_ = button.Tag as ListeEventArgs;
+            if (button != null && button.Tag is ListeEventArgs listeEventArgs)
+            {
+                //duzenlemeSayfasiPanel.Controls.Clear();
+
+                App.evDuzenle(
+                    listeEventArgs.EmlakNumarasi,
+                    listeEventArgs.Fiyat,
+                    ref duzenlemeSayfasiPanel,
+                    ref duzenleOdaSayisiBox,
+                    ref duzenleKatNumarasiBox,
+                    ref duzenleIlceBox,
+                    ref duzenleSemtBox,
+                    ref duzenleGetiriYuzdesiBox,
+                    ref duzenleEvAlaniBox,
+                    ref duzenleYapimYiliBox,
+                    ref duzenleEmlakNumarasiBox,
+                    ref duzenleEvCesidiBox,
+                    ref duzenleEvTuruBox,
+                    ref duzenleAktiflikBox
+                    );
+                duzenlemeSayfasi.BringToFront();
+                //ayrintiSayfasiPanel.Controls.Clear();
+            }
+        }
+
         private void ayrintiSayfasi_Paint(object sender, PaintEventArgs e)
         {
 
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button3_Click_1(object sender, EventArgs e)
+        {
+            ayrintiSayfasi.BringToFront();
+        }
+
+        private void yeniKayitSayfasi_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void duzenleKatNumarasiBox_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void duzenleIlceBox_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            App.ilceleriYukle(ref duzenleIlceBox, ref duzenleSemtBox);
+        }
+
+        private void duzenlemeKaydetButton_Click(object sender, EventArgs e)
+        {
+            App.evDuzenlemeKaydet(
+                _ARGS_.EmlakNumarasi,
+                _ARGS_.Fiyat,
+                ref kiralikEvlerSayfasi,
+                ref duzenlemeSayfasiPanel,
+                ref duzenleOdaSayisiBox,
+                ref duzenleKatNumarasiBox,
+                ref duzenleIlceBox,
+                ref duzenleSemtBox,
+                ref duzenleGetiriYuzdesiBox,
+                ref duzenleEvAlaniBox,
+                ref duzenleYapimYiliBox,
+                ref duzenleEmlakNumarasiBox,
+                ref duzenleEvCesidiBox,
+                ref duzenleEvTuruBox,
+                ref duzenleAktiflikBox
+                );
+
+            hosGeldinizSayfasi.BringToFront();
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            _isAktifOlmayanlariKiralikListedeGoster_ = !_isAktifOlmayanlariKiralikListedeGoster_;
+            if (_isAktifOlmayanlariKiralikListedeGoster_)
+            {
+                button4.Text = "Aktif Olmayanlarý Gizle";
+            }
+            else
+            {
+                button4.Text = "Aktif Olmayanlarý Göster";
+            }
+
+            kiralikEvlerListePanel.Controls.Clear();
+            App.kiralikEvleriListele(
+                ref kiralikEvlerListePanel,
+                DynamicPanel_Click,
+                duzenlemeSayfasinaGit_Click,
+                _isAktifOlmayanlariKiralikListedeGoster_
+                );
+            kiralikEvlerSayfasi.BringToFront();
+            yeniEvKayitPanel.BackColor = Color.SeaGreen;
+            yeniSorguPanel.BackColor = Color.SeaGreen;
+            kiralikEvlerPanel.BackColor = Color.MediumAquamarine;
+            satilikEvlerPanel.BackColor = Color.SeaGreen;
         }
     }
 }
