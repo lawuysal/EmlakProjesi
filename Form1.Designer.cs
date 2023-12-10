@@ -102,6 +102,10 @@
             hosGeldinizSayfasi = new Panel();
             hosGeldinizLabel = new Label();
             panel2 = new Panel();
+            satilikEvlerSayfasi = new Panel();
+            button5 = new Button();
+            label26 = new Label();
+            satilikEvlerListePanel = new Panel();
             headerPanel.SuspendLayout();
             navBarPanel.SuspendLayout();
             satilikEvlerPanel.SuspendLayout();
@@ -124,6 +128,7 @@
             ((System.ComponentModel.ISupportInitialize)duzenleKatNumarasiBox).BeginInit();
             ((System.ComponentModel.ISupportInitialize)duzenleOdaSayisiBox).BeginInit();
             hosGeldinizSayfasi.SuspendLayout();
+            satilikEvlerSayfasi.SuspendLayout();
             SuspendLayout();
             // 
             // headerPanel
@@ -189,6 +194,7 @@
             satilikEvlerLabel.Size = new Size(85, 20);
             satilikEvlerLabel.TabIndex = 0;
             satilikEvlerLabel.Text = "Satılık Evler";
+            satilikEvlerLabel.Click += satilikEvlerLabel_Click;
             // 
             // kiralikEvlerPanel
             // 
@@ -910,6 +916,46 @@
             panel2.Size = new Size(960, 474);
             panel2.TabIndex = 0;
             // 
+            // satilikEvlerSayfasi
+            // 
+            satilikEvlerSayfasi.BackColor = Color.Tan;
+            satilikEvlerSayfasi.Controls.Add(button5);
+            satilikEvlerSayfasi.Controls.Add(label26);
+            satilikEvlerSayfasi.Controls.Add(satilikEvlerListePanel);
+            satilikEvlerSayfasi.Location = new Point(167, 85);
+            satilikEvlerSayfasi.Name = "satilikEvlerSayfasi";
+            satilikEvlerSayfasi.Size = new Size(992, 656);
+            satilikEvlerSayfasi.TabIndex = 27;
+            // 
+            // button5
+            // 
+            button5.Location = new Point(16, 72);
+            button5.Name = "button5";
+            button5.Size = new Size(247, 29);
+            button5.TabIndex = 26;
+            button5.Text = "Aktif Olmayanları Göster";
+            button5.UseVisualStyleBackColor = true;
+            button5.Click += button5_Click;
+            // 
+            // label26
+            // 
+            label26.AutoSize = true;
+            label26.Font = new Font("Segoe UI", 20F, FontStyle.Regular, GraphicsUnit.Point);
+            label26.ForeColor = Color.White;
+            label26.Location = new Point(395, 20);
+            label26.Name = "label26";
+            label26.Size = new Size(188, 46);
+            label26.TabIndex = 25;
+            label26.Text = "Satılık Evler";
+            // 
+            // satilikEvlerListePanel
+            // 
+            satilikEvlerListePanel.BackColor = Color.Gainsboro;
+            satilikEvlerListePanel.Location = new Point(16, 107);
+            satilikEvlerListePanel.Name = "satilikEvlerListePanel";
+            satilikEvlerListePanel.Size = new Size(960, 474);
+            satilikEvlerListePanel.TabIndex = 0;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
@@ -917,6 +963,7 @@
             ClientSize = new Size(1193, 753);
             Controls.Add(navBarPanel);
             Controls.Add(headerPanel);
+            Controls.Add(satilikEvlerSayfasi);
             Controls.Add(kiralikEvlerSayfasi);
             Controls.Add(yeniKayitSayfasi);
             Controls.Add(duzenlemeSayfasi);
@@ -958,6 +1005,8 @@
             ((System.ComponentModel.ISupportInitialize)duzenleOdaSayisiBox).EndInit();
             hosGeldinizSayfasi.ResumeLayout(false);
             hosGeldinizSayfasi.PerformLayout();
+            satilikEvlerSayfasi.ResumeLayout(false);
+            satilikEvlerSayfasi.PerformLayout();
             ResumeLayout(false);
         }
 
@@ -1037,5 +1086,9 @@
         private Label hosGeldinizLabel;
         private Panel panel2;
         private Button button4;
+        private Panel satilikEvlerSayfasi;
+        private Button button5;
+        private Label label26;
+        private Panel satilikEvlerListePanel;
     }
 }

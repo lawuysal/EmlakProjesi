@@ -8,6 +8,7 @@ namespace EmlakProjesi
     {
         ListeEventArgs _ARGS_ = new ListeEventArgs(1, 1);
         bool _isAktifOlmayanlariKiralikListedeGoster_ = false;
+        bool _isAktifOlmayanlariSatilikListedeGoster_ = false;
         public Form1()
         {
             InitializeComponent();
@@ -109,6 +110,8 @@ namespace EmlakProjesi
 
         private void kiralikEvlerLabel_Click(object sender, EventArgs e)
         {
+            kiralikEvlerListePanel.Controls.Clear();
+            satilikEvlerListePanel.Controls.Clear();
             App.kiralikEvleriListele(
                 ref kiralikEvlerListePanel,
                 DynamicPanel_Click,
@@ -139,26 +142,34 @@ namespace EmlakProjesi
             }
         }
 
-        private void silmeIsleminiBaslat_Click (object sender, EventArgs e)
+        private void silmeIsleminiBaslat_Click(object sender, EventArgs e)
         {
             MessageBox.Show("Kayýt siliniyor...");
             Button button = sender as Button;
             if (button != null && button.Tag is ListeEventArgs listeEventArgs)
             {
-                App.evKayidiSil(listeEventArgs.EmlakNumarasi);
                 kiralikEvlerListePanel.Controls.Clear();
-                App.kiralikEvleriListele(
-                ref kiralikEvlerListePanel,
-                DynamicPanel_Click,
-                duzenlemeSayfasinaGit_Click,
-                _isAktifOlmayanlariKiralikListedeGoster_,
-                silmeIsleminiBaslat_Click);
+                satilikEvlerListePanel.Controls.Clear();
+                App.evKayidiSil(
+                    listeEventArgs.EmlakNumarasi,
+                    ref kiralikEvlerListePanel,
+                    ref satilikEvlerListePanel,
+                    ref satilikEvlerSayfasi,
+                    ref kiralikEvlerSayfasi,
+                    ref yeniEvKayitPanel,
+                    ref yeniSorguPanel,
+                    ref kiralikEvlerPanel,
+                    ref satilikEvlerPanel,
+                    DynamicPanel_Click,
+                    duzenlemeSayfasinaGit_Click,
+                    silmeIsleminiBaslat_Click,
+                    _isAktifOlmayanlariKiralikListedeGoster_,
+                    _isAktifOlmayanlariSatilikListedeGoster_
+                    );
+                
 
-                kiralikEvlerSayfasi.BringToFront();
-                yeniEvKayitPanel.BackColor = Color.SeaGreen;
-                yeniSorguPanel.BackColor = Color.SeaGreen;
-                kiralikEvlerPanel.BackColor = Color.MediumAquamarine;
-                satilikEvlerPanel.BackColor = Color.SeaGreen;
+
+
             }
         }
 
@@ -275,6 +286,51 @@ namespace EmlakProjesi
             yeniSorguPanel.BackColor = Color.SeaGreen;
             kiralikEvlerPanel.BackColor = Color.MediumAquamarine;
             satilikEvlerPanel.BackColor = Color.SeaGreen;
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            _isAktifOlmayanlariSatilikListedeGoster_ = !_isAktifOlmayanlariSatilikListedeGoster_;
+            if (_isAktifOlmayanlariSatilikListedeGoster_)
+            {
+                button5.Text = "Aktif Olmayanlarý Gizle";
+            }
+            else
+            {
+                button5.Text = "Aktif Olmayanlarý Göster";
+            }
+
+            satilikEvlerListePanel.Controls.Clear();
+            App.satilikEvleriListele(
+                ref satilikEvlerListePanel,
+                DynamicPanel_Click,
+                duzenlemeSayfasinaGit_Click,
+                _isAktifOlmayanlariSatilikListedeGoster_,
+                silmeIsleminiBaslat_Click
+                );
+            satilikEvlerSayfasi.BringToFront();
+            yeniEvKayitPanel.BackColor = Color.SeaGreen;
+            yeniSorguPanel.BackColor = Color.SeaGreen;
+            kiralikEvlerPanel.BackColor = Color.SeaGreen;
+            satilikEvlerPanel.BackColor = Color.MediumAquamarine;
+        }
+
+        private void satilikEvlerLabel_Click(object sender, EventArgs e)
+        {
+            satilikEvlerListePanel.Controls.Clear();
+            kiralikEvlerListePanel.Controls.Clear();
+            App.satilikEvleriListele(
+                ref satilikEvlerListePanel,
+                DynamicPanel_Click,
+                duzenlemeSayfasinaGit_Click,
+                _isAktifOlmayanlariSatilikListedeGoster_,
+                silmeIsleminiBaslat_Click
+                );
+            satilikEvlerSayfasi.BringToFront();
+            yeniEvKayitPanel.BackColor = Color.SeaGreen;
+            yeniSorguPanel.BackColor = Color.SeaGreen;
+            kiralikEvlerPanel.BackColor = Color.SeaGreen;
+            satilikEvlerPanel.BackColor = Color.MediumAquamarine;
         }
     }
 }

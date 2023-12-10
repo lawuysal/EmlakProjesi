@@ -189,6 +189,110 @@ namespace EmlakProjesi
                 i++;
             }
         }
+        public static void satilikEvleriListele(ref Panel listePanel, EventHandler ayrintiEventHandler, EventHandler duzenleEventHandler, bool aktifOlmayanGoster, EventHandler silmeEventHandler)
+        {
+            listePanel.AutoScroll = true;
+            int i = 0;
+            int k = 0;
+            bool aktiflikGostermeDurumu = false;
+            if (aktifOlmayanGoster)
+            {
+                aktiflikGostermeDurumu = true;
+            }
+            else
+            {
+                aktiflikGostermeDurumu = false;
+            }
+
+            while (i < satilikEvListesi.Count)
+            {
+                if (satilikEvListesi[i].IsAktif == true || aktiflikGostermeDurumu)
+                {
+                    Panel myPanel = new Panel();
+                    myPanel.Name = "satilikEv" + i.ToString();
+                    myPanel.Size = new Size(750, 100);
+                    myPanel.Location = new Point(100, 50 + (k * 130));
+                    myPanel.BackColor = Color.White;
+                    listePanel.Controls.Add(myPanel);
+                    myPanel.Tag = new ListeEventArgs(satilikEvListesi[i].EmlakNumarasi, satilikEvListesi[i].SatisFiyatHesapla());
+                    myPanel.Click += ayrintiEventHandler;
+
+                    Label konum = new Label();
+                    konum.Name = "konum" + i.ToString();
+                    konum.Text = (k + 1) + "-) " + satilikEvListesi[i].Ilce + ", " +
+                        satilikEvListesi[i].Semt + "  |  " + satilikEvListesi[i].SatisFiyatHesapla() + " TL";
+                    konum.Size = new Size(450, 25);
+                    konum.Location = new Point(10, 10);
+                    konum.Font = new Font("Segue UI", 12);
+                    myPanel.Controls.Add(konum);
+
+                    Label odaSayisi = new Label();
+                    odaSayisi.Name = "odaSayisi" + i.ToString();
+                    if (satilikEvListesi[i].OdaSayisi != 1)
+                    {
+                        odaSayisi.Text = "Oda Sayısı: " + (satilikEvListesi[i].OdaSayisi - 1).ToString() + " + 1";
+                    }
+                    else
+                    {
+                        odaSayisi.Text = "Oda Sayısı: " + satilikEvListesi[i].OdaSayisi.ToString() + " + 0";
+                    }
+                    odaSayisi.Size = new Size(150, 25);
+                    odaSayisi.Location = new Point(10, 65);
+                    odaSayisi.Font = new Font("Segue UI", 8);
+                    myPanel.Controls.Add(odaSayisi);
+
+                    Label evinAlani = new Label();
+                    evinAlani.Name = "evinAlani" + i.ToString();
+                    evinAlani.Text = "Ev Alanı: " + satilikEvListesi[i].Alan.ToString() + " m²";
+                    evinAlani.Size = new Size(150, 25);
+                    evinAlani.Location = new Point(160, 65);
+                    evinAlani.Font = new Font("Segue UI", 8);
+                    myPanel.Controls.Add(evinAlani);
+
+                    Label evinCesidi = new Label();
+                    evinCesidi.Name = "evinCesidi" + i.ToString();
+                    evinCesidi.Text = "Ev Çeşidi: " + satilikEvListesi[i].Cesit.ToString();
+                    evinCesidi.Size = new Size(150, 25);
+                    evinCesidi.Location = new Point(310, 65);
+                    evinCesidi.Font = new Font("Segue UI", 8);
+                    myPanel.Controls.Add(evinCesidi);
+
+                    Label binaYasi = new Label();
+                    binaYasi.Name = "binaYasi" + i.ToString();
+                    binaYasi.Text = "Bina Yaşı: " + satilikEvListesi[i].BinaYasi + " ";
+                    binaYasi.Size = new Size(150, 25);
+                    binaYasi.Location = new Point(480, 65);
+                    binaYasi.Font = new Font("Segue UI", 8);
+                    myPanel.Controls.Add(binaYasi);
+
+                    Button sil = new Button();
+                    sil.Name = "sil" + i.ToString();
+                    sil.Text = "🗑";
+                    sil.Size = new Size(80, 30);
+                    sil.Location = new Point(600, 25);
+                    sil.Font = new Font("Segue UI", 8);
+                    myPanel.Controls.Add(sil);
+                    sil.Tag = new ListeEventArgs(satilikEvListesi[i].EmlakNumarasi, satilikEvListesi[i].SatisFiyatHesapla());
+                    sil.Click += silmeEventHandler;
+
+                    if (!satilikEvListesi[i].IsAktif)
+                    {
+                        Label aktiflikDurumu = new Label();
+                        aktiflikDurumu.Name = "aktiflikDurumu" + i.ToString();
+                        aktiflikDurumu.Text = "Aktif Değil!";
+                        aktiflikDurumu.Size = new Size(150, 25);
+                        aktiflikDurumu.Location = new Point(480, 30);
+                        aktiflikDurumu.Font = new Font("Segue UI", 8);
+                        aktiflikDurumu.ForeColor = Color.Red;
+                        myPanel.Controls.Add(aktiflikDurumu);
+                    }
+
+                    k++;
+                }
+
+                i++;
+            }
+        }
         public static void evAyrintilariGoster(int _emlakNumarasi, double _fiyat, ref Panel evAyrintilariPanel, EventHandler duzenlemeEventHandler)
         {
             Ev ev = evListesi.Find(ev => ev.EmlakNumarasi == _emlakNumarasi);
@@ -254,11 +358,11 @@ namespace EmlakProjesi
             aktiflikDurumu.Name = "aktiflikDurumu";
             if (ev.IsAktif)
             {
-                aktiflikDurumu.Text = $"Aktiflik Durumu: Kiralanabilir";
+                aktiflikDurumu.Text = $"Aktiflik Durumu: Aktif";
             }
             else
             {
-                aktiflikDurumu.Text = $"Aktiflik Durumu: Kiralanamaz";
+                aktiflikDurumu.Text = $"Aktiflik Durumu: Aktif değil";
             }
             aktiflikDurumu.Size = new Size(300, 25);
             aktiflikDurumu.Location = new Point(490, 70);
@@ -352,17 +456,17 @@ namespace EmlakProjesi
                 else if (ev is SatilikEv)
                 {
                     satilikEv = ev as SatilikEv;
-                    duzenleOdaSayisiBox.Value = kiralikEv.OdaSayisi;
-                    duzenleKatNumarasiBox.Value = kiralikEv.KatNumarasi;
-                    duzenleIlceBox.SelectedItem = kiralikEv.Ilce;
-                    duzenleSemtBox.SelectedItem = kiralikEv.Semt;
-                    duzenleGetiriYuzdesiBox.Value = (decimal)kiralikEv.GetiriOrani * 100;
-                    duzenleEvAlaniBox.Text = kiralikEv.Alan.ToString();
-                    duzenleYapimYiliBox.Value = kiralikEv.YapimTarihi;
-                    duzenleEmlakNumarasiBox.Value = kiralikEv.EmlakNumarasi;
-                    duzenleEvCesidiBox.SelectedItem = kiralikEv.Cesit;
-                    duzenleEvTuruBox.SelectedItem = kiralikEv is KiralikEv ? "Kiralık" : "Satılık";
-                    duzenleAktiflikBox.SelectedItem = kiralikEv.IsAktif ? "Aktif" : "Aktif değil";
+                    duzenleOdaSayisiBox.Value = satilikEv.OdaSayisi;
+                    duzenleKatNumarasiBox.Value = satilikEv.KatNumarasi;
+                    duzenleIlceBox.SelectedItem = satilikEv.Ilce;
+                    duzenleSemtBox.SelectedItem = satilikEv.Semt;
+                    duzenleGetiriYuzdesiBox.Value = (decimal)satilikEv.GetiriOrani * 100;
+                    duzenleEvAlaniBox.Text = satilikEv.Alan.ToString();
+                    duzenleYapimYiliBox.Value = satilikEv.YapimTarihi;
+                    duzenleEmlakNumarasiBox.Value = satilikEv.EmlakNumarasi;
+                    duzenleEvCesidiBox.SelectedItem = satilikEv.Cesit.ToString();
+                    duzenleEvTuruBox.SelectedItem = satilikEv is KiralikEv ? "Kiralık" : "Satılık";
+                    duzenleAktiflikBox.SelectedItem = satilikEv.IsAktif ? "Aktif" : "Aktif değil";
                 }
             }
 
@@ -441,24 +545,75 @@ namespace EmlakProjesi
 
         }
 
-        public static void evKayidiSil(int emlakNumarasi)
+        public static void evKayidiSil(
+            int emlakNumarasi, 
+            ref Panel kiralikEvlerListePanel,
+            ref Panel satilikEvlerListePanel,
+            ref Panel satilikEvlerSayfasi,
+            ref Panel kiralikEvlerSayfasi,
+            ref Panel yeniEvKayitPanel,
+            ref Panel yeniSorguPanel,
+            ref Panel kiralikEvlerPanel,
+            ref Panel satilikEvlerPanel,
+            EventHandler DynamicPanel_Click,
+            EventHandler duzenlemeSayfasinaGit_Click,
+            EventHandler silmeIsleminiBaslat_Click,
+            bool _isAktifOlmayanlariKiralikListedeGoster_,
+            bool _isAktifOlmayanlariSatilikListedeGoster_
+            
+            )
         {
             Ev ev = evListesi.Find(ev => ev.EmlakNumarasi == emlakNumarasi);
             KiralikEv kiralikEv = new KiralikEv();
             SatilikEv satilikEv = new SatilikEv();
+            string evTuru = "Kiralık";
 
             if (ev is KiralikEv)
             {
                 kiralikEv = kiralikEvListesi.Find(ev => ev.EmlakNumarasi == emlakNumarasi);
                 kiralikEvListesi.Remove(kiralikEv);
+                evTuru = "Kiralık";
+
             }
             else if (ev is SatilikEv)
             {
                 satilikEv = satilikEvListesi.Find(ev => ev.EmlakNumarasi == emlakNumarasi);
                 satilikEvListesi.Remove(satilikEv);
+                evTuru = "Satılık";
             }
 
             evListesi.Remove(ev);
+
+            if (evTuru == "Kiralık")
+            {
+                kiralikEvleriListele(
+                ref kiralikEvlerListePanel,
+                DynamicPanel_Click,
+                duzenlemeSayfasinaGit_Click,
+                _isAktifOlmayanlariKiralikListedeGoster_,
+                silmeIsleminiBaslat_Click);
+
+                kiralikEvlerSayfasi.BringToFront();
+                yeniEvKayitPanel.BackColor = Color.SeaGreen;
+                yeniSorguPanel.BackColor = Color.SeaGreen;
+                kiralikEvlerPanel.BackColor = Color.MediumAquamarine;
+                satilikEvlerPanel.BackColor = Color.SeaGreen;
+            }
+            else if (evTuru == "Satılık")
+            {
+                satilikEvleriListele(
+                ref satilikEvlerListePanel,
+                DynamicPanel_Click,
+                duzenlemeSayfasinaGit_Click,
+                _isAktifOlmayanlariSatilikListedeGoster_,
+                silmeIsleminiBaslat_Click);
+
+                satilikEvlerSayfasi.BringToFront();
+                yeniEvKayitPanel.BackColor = Color.SeaGreen;
+                yeniSorguPanel.BackColor = Color.SeaGreen;
+                kiralikEvlerPanel.BackColor = Color.SeaGreen;
+                satilikEvlerPanel.BackColor = Color.MediumAquamarine;
+            }
         }
         
     }
