@@ -538,11 +538,12 @@ namespace EmlakProjesi
                     satilikEv.IsAktif = duzenleAktiflikBox.SelectedItem.ToString() == "Aktif" ? true : false;
 
                     ev = satilikEv;
+
+                    evleriDosyayaYaz();
+                    evListesi.Clear();
+                    evleriDosyadanOku();
                 }
             }
-
-            
-
         }
 
         public static void evKayidiSil(
@@ -583,6 +584,10 @@ namespace EmlakProjesi
             }
 
             evListesi.Remove(ev);
+
+            evleriDosyayaYaz();
+            evListesi.Clear();
+            evleriDosyadanOku();
 
             if (evTuru == "Kiralık")
             {
