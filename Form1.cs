@@ -34,13 +34,12 @@ namespace EmlakProjesi
 
         private void yeniSorguLabel_Click(object sender, EventArgs e)
         {
-            /*
-            kiralikEvlerSayfasi.BringToFront();
+
+            sorgulamaSayfasi.BringToFront();
             yeniEvKayitPanel.BackColor = Color.SeaGreen;
             yeniSorguPanel.BackColor = Color.MediumAquamarine;
             kiralikEvlerPanel.BackColor = Color.SeaGreen;
             satilikEvlerPanel.BackColor = Color.SeaGreen;
-            */
         }
 
         private void label4_Click(object sender, EventArgs e)
@@ -166,7 +165,7 @@ namespace EmlakProjesi
                     _isAktifOlmayanlariKiralikListedeGoster_,
                     _isAktifOlmayanlariSatilikListedeGoster_
                     );
-                
+
 
 
 
@@ -331,6 +330,28 @@ namespace EmlakProjesi
             yeniSorguPanel.BackColor = Color.SeaGreen;
             kiralikEvlerPanel.BackColor = Color.SeaGreen;
             satilikEvlerPanel.BackColor = Color.MediumAquamarine;
+        }
+
+        private void satilikEvlerSayfasi_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void sorgulaButton_Click(object sender, EventArgs e)
+        {
+            string sonuc = App.sorguyuGonder(
+                sorgulamaMinFiyatNumeric,
+                sorgulamaMaxFiyatNumeric,
+                sorgulamaAktiflikBox,
+                sorgulamaIlceBox,
+                sorgulamaSemtBox,
+                sorgulamaEvTuruBox,
+                sorgulamaEvCesidiBox,
+                sorgulamaOdaSayisiNumeric,
+                sorgulamaMinAlanNumeric
+                );
+
+            MessageBox.Show(sonuc);
         }
     }
 }

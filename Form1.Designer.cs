@@ -106,6 +106,29 @@
             button5 = new Button();
             label26 = new Label();
             satilikEvlerListePanel = new Panel();
+            sorgulamaSayfasi = new Panel();
+            button6 = new Button();
+            label27 = new Label();
+            sorgulamaPanel = new Panel();
+            label36 = new Label();
+            sorgulamaOdaSayisiNumeric = new NumericUpDown();
+            sorgulaButton = new Button();
+            label34 = new Label();
+            sorgulamaEvTuruBox = new ComboBox();
+            label35 = new Label();
+            sorgulamaEvCesidiBox = new ComboBox();
+            label33 = new Label();
+            sorgulamaMinAlanNumeric = new NumericUpDown();
+            label31 = new Label();
+            sorgulamaSemtBox = new ComboBox();
+            label32 = new Label();
+            sorgulamaIlceBox = new ComboBox();
+            label30 = new Label();
+            sorgulamaAktiflikBox = new ComboBox();
+            label29 = new Label();
+            sorgulamaMaxFiyatNumeric = new NumericUpDown();
+            label28 = new Label();
+            sorgulamaMinFiyatNumeric = new NumericUpDown();
             headerPanel.SuspendLayout();
             navBarPanel.SuspendLayout();
             satilikEvlerPanel.SuspendLayout();
@@ -129,6 +152,12 @@
             ((System.ComponentModel.ISupportInitialize)duzenleOdaSayisiBox).BeginInit();
             hosGeldinizSayfasi.SuspendLayout();
             satilikEvlerSayfasi.SuspendLayout();
+            sorgulamaSayfasi.SuspendLayout();
+            sorgulamaPanel.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)sorgulamaOdaSayisiNumeric).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)sorgulamaMinAlanNumeric).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)sorgulamaMaxFiyatNumeric).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)sorgulamaMinFiyatNumeric).BeginInit();
             SuspendLayout();
             // 
             // headerPanel
@@ -926,6 +955,7 @@
             satilikEvlerSayfasi.Name = "satilikEvlerSayfasi";
             satilikEvlerSayfasi.Size = new Size(992, 656);
             satilikEvlerSayfasi.TabIndex = 27;
+            satilikEvlerSayfasi.Paint += satilikEvlerSayfasi_Paint;
             // 
             // button5
             // 
@@ -956,6 +986,239 @@
             satilikEvlerListePanel.Size = new Size(960, 474);
             satilikEvlerListePanel.TabIndex = 0;
             // 
+            // sorgulamaSayfasi
+            // 
+            sorgulamaSayfasi.BackColor = Color.DarkKhaki;
+            sorgulamaSayfasi.Controls.Add(button6);
+            sorgulamaSayfasi.Controls.Add(label27);
+            sorgulamaSayfasi.Controls.Add(sorgulamaPanel);
+            sorgulamaSayfasi.Location = new Point(165, 85);
+            sorgulamaSayfasi.Name = "sorgulamaSayfasi";
+            sorgulamaSayfasi.Size = new Size(995, 656);
+            sorgulamaSayfasi.TabIndex = 28;
+            // 
+            // button6
+            // 
+            button6.Location = new Point(16, 72);
+            button6.Name = "button6";
+            button6.Size = new Size(247, 29);
+            button6.TabIndex = 26;
+            button6.Text = "Aktif Olmayanları Göster";
+            button6.UseVisualStyleBackColor = true;
+            // 
+            // label27
+            // 
+            label27.AutoSize = true;
+            label27.Font = new Font("Segoe UI", 20F, FontStyle.Regular, GraphicsUnit.Point);
+            label27.ForeColor = Color.White;
+            label27.Location = new Point(349, 20);
+            label27.Name = "label27";
+            label27.Size = new Size(290, 46);
+            label27.TabIndex = 25;
+            label27.Text = "Sorgulama Sayfasi";
+            // 
+            // sorgulamaPanel
+            // 
+            sorgulamaPanel.BackColor = Color.Gainsboro;
+            sorgulamaPanel.Controls.Add(label36);
+            sorgulamaPanel.Controls.Add(sorgulamaOdaSayisiNumeric);
+            sorgulamaPanel.Controls.Add(sorgulaButton);
+            sorgulamaPanel.Controls.Add(label34);
+            sorgulamaPanel.Controls.Add(sorgulamaEvTuruBox);
+            sorgulamaPanel.Controls.Add(label35);
+            sorgulamaPanel.Controls.Add(sorgulamaEvCesidiBox);
+            sorgulamaPanel.Controls.Add(label33);
+            sorgulamaPanel.Controls.Add(sorgulamaMinAlanNumeric);
+            sorgulamaPanel.Controls.Add(label31);
+            sorgulamaPanel.Controls.Add(sorgulamaSemtBox);
+            sorgulamaPanel.Controls.Add(label32);
+            sorgulamaPanel.Controls.Add(sorgulamaIlceBox);
+            sorgulamaPanel.Controls.Add(label30);
+            sorgulamaPanel.Controls.Add(sorgulamaAktiflikBox);
+            sorgulamaPanel.Controls.Add(label29);
+            sorgulamaPanel.Controls.Add(sorgulamaMaxFiyatNumeric);
+            sorgulamaPanel.Controls.Add(label28);
+            sorgulamaPanel.Controls.Add(sorgulamaMinFiyatNumeric);
+            sorgulamaPanel.Location = new Point(16, 107);
+            sorgulamaPanel.Name = "sorgulamaPanel";
+            sorgulamaPanel.Size = new Size(960, 474);
+            sorgulamaPanel.TabIndex = 0;
+            // 
+            // label36
+            // 
+            label36.AutoSize = true;
+            label36.Location = new Point(256, 231);
+            label36.Name = "label36";
+            label36.Size = new Size(81, 20);
+            label36.TabIndex = 60;
+            label36.Text = "Oda Sayisi:";
+            // 
+            // sorgulamaOdaSayisiNumeric
+            // 
+            sorgulamaOdaSayisiNumeric.Location = new Point(256, 254);
+            sorgulamaOdaSayisiNumeric.Name = "sorgulamaOdaSayisiNumeric";
+            sorgulamaOdaSayisiNumeric.Size = new Size(150, 27);
+            sorgulamaOdaSayisiNumeric.TabIndex = 59;
+            // 
+            // sorgulaButton
+            // 
+            sorgulaButton.BackColor = Color.SteelBlue;
+            sorgulaButton.ForeColor = Color.White;
+            sorgulaButton.Location = new Point(259, 361);
+            sorgulaButton.Name = "sorgulaButton";
+            sorgulaButton.Size = new Size(151, 29);
+            sorgulaButton.TabIndex = 58;
+            sorgulaButton.Text = "Sorgula";
+            sorgulaButton.UseVisualStyleBackColor = false;
+            sorgulaButton.Click += sorgulaButton_Click;
+            // 
+            // label34
+            // 
+            label34.AutoSize = true;
+            label34.ForeColor = Color.Black;
+            label34.Location = new Point(453, 237);
+            label34.Name = "label34";
+            label34.Size = new Size(60, 20);
+            label34.TabIndex = 57;
+            label34.Text = "Ev Türü:";
+            // 
+            // sorgulamaEvTuruBox
+            // 
+            sorgulamaEvTuruBox.FormattingEnabled = true;
+            sorgulamaEvTuruBox.Items.AddRange(new object[] { "Kiralık", "Satılık" });
+            sorgulamaEvTuruBox.Location = new Point(453, 260);
+            sorgulamaEvTuruBox.Name = "sorgulamaEvTuruBox";
+            sorgulamaEvTuruBox.Size = new Size(151, 28);
+            sorgulamaEvTuruBox.TabIndex = 56;
+            sorgulamaEvTuruBox.Text = "Farketmez";
+            // 
+            // label35
+            // 
+            label35.AutoSize = true;
+            label35.ForeColor = Color.Black;
+            label35.Location = new Point(453, 164);
+            label35.Name = "label35";
+            label35.Size = new Size(71, 20);
+            label35.TabIndex = 55;
+            label35.Text = "Ev Çeşidi:";
+            // 
+            // sorgulamaEvCesidiBox
+            // 
+            sorgulamaEvCesidiBox.FormattingEnabled = true;
+            sorgulamaEvCesidiBox.Items.AddRange(new object[] { "Daire", "Bahçeli", "Müstakil", "Dubleks", "Stüdyo", "Belirtilmemiş" });
+            sorgulamaEvCesidiBox.Location = new Point(453, 187);
+            sorgulamaEvCesidiBox.Name = "sorgulamaEvCesidiBox";
+            sorgulamaEvCesidiBox.Size = new Size(151, 28);
+            sorgulamaEvCesidiBox.TabIndex = 54;
+            sorgulamaEvCesidiBox.Text = "Farketmez";
+            // 
+            // label33
+            // 
+            label33.AutoSize = true;
+            label33.Location = new Point(256, 142);
+            label33.Name = "label33";
+            label33.Size = new Size(71, 20);
+            label33.TabIndex = 53;
+            label33.Text = "Min Alan:";
+            // 
+            // sorgulamaMinAlanNumeric
+            // 
+            sorgulamaMinAlanNumeric.Location = new Point(256, 165);
+            sorgulamaMinAlanNumeric.Name = "sorgulamaMinAlanNumeric";
+            sorgulamaMinAlanNumeric.Size = new Size(150, 27);
+            sorgulamaMinAlanNumeric.TabIndex = 52;
+            // 
+            // label31
+            // 
+            label31.AutoSize = true;
+            label31.ForeColor = Color.Black;
+            label31.Location = new Point(56, 209);
+            label31.Name = "label31";
+            label31.Size = new Size(46, 20);
+            label31.TabIndex = 51;
+            label31.Text = "Semt:";
+            // 
+            // sorgulamaSemtBox
+            // 
+            sorgulamaSemtBox.FormattingEnabled = true;
+            sorgulamaSemtBox.Location = new Point(56, 232);
+            sorgulamaSemtBox.Name = "sorgulamaSemtBox";
+            sorgulamaSemtBox.Size = new Size(151, 28);
+            sorgulamaSemtBox.TabIndex = 50;
+            sorgulamaSemtBox.Text = "Farketmez";
+            // 
+            // label32
+            // 
+            label32.AutoSize = true;
+            label32.ForeColor = Color.Black;
+            label32.Location = new Point(56, 142);
+            label32.Name = "label32";
+            label32.Size = new Size(35, 20);
+            label32.TabIndex = 49;
+            label32.Text = "İlçe:";
+            // 
+            // sorgulamaIlceBox
+            // 
+            sorgulamaIlceBox.FormattingEnabled = true;
+            sorgulamaIlceBox.Items.AddRange(new object[] { "Fatih", "Beşiktaş", "Beyoğlu", "Üsküdar", "Kadıköy", "Sarıyer", "Şişli", "Zeytinburnu", "Eyüpsultan", "Bakırköy", "Kağıthane", "Maltepe", "Bayrampaşa", "Gaziosmanpaşa", "Sultangazi", "Bahçelievler", "Pendik", "Kartal" });
+            sorgulamaIlceBox.Location = new Point(56, 165);
+            sorgulamaIlceBox.Name = "sorgulamaIlceBox";
+            sorgulamaIlceBox.Size = new Size(151, 28);
+            sorgulamaIlceBox.TabIndex = 48;
+            sorgulamaIlceBox.Text = "Farketmez";
+            // 
+            // label30
+            // 
+            label30.AutoSize = true;
+            label30.ForeColor = Color.Black;
+            label30.Location = new Point(450, 59);
+            label30.Name = "label30";
+            label30.Size = new Size(115, 20);
+            label30.TabIndex = 47;
+            label30.Text = "Aktiflik Durumu:";
+            // 
+            // sorgulamaAktiflikBox
+            // 
+            sorgulamaAktiflikBox.FormattingEnabled = true;
+            sorgulamaAktiflikBox.Items.AddRange(new object[] { "Aktif", "Aktif değil" });
+            sorgulamaAktiflikBox.Location = new Point(450, 82);
+            sorgulamaAktiflikBox.Name = "sorgulamaAktiflikBox";
+            sorgulamaAktiflikBox.Size = new Size(151, 28);
+            sorgulamaAktiflikBox.TabIndex = 46;
+            sorgulamaAktiflikBox.Text = "Farketmez";
+            // 
+            // label29
+            // 
+            label29.AutoSize = true;
+            label29.Location = new Point(259, 60);
+            label29.Name = "label29";
+            label29.Size = new Size(75, 20);
+            label29.TabIndex = 3;
+            label29.Text = "Max Fiyat:";
+            // 
+            // sorgulamaMaxFiyatNumeric
+            // 
+            sorgulamaMaxFiyatNumeric.Location = new Point(259, 83);
+            sorgulamaMaxFiyatNumeric.Name = "sorgulamaMaxFiyatNumeric";
+            sorgulamaMaxFiyatNumeric.Size = new Size(150, 27);
+            sorgulamaMaxFiyatNumeric.TabIndex = 2;
+            // 
+            // label28
+            // 
+            label28.AutoSize = true;
+            label28.Location = new Point(56, 60);
+            label28.Name = "label28";
+            label28.Size = new Size(72, 20);
+            label28.TabIndex = 1;
+            label28.Text = "Min Fiyat:";
+            // 
+            // sorgulamaMinFiyatNumeric
+            // 
+            sorgulamaMinFiyatNumeric.Location = new Point(56, 83);
+            sorgulamaMinFiyatNumeric.Name = "sorgulamaMinFiyatNumeric";
+            sorgulamaMinFiyatNumeric.Size = new Size(150, 27);
+            sorgulamaMinFiyatNumeric.TabIndex = 0;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
@@ -963,12 +1226,13 @@
             ClientSize = new Size(1193, 753);
             Controls.Add(navBarPanel);
             Controls.Add(headerPanel);
-            Controls.Add(satilikEvlerSayfasi);
+            Controls.Add(sorgulamaSayfasi);
             Controls.Add(kiralikEvlerSayfasi);
             Controls.Add(yeniKayitSayfasi);
             Controls.Add(duzenlemeSayfasi);
             Controls.Add(ayrintiSayfasi);
             Controls.Add(hosGeldinizSayfasi);
+            Controls.Add(satilikEvlerSayfasi);
             Name = "Form1";
             Text = "Form1";
             headerPanel.ResumeLayout(false);
@@ -1007,6 +1271,14 @@
             hosGeldinizSayfasi.PerformLayout();
             satilikEvlerSayfasi.ResumeLayout(false);
             satilikEvlerSayfasi.PerformLayout();
+            sorgulamaSayfasi.ResumeLayout(false);
+            sorgulamaSayfasi.PerformLayout();
+            sorgulamaPanel.ResumeLayout(false);
+            sorgulamaPanel.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)sorgulamaOdaSayisiNumeric).EndInit();
+            ((System.ComponentModel.ISupportInitialize)sorgulamaMinAlanNumeric).EndInit();
+            ((System.ComponentModel.ISupportInitialize)sorgulamaMaxFiyatNumeric).EndInit();
+            ((System.ComponentModel.ISupportInitialize)sorgulamaMinFiyatNumeric).EndInit();
             ResumeLayout(false);
         }
 
@@ -1090,5 +1362,28 @@
         private Button button5;
         private Label label26;
         private Panel satilikEvlerListePanel;
+        private Panel sorgulamaSayfasi;
+        private Button button6;
+        private Label label27;
+        private Panel sorgulamaPanel;
+        private NumericUpDown sorgulamaMinFiyatNumeric;
+        private Label label28;
+        private Label label29;
+        private NumericUpDown sorgulamaMaxFiyatNumeric;
+        private Label label31;
+        private ComboBox sorgulamaSemtBox;
+        private Label label32;
+        private ComboBox sorgulamaIlceBox;
+        private Label label30;
+        private ComboBox sorgulamaAktiflikBox;
+        private Label label33;
+        private NumericUpDown sorgulamaMinAlanNumeric;
+        private Label label34;
+        private ComboBox sorgulamaEvTuruBox;
+        private Label label35;
+        private ComboBox sorgulamaEvCesidiBox;
+        private Button sorgulaButton;
+        private Label label36;
+        private NumericUpDown sorgulamaOdaSayisiNumeric;
     }
 }

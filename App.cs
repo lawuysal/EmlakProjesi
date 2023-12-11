@@ -17,6 +17,7 @@ namespace EmlakProjesi
         public static List<Ev> evListesi = new List<Ev>();
         public static List<KiralikEv> kiralikEvListesi = new List<KiralikEv>();
         public static List<SatilikEv> satilikEvListesi = new List<SatilikEv>();
+        public static List<Ev> sorguListesi = new List<Ev>();
         public static void ilceleriYukle(ref ComboBox ilceComboBox, ref ComboBox semtComboBox)
         {
             string secilenIlce = ilceComboBox.SelectedItem.ToString() ?? "besiktas";
@@ -618,6 +619,121 @@ namespace EmlakProjesi
                 yeniSorguPanel.BackColor = Color.SeaGreen;
                 kiralikEvlerPanel.BackColor = Color.SeaGreen;
                 satilikEvlerPanel.BackColor = Color.MediumAquamarine;
+            }
+        }
+
+        public static string sorguyuGonder(
+            NumericUpDown sorgulamaMinFiyatNumeric,
+            NumericUpDown sorgulamaMaxFiyatNumeric,
+            ComboBox sorgulamaAktiflikBox,
+            ComboBox sorgulamaIlceBox,
+            ComboBox sorgulamaSemtBox,
+            ComboBox sorgulamaEvTuruBox,
+            ComboBox sorgulamaEvCesidiBox,
+            NumericUpDown sorgulamaOdaSayisiNumeric,
+            NumericUpDown sorgulamaMinAlanNumeric
+            )
+        {
+            sorguListesi.Clear();
+            var yeniSorgu = evListesi.AsQueryable();
+            
+            //sorgulamaAktiflikBox.Sele
+
+            int minFiyat = sorgulamaMinFiyatNumeric != null ? Convert.ToInt32(sorgulamaMinFiyatNumeric.Value) : 0;
+            int maxFiyat = sorgulamaMaxFiyatNumeric != null ? Convert.ToInt32(sorgulamaMaxFiyatNumeric.Value) : 0;
+            string aktiflik = sorgulamaAktiflikBox.Text == "Farketmez" ? "" : sorgulamaAktiflikBox.SelectedItem.ToString();
+            string ilce = sorgulamaIlceBox.Text == "Farketmez" ? "" : sorgulamaIlceBox.SelectedItem.ToString();
+            string semt = sorgulamaSemtBox.Text == "Farketmez" ? "" : sorgulamaSemtBox.SelectedItem.ToString();
+            string evTuru = sorgulamaEvTuruBox.Text == "Farketmez" ? "" : sorgulamaEvTuruBox.SelectedItem.ToString();
+            string evCesidi = sorgulamaEvCesidiBox.Text == "Farketmez" ? "" : sorgulamaEvCesidiBox.SelectedItem.ToString();
+            int odaSayisi = sorgulamaOdaSayisiNumeric != null ? Convert.ToInt32(sorgulamaOdaSayisiNumeric.Value) : 0;
+            double minAlan = sorgulamaMinAlanNumeric != null ? Convert.ToDouble(sorgulamaMinAlanNumeric.Value) : 0;
+            
+            /*
+            string semt = sorgulamaSemtBox is null ? sorgulamaSemtBox.SelectedItem.ToString() : "";
+            string evTuru = sorgulamaEvTuruBox is null ? sorgulamaEvTuruBox.SelectedItem.ToString() : "";
+            string evCesidi = sorgulamaEvCesidiBox is null ? sorgulamaEvCesidiBox.SelectedItem.ToString() : "";
+            int odaSayisi = sorgulamaOdaSayisiNumeric != null ? Convert.ToInt32(sorgulamaOdaSayisiNumeric.Value) : 0;
+            double minAlan = sorgulamaMinAlanNumeric != null ? Convert.ToDouble(sorgulamaMinAlanNumeric.Value) : 0;
+            */
+
+
+
+            if (minFiyat != 0)
+            {
+                yeniSorgu = yeniSorgu.Where(e => e.FiyatHesapla() >= (double)minFiyat);
+            }
+
+            if (maxFiyat != 0)
+            {
+                yeniSorgu = yeniSorgu.Where(e => e.FiyatHesapla() <= (double)maxFiyat);
+            }
+
+            
+            if (aktiflik != "") 
+            {
+                if (aktiflik == "Aktif")
+                {
+                    yeniSorgu = yeniSorgu.Where(e => e.IsAktif == true);
+                }
+                else if (aktiflik == "Aktif değil")
+                {
+                    yeniSorgu = yeniSorgu.Where(e => e.IsAktif == false);
+                }
+            }
+
+            if (ilce != "")
+            {
+                yeniSorgu = yeniSorgu.Where(e => e.Ilce == ilce);
+            }
+
+            if (semt != "")
+            {
+                yeniSorgu = yeniSorgu.Where(e => e.Semt == semt);
+            }
+
+            if (evTuru != "")
+            {
+                if (evTuru == "Kiralık")
+                {
+                    yeniSorgu = yeniSorgu.Where(e => e is KiralikEv);
+                }
+                else if (evTuru == "Satılık")
+                {
+                    yeniSorgu = yeniSorgu.Where(e => e is SatilikEv);
+                }
+            }
+
+            if (evCesidi != "")
+            {
+                yeniSorgu = yeniSorgu.Where(e => e.Cesit.ToString() == evCesidi);
+            }
+
+            if (odaSayisi != 0)
+            {
+                yeniSorgu = yeniSorgu.Where(e => e.OdaSayisi == odaSayisi);
+            }
+
+            if (minAlan != 0)
+            {
+                yeniSorgu = yeniSorgu.Where(e => e.Alan >= minAlan);
+            }
+
+            sorguListesi = yeniSorgu.ToList();
+
+            if (sorguListesi.Count != 0)
+            {
+                //App.sorguListeSayfasinaGit();
+                return $"{sorguListesi.Count} adet sonuç bulundu.";
+
+            }
+            else if (sorguListesi.Count == 0 || sorguListesi is null)
+            {
+                return "Sorgu sonucu bulunamadı.";
+            }
+            else
+            {
+                return "Sorguda bir hata oluştu.";
             }
         }
         
