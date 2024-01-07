@@ -14,3 +14,12 @@ C:\Users\raylaw\Desktop\Code\Csh\EmlakProjesi\obj\Debug\net6.0-windows\refint\Em
 C:\Users\raylaw\Desktop\Code\Csh\EmlakProjesi\obj\Debug\net6.0-windows\EmlakProjesi.pdb
 C:\Users\raylaw\Desktop\Code\Csh\EmlakProjesi\obj\Debug\net6.0-windows\EmlakProjesi.genruntimeconfig.cache
 C:\Users\raylaw\Desktop\Code\Csh\EmlakProjesi\obj\Debug\net6.0-windows\ref\EmlakProjesi.dll
+C:\Users\raylaw\Desktop\Code\Csh\EmlakProjesi\obj\Debug\net6.0-windows\EmlakProjesi.csproj.AssemblyReference.cache
+C:\Users\raylaw\Desktop\Code\Csh\EmlakProjesi\bin\Debug\net6.0-windows\ClassLibrary.deps.json
+C:\Users\raylaw\Desktop\Code\Csh\EmlakProjesi\bin\Debug\net6.0-windows\ClassLibrary.runtimeconfig.json
+C:\Users\raylaw\Desktop\Code\Csh\EmlakProjesi\bin\Debug\net6.0-windows\ClassLibrary.exe
+C:\Users\raylaw\Desktop\Code\Csh\EmlakProjesi\bin\Debug\net6.0-windows\ClassLibrary.dll
+C:\Users\raylaw\Desktop\Code\Csh\EmlakProjesi\bin\Debug\net6.0-windows\ClassLibrary.pdb
+C:\Users\raylaw\Desktop\Code\Csh\EmlakProjesi\obj\Debug\net6.0-windows\EmlakProjesi.csproj.CopyComplete
+C:\Users\raylaw\Desktop\Code\Csh\EmlakProjesi\bin\Debug\net6.0-windows\Newtonsoft.Json.dll
+C:\Users\raylaw\Desktop\Code\Csh\EmlakProjesi\obj\Debug\net6.0-windows\EmlakProjesi.Login.resources
