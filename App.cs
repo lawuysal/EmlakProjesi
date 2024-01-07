@@ -14,6 +14,13 @@ namespace EmlakProjesi
     
     internal class App
     {
+        public static void logger(string mesaj)
+        {
+            string logString = mesaj + "  " + DateTime.Now.ToString();
+
+            File.AppendAllText("log\\log.txt", logString);
+            File.AppendAllText("log\\log.txt", Environment.NewLine); 
+        }
         public static List<Ev> evListesi = new List<Ev>();
         public static List<KiralikEv> kiralikEvListesi = new List<KiralikEv>();
         public static List<SatilikEv> satilikEvListesi = new List<SatilikEv>();
@@ -86,8 +93,16 @@ namespace EmlakProjesi
                 return "Kayıtlı evler başarıyla yüklendi!";
             }
         }
-        public static void kiralikEvleriListele(ref Panel listePanel, EventHandler ayrintiEventHandler, EventHandler duzenleEventHandler, bool aktifOlmayanGoster, EventHandler silmeEventHandler)
+        public static void kiralikEvleriListele(
+            ref Panel listePanel, 
+            EventHandler ayrintiEventHandler, 
+            EventHandler duzenleEventHandler, 
+            bool aktifOlmayanGoster,
+            ref bool isSorguSayfasi,
+            EventHandler silmeEventHandler
+            )
         {
+            isSorguSayfasi = false;
             listePanel.AutoScroll = true;
             int i = 0;
             int k = 0;
@@ -190,8 +205,160 @@ namespace EmlakProjesi
                 i++;
             }
         }
-        public static void satilikEvleriListele(ref Panel listePanel, EventHandler ayrintiEventHandler, EventHandler duzenleEventHandler, bool aktifOlmayanGoster, EventHandler silmeEventHandler)
+
+        public static void sorgulananEvleriListele(
+            ref Panel listePanel, 
+            EventHandler ayrintiEventHandler, 
+            EventHandler duzenleEventHandler, 
+            bool aktifOlmayanGoster, 
+            ref bool isSorguSayfasi,
+            EventHandler silmeEventHandler
+            )
         {
+            isSorguSayfasi = true;
+            listePanel.AutoScroll = true;
+            int i = 0;
+            int k = 0;
+            bool aktiflikGostermeDurumu = false;
+            if (aktifOlmayanGoster)
+            {
+                aktiflikGostermeDurumu = true;
+            }
+            else
+            {
+                aktiflikGostermeDurumu = false;
+            }
+
+            while (i < sorguListesi.Count)
+            {
+                if (sorguListesi[i].IsAktif == true || aktiflikGostermeDurumu)
+                {
+                    Panel myPanel = new Panel();
+                    myPanel.Name = "sorglananEv" + i.ToString();
+                    myPanel.Size = new Size(750, 100);
+                    myPanel.Location = new Point(100, 50 + (k * 130));
+                    myPanel.BackColor = Color.White;
+                    listePanel.Controls.Add(myPanel);
+                    myPanel.Tag = new ListeEventArgs(sorguListesi[i].EmlakNumarasi, sorguListesi[i].FiyatHesapla());
+                    myPanel.Click += ayrintiEventHandler;
+
+                    Label konum = new Label();
+                    konum.Name = "konum" + i.ToString();
+                    if (sorguListesi[i] is KiralikEv)
+                    {
+                        KiralikEv tempEv = sorguListesi[i] as KiralikEv;
+                        konum.Text = (k + 1) + "-) " + sorguListesi[i].Ilce + ", " +
+                        sorguListesi[i].Semt + "  |  " + tempEv.KiraHesapla() + " TL";
+                    }
+                    else if (sorguListesi[i] is SatilikEv )
+                    {
+                        SatilikEv tempEv = sorguListesi[i] as SatilikEv;
+                        konum.Text = (k + 1) + "-) " + sorguListesi[i].Ilce + ", " +
+                        sorguListesi[i].Semt + "  |  " + tempEv.SatisFiyatHesapla() + " TL";
+                    }
+
+                    
+                    konum.Size = new Size(450, 25);
+                    konum.Location = new Point(10, 10);
+                    konum.Font = new Font("Segue UI", 12);
+                    myPanel.Controls.Add(konum);
+
+                    Label odaSayisi = new Label();
+                    odaSayisi.Name = "odaSayisi" + i.ToString();
+                    if (sorguListesi[i].OdaSayisi != 1)
+                    {
+                        odaSayisi.Text = "Oda Sayısı: " + (sorguListesi[i].OdaSayisi - 1).ToString() + " + 1";
+                    }
+                    else
+                    {
+                        odaSayisi.Text = "Oda Sayısı: " + sorguListesi[i].OdaSayisi.ToString() + " + 0";
+                    }
+                    odaSayisi.Size = new Size(150, 25);
+                    odaSayisi.Location = new Point(10, 65);
+                    odaSayisi.Font = new Font("Segue UI", 8);
+                    myPanel.Controls.Add(odaSayisi);
+
+                    Label evinAlani = new Label();
+                    evinAlani.Name = "evinAlani" + i.ToString();
+                    evinAlani.Text = "Ev Alanı: " + sorguListesi[i].Alan.ToString() + " m²";
+                    evinAlani.Size = new Size(150, 25);
+                    evinAlani.Location = new Point(160, 65);
+                    evinAlani.Font = new Font("Segue UI", 8);
+                    myPanel.Controls.Add(evinAlani);
+
+                    Label evinCesidi = new Label();
+                    evinCesidi.Name = "evinCesidi" + i.ToString();
+                    evinCesidi.Text = "Ev Çeşidi: " + sorguListesi[i].Cesit.ToString();
+                    evinCesidi.Size = new Size(150, 25);
+                    evinCesidi.Location = new Point(310, 65);
+                    evinCesidi.Font = new Font("Segue UI", 8);
+                    myPanel.Controls.Add(evinCesidi);
+
+                    Label binaYasi = new Label();
+                    binaYasi.Name = "binaYasi" + i.ToString();
+                    binaYasi.Text = "Bina Yaşı: " + sorguListesi[i].BinaYasi + " ";
+                    binaYasi.Size = new Size(100, 25);
+                    binaYasi.Location = new Point(460, 65);
+                    binaYasi.Font = new Font("Segue UI", 8);
+                    myPanel.Controls.Add(binaYasi);
+
+                    Label binaTuru = new Label();   
+                    binaTuru.Name = "binaTuru" + i.ToString();
+                    if (sorguListesi[i] is KiralikEv)
+                    {
+                        binaTuru.Text = "Bina Türü: Kiralık";
+                    }
+                    else if (sorguListesi[i] is SatilikEv)
+                    {
+                        binaTuru.Text = "Bina Türü: Satılık";
+                    }
+                    binaTuru.Size = new Size(150, 25);
+                    binaTuru.Location = new Point(570, 65);
+                    binaTuru.Font = new Font("Segue UI", 8);
+                    myPanel.Controls.Add(binaTuru);
+
+                    Button sil = new Button();
+                    sil.Name = "sil" + i.ToString();
+                    sil.Text = "🗑";
+                    sil.Size = new Size(80, 30);
+                    sil.Location = new Point(600, 25);
+                    sil.Font = new Font("Segue UI", 8);
+                    myPanel.Controls.Add(sil);
+                    sil.Tag = new ListeEventArgs(sorguListesi[i].EmlakNumarasi, sorguListesi[i].FiyatHesapla());
+                    sil.Click += silmeEventHandler;
+
+
+
+                    if (!sorguListesi[i].IsAktif)
+                    {
+                        Label aktiflikDurumu = new Label();
+                        aktiflikDurumu.Name = "aktiflikDurumu" + i.ToString();
+                        aktiflikDurumu.Text = "Aktif Değil!";
+                        aktiflikDurumu.Size = new Size(150, 25);
+                        aktiflikDurumu.Location = new Point(480, 30);
+                        aktiflikDurumu.Font = new Font("Segue UI", 8);
+                        aktiflikDurumu.ForeColor = Color.Red;
+                        myPanel.Controls.Add(aktiflikDurumu);
+                    }
+
+
+
+                    k++;
+                }
+
+                i++;
+            }
+        }
+
+        public static void satilikEvleriListele(
+            ref Panel listePanel, 
+            EventHandler ayrintiEventHandler, 
+            EventHandler duzenleEventHandler, 
+            bool aktifOlmayanGoster, 
+            ref bool isSorguSayfasi,
+            EventHandler silmeEventHandler)
+        {
+            isSorguSayfasi = false;
             listePanel.AutoScroll = true;
             int i = 0;
             int k = 0;
@@ -549,6 +716,8 @@ namespace EmlakProjesi
 
         public static void evKayidiSil(
             int emlakNumarasi, 
+            ref Panel sorguSonucSayfasi,
+            ref Panel sorguSonucPanel,
             ref Panel kiralikEvlerListePanel,
             ref Panel satilikEvlerListePanel,
             ref Panel satilikEvlerSayfasi,
@@ -561,8 +730,9 @@ namespace EmlakProjesi
             EventHandler duzenlemeSayfasinaGit_Click,
             EventHandler silmeIsleminiBaslat_Click,
             bool _isAktifOlmayanlariKiralikListedeGoster_,
-            bool _isAktifOlmayanlariSatilikListedeGoster_
-            
+            bool _isAktifOlmayanlariSatilikListedeGoster_,
+            bool _isAktifOlmayanlariSorgulananListedeGoster_,
+            bool isSorguSayfasi
             )
         {
             Ev ev = evListesi.Find(ev => ev.EmlakNumarasi == emlakNumarasi);
@@ -570,19 +740,39 @@ namespace EmlakProjesi
             SatilikEv satilikEv = new SatilikEv();
             string evTuru = "Kiralık";
 
-            if (ev is KiralikEv)
+            if (!isSorguSayfasi)
             {
-                kiralikEv = kiralikEvListesi.Find(ev => ev.EmlakNumarasi == emlakNumarasi);
-                kiralikEvListesi.Remove(kiralikEv);
-                evTuru = "Kiralık";
+                if (ev is KiralikEv)
+                {
+                    kiralikEv = kiralikEvListesi.Find(ev => ev.EmlakNumarasi == emlakNumarasi);
+                    kiralikEvListesi.Remove(kiralikEv);
+                    evTuru = "Kiralık";
 
+                }
+                else if (ev is SatilikEv)
+                {
+                    satilikEv = satilikEvListesi.Find(ev => ev.EmlakNumarasi == emlakNumarasi);
+                    satilikEvListesi.Remove(satilikEv);
+                    evTuru = "Satılık";
+                }
             }
-            else if (ev is SatilikEv)
+            else if (isSorguSayfasi )
             {
-                satilikEv = satilikEvListesi.Find(ev => ev.EmlakNumarasi == emlakNumarasi);
-                satilikEvListesi.Remove(satilikEv);
-                evTuru = "Satılık";
+                if (ev is KiralikEv)
+                {
+                    kiralikEv = kiralikEvListesi.Find(ev => ev.EmlakNumarasi == emlakNumarasi);
+                    kiralikEvListesi.Remove(kiralikEv);
+                    evTuru = "Sorgu";
+
+                }
+                else if (ev is SatilikEv)
+                {
+                    satilikEv = satilikEvListesi.Find(ev => ev.EmlakNumarasi == emlakNumarasi);
+                    satilikEvListesi.Remove(satilikEv);
+                    evTuru = "Sorgu";
+                }
             }
+            
 
             evListesi.Remove(ev);
 
@@ -597,6 +787,7 @@ namespace EmlakProjesi
                 DynamicPanel_Click,
                 duzenlemeSayfasinaGit_Click,
                 _isAktifOlmayanlariKiralikListedeGoster_,
+                ref isSorguSayfasi,
                 silmeIsleminiBaslat_Click);
 
                 kiralikEvlerSayfasi.BringToFront();
@@ -612,6 +803,7 @@ namespace EmlakProjesi
                 DynamicPanel_Click,
                 duzenlemeSayfasinaGit_Click,
                 _isAktifOlmayanlariSatilikListedeGoster_,
+                ref isSorguSayfasi,
                 silmeIsleminiBaslat_Click);
 
                 satilikEvlerSayfasi.BringToFront();
@@ -620,18 +812,40 @@ namespace EmlakProjesi
                 kiralikEvlerPanel.BackColor = Color.SeaGreen;
                 satilikEvlerPanel.BackColor = Color.MediumAquamarine;
             }
+            else if (evTuru == "Sorgu")
+            {
+                sorgulananEvleriListele(
+                ref sorguSonucPanel,
+                DynamicPanel_Click,
+                duzenlemeSayfasinaGit_Click,
+                _isAktifOlmayanlariSorgulananListedeGoster_,
+                ref isSorguSayfasi,
+                silmeIsleminiBaslat_Click);
+
+                sorguSonucSayfasi.BringToFront();
+                yeniEvKayitPanel.BackColor = Color.SeaGreen;
+                yeniSorguPanel.BackColor = Color.MediumAquamarine;
+                kiralikEvlerPanel.BackColor = Color.SeaGreen;
+                satilikEvlerPanel.BackColor = Color.SeaGreen;
+            }
         }
 
         public static string sorguyuGonder(
             NumericUpDown sorgulamaMinFiyatNumeric,
             NumericUpDown sorgulamaMaxFiyatNumeric,
-            ComboBox sorgulamaAktiflikBox,
+            //ComboBox sorgulamaAktiflikBox,
             ComboBox sorgulamaIlceBox,
             ComboBox sorgulamaSemtBox,
             ComboBox sorgulamaEvTuruBox,
             ComboBox sorgulamaEvCesidiBox,
             NumericUpDown sorgulamaOdaSayisiNumeric,
-            NumericUpDown sorgulamaMinAlanNumeric
+            NumericUpDown sorgulamaMinAlanNumeric,
+            ref Panel sorguListePanel,
+            EventHandler ayrintiEventHandler,
+            EventHandler duzenleEventHandler,
+            bool aktifOlmayanGoster,
+            bool isSorguSayfasi,
+            EventHandler silmeEventHandler
             )
         {
             sorguListesi.Clear();
@@ -641,7 +855,7 @@ namespace EmlakProjesi
 
             int minFiyat = sorgulamaMinFiyatNumeric != null ? Convert.ToInt32(sorgulamaMinFiyatNumeric.Value) : 0;
             int maxFiyat = sorgulamaMaxFiyatNumeric != null ? Convert.ToInt32(sorgulamaMaxFiyatNumeric.Value) : 0;
-            string aktiflik = sorgulamaAktiflikBox.Text == "Farketmez" ? "" : sorgulamaAktiflikBox.SelectedItem.ToString();
+            //string aktiflik = sorgulamaAktiflikBox.Text == "Farketmez" ? "Aktif" : sorgulamaAktiflikBox.SelectedItem.ToString();
             string ilce = sorgulamaIlceBox.Text == "Farketmez" ? "" : sorgulamaIlceBox.SelectedItem.ToString();
             string semt = sorgulamaSemtBox.Text == "Farketmez" ? "" : sorgulamaSemtBox.SelectedItem.ToString();
             string evTuru = sorgulamaEvTuruBox.Text == "Farketmez" ? "" : sorgulamaEvTuruBox.SelectedItem.ToString();
@@ -649,13 +863,7 @@ namespace EmlakProjesi
             int odaSayisi = sorgulamaOdaSayisiNumeric != null ? Convert.ToInt32(sorgulamaOdaSayisiNumeric.Value) : 0;
             double minAlan = sorgulamaMinAlanNumeric != null ? Convert.ToDouble(sorgulamaMinAlanNumeric.Value) : 0;
             
-            /*
-            string semt = sorgulamaSemtBox is null ? sorgulamaSemtBox.SelectedItem.ToString() : "";
-            string evTuru = sorgulamaEvTuruBox is null ? sorgulamaEvTuruBox.SelectedItem.ToString() : "";
-            string evCesidi = sorgulamaEvCesidiBox is null ? sorgulamaEvCesidiBox.SelectedItem.ToString() : "";
-            int odaSayisi = sorgulamaOdaSayisiNumeric != null ? Convert.ToInt32(sorgulamaOdaSayisiNumeric.Value) : 0;
-            double minAlan = sorgulamaMinAlanNumeric != null ? Convert.ToDouble(sorgulamaMinAlanNumeric.Value) : 0;
-            */
+            
 
 
 
@@ -670,17 +878,7 @@ namespace EmlakProjesi
             }
 
             
-            if (aktiflik != "") 
-            {
-                if (aktiflik == "Aktif")
-                {
-                    yeniSorgu = yeniSorgu.Where(e => e.IsAktif == true);
-                }
-                else if (aktiflik == "Aktif değil")
-                {
-                    yeniSorgu = yeniSorgu.Where(e => e.IsAktif == false);
-                }
-            }
+            
 
             if (ilce != "")
             {
@@ -723,7 +921,17 @@ namespace EmlakProjesi
 
             if (sorguListesi.Count != 0)
             {
-                //App.sorguListeSayfasinaGit();
+                
+                sorgulananEvleriListele(
+                    ref sorguListePanel,
+                    ayrintiEventHandler,
+                    duzenleEventHandler,
+                    aktifOlmayanGoster,
+                    ref isSorguSayfasi,
+                    silmeEventHandler
+
+                    );
+
                 return $"{sorguListesi.Count} adet sonuç bulundu.";
 
             }

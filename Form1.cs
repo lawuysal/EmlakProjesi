@@ -9,11 +9,15 @@ namespace EmlakProjesi
         ListeEventArgs _ARGS_ = new ListeEventArgs(1, 1);
         bool _isAktifOlmayanlariKiralikListedeGoster_ = false;
         bool _isAktifOlmayanlariSatilikListedeGoster_ = false;
+        bool _isAktifOlmayanlariSorgulananListedeGoster_ = false;
+        bool _isSorgu_ = false;
+
         public Form1()
         {
             InitializeComponent();
             string readingRecordsFileAnswer = App.evleriDosyadanOku();
             MessageBox.Show(readingRecordsFileAnswer);
+            hosGeldinizSayfasi.BringToFront();
 
         }
 
@@ -34,6 +38,12 @@ namespace EmlakProjesi
 
         private void yeniSorguLabel_Click(object sender, EventArgs e)
         {
+
+            //sorgulamaAktiflikBox.Text = "Farktmez";
+            sorgulamaIlceBox.Text = "Farketmez";
+            sorgulamaSemtBox.Text = "Farketmez";
+            sorgulamaEvTuruBox.Text = "Farketmez";
+            sorgulamaEvCesidiBox.Text = "Farketmez";
 
             sorgulamaSayfasi.BringToFront();
             yeniEvKayitPanel.BackColor = Color.SeaGreen;
@@ -116,6 +126,7 @@ namespace EmlakProjesi
                 DynamicPanel_Click,
                 duzenlemeSayfasinaGit_Click,
                 _isAktifOlmayanlariKiralikListedeGoster_,
+                ref _isSorgu_,
                 silmeIsleminiBaslat_Click
                 );
             kiralikEvlerSayfasi.BringToFront();
@@ -149,8 +160,11 @@ namespace EmlakProjesi
             {
                 kiralikEvlerListePanel.Controls.Clear();
                 satilikEvlerListePanel.Controls.Clear();
+                sorguSonucPanel.Controls.Clear();
                 App.evKayidiSil(
                     listeEventArgs.EmlakNumarasi,
+                    ref sorguSonucSayfasi,
+                    ref sorguSonucPanel,
                     ref kiralikEvlerListePanel,
                     ref satilikEvlerListePanel,
                     ref satilikEvlerSayfasi,
@@ -163,7 +177,9 @@ namespace EmlakProjesi
                     duzenlemeSayfasinaGit_Click,
                     silmeIsleminiBaslat_Click,
                     _isAktifOlmayanlariKiralikListedeGoster_,
-                    _isAktifOlmayanlariSatilikListedeGoster_
+                    _isAktifOlmayanlariSatilikListedeGoster_,
+                    _isAktifOlmayanlariSorgulananListedeGoster_,
+                    _isSorgu_
                     );
 
 
@@ -278,6 +294,7 @@ namespace EmlakProjesi
                 DynamicPanel_Click,
                 duzenlemeSayfasinaGit_Click,
                 _isAktifOlmayanlariKiralikListedeGoster_,
+                ref _isSorgu_,
                 silmeIsleminiBaslat_Click
                 );
             kiralikEvlerSayfasi.BringToFront();
@@ -305,6 +322,7 @@ namespace EmlakProjesi
                 DynamicPanel_Click,
                 duzenlemeSayfasinaGit_Click,
                 _isAktifOlmayanlariSatilikListedeGoster_,
+                ref _isSorgu_,
                 silmeIsleminiBaslat_Click
                 );
             satilikEvlerSayfasi.BringToFront();
@@ -323,6 +341,7 @@ namespace EmlakProjesi
                 DynamicPanel_Click,
                 duzenlemeSayfasinaGit_Click,
                 _isAktifOlmayanlariSatilikListedeGoster_,
+                ref _isSorgu_,
                 silmeIsleminiBaslat_Click
                 );
             satilikEvlerSayfasi.BringToFront();
@@ -342,16 +361,58 @@ namespace EmlakProjesi
             string sonuc = App.sorguyuGonder(
                 sorgulamaMinFiyatNumeric,
                 sorgulamaMaxFiyatNumeric,
-                sorgulamaAktiflikBox,
+                //sorgulamaAktiflikBox,
                 sorgulamaIlceBox,
                 sorgulamaSemtBox,
                 sorgulamaEvTuruBox,
                 sorgulamaEvCesidiBox,
                 sorgulamaOdaSayisiNumeric,
-                sorgulamaMinAlanNumeric
+                sorgulamaMinAlanNumeric,
+                ref sorguSonucPanel,
+                DynamicPanel_Click,
+                duzenlemeSayfasinaGit_Click,
+                _isAktifOlmayanlariSorgulananListedeGoster_,
+                _isSorgu_,
+                silmeIsleminiBaslat_Click
                 );
+            sorguSonucSayfasi.BringToFront();
 
             MessageBox.Show(sonuc);
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+
+
+
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            _isAktifOlmayanlariSorgulananListedeGoster_ = !_isAktifOlmayanlariSorgulananListedeGoster_;
+            if (_isAktifOlmayanlariSorgulananListedeGoster_)
+            {
+                button7.Text = "Aktif Olmayanlarý Gizle";
+            }
+            else
+            {
+                button7.Text = "Aktif Olmayanlarý Göster";
+            }
+
+            sorguSonucPanel.Controls.Clear();
+            App.sorgulananEvleriListele(
+                ref sorguSonucPanel,
+                DynamicPanel_Click,
+                duzenlemeSayfasinaGit_Click,
+                _isAktifOlmayanlariSorgulananListedeGoster_,
+                ref _isSorgu_,
+                silmeIsleminiBaslat_Click
+                );
+            sorguSonucSayfasi.BringToFront();
+            yeniEvKayitPanel.BackColor = Color.SeaGreen;
+            yeniSorguPanel.BackColor = Color.MediumAquamarine;
+            kiralikEvlerPanel.BackColor = Color.SeaGreen;
+            satilikEvlerPanel.BackColor = Color.SeaGreen;
         }
     }
 }

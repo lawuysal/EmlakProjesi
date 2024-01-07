@@ -101,7 +101,6 @@
             duzenleOdaSayisiBox = new NumericUpDown();
             hosGeldinizSayfasi = new Panel();
             hosGeldinizLabel = new Label();
-            panel2 = new Panel();
             satilikEvlerSayfasi = new Panel();
             button5 = new Button();
             label26 = new Label();
@@ -123,12 +122,14 @@
             sorgulamaSemtBox = new ComboBox();
             label32 = new Label();
             sorgulamaIlceBox = new ComboBox();
-            label30 = new Label();
-            sorgulamaAktiflikBox = new ComboBox();
             label29 = new Label();
             sorgulamaMaxFiyatNumeric = new NumericUpDown();
             label28 = new Label();
             sorgulamaMinFiyatNumeric = new NumericUpDown();
+            sorguSonucSayfasi = new Panel();
+            button7 = new Button();
+            label37 = new Label();
+            sorguSonucPanel = new Panel();
             headerPanel.SuspendLayout();
             navBarPanel.SuspendLayout();
             satilikEvlerPanel.SuspendLayout();
@@ -158,6 +159,7 @@
             ((System.ComponentModel.ISupportInitialize)sorgulamaMinAlanNumeric).BeginInit();
             ((System.ComponentModel.ISupportInitialize)sorgulamaMaxFiyatNumeric).BeginInit();
             ((System.ComponentModel.ISupportInitialize)sorgulamaMinFiyatNumeric).BeginInit();
+            sorguSonucSayfasi.SuspendLayout();
             SuspendLayout();
             // 
             // headerPanel
@@ -326,6 +328,7 @@
             button2.TabIndex = 24;
             button2.Text = "read records";
             button2.UseVisualStyleBackColor = true;
+            button2.Visible = false;
             button2.Click += button2_Click;
             // 
             // button1
@@ -336,6 +339,7 @@
             button1.TabIndex = 23;
             button1.Text = "show record count";
             button1.UseVisualStyleBackColor = true;
+            button1.Visible = false;
             button1.Click += button1_Click_1;
             // 
             // kayitOlusturButton
@@ -917,9 +921,8 @@
             // 
             // hosGeldinizSayfasi
             // 
-            hosGeldinizSayfasi.BackColor = Color.MidnightBlue;
+            hosGeldinizSayfasi.BackColor = Color.SkyBlue;
             hosGeldinizSayfasi.Controls.Add(hosGeldinizLabel);
-            hosGeldinizSayfasi.Controls.Add(panel2);
             hosGeldinizSayfasi.Location = new Point(167, 85);
             hosGeldinizSayfasi.Name = "hosGeldinizSayfasi";
             hosGeldinizSayfasi.Size = new Size(992, 656);
@@ -931,19 +934,11 @@
             hosGeldinizLabel.AutoSize = true;
             hosGeldinizLabel.Font = new Font("Segoe UI", 20F, FontStyle.Regular, GraphicsUnit.Point);
             hosGeldinizLabel.ForeColor = Color.White;
-            hosGeldinizLabel.Location = new Point(395, 20);
+            hosGeldinizLabel.Location = new Point(396, 254);
             hosGeldinizLabel.Name = "hosGeldinizLabel";
             hosGeldinizLabel.Size = new Size(206, 46);
             hosGeldinizLabel.TabIndex = 25;
             hosGeldinizLabel.Text = "Hoş Geldiniz";
-            // 
-            // panel2
-            // 
-            panel2.BackColor = Color.Gainsboro;
-            panel2.Location = new Point(16, 107);
-            panel2.Name = "panel2";
-            panel2.Size = new Size(960, 474);
-            panel2.TabIndex = 0;
             // 
             // satilikEvlerSayfasi
             // 
@@ -1005,6 +1000,7 @@
             button6.TabIndex = 26;
             button6.Text = "Aktif Olmayanları Göster";
             button6.UseVisualStyleBackColor = true;
+            button6.Click += button6_Click;
             // 
             // label27
             // 
@@ -1033,8 +1029,6 @@
             sorgulamaPanel.Controls.Add(sorgulamaSemtBox);
             sorgulamaPanel.Controls.Add(label32);
             sorgulamaPanel.Controls.Add(sorgulamaIlceBox);
-            sorgulamaPanel.Controls.Add(label30);
-            sorgulamaPanel.Controls.Add(sorgulamaAktiflikBox);
             sorgulamaPanel.Controls.Add(label29);
             sorgulamaPanel.Controls.Add(sorgulamaMaxFiyatNumeric);
             sorgulamaPanel.Controls.Add(label28);
@@ -1047,7 +1041,7 @@
             // label36
             // 
             label36.AutoSize = true;
-            label36.Location = new Point(256, 231);
+            label36.Location = new Point(405, 212);
             label36.Name = "label36";
             label36.Size = new Size(81, 20);
             label36.TabIndex = 60;
@@ -1055,7 +1049,7 @@
             // 
             // sorgulamaOdaSayisiNumeric
             // 
-            sorgulamaOdaSayisiNumeric.Location = new Point(256, 254);
+            sorgulamaOdaSayisiNumeric.Location = new Point(405, 235);
             sorgulamaOdaSayisiNumeric.Name = "sorgulamaOdaSayisiNumeric";
             sorgulamaOdaSayisiNumeric.Size = new Size(150, 27);
             sorgulamaOdaSayisiNumeric.TabIndex = 59;
@@ -1064,7 +1058,7 @@
             // 
             sorgulaButton.BackColor = Color.SteelBlue;
             sorgulaButton.ForeColor = Color.White;
-            sorgulaButton.Location = new Point(259, 361);
+            sorgulaButton.Location = new Point(405, 364);
             sorgulaButton.Name = "sorgulaButton";
             sorgulaButton.Size = new Size(151, 29);
             sorgulaButton.TabIndex = 58;
@@ -1076,7 +1070,7 @@
             // 
             label34.AutoSize = true;
             label34.ForeColor = Color.Black;
-            label34.Location = new Point(453, 237);
+            label34.Location = new Point(596, 144);
             label34.Name = "label34";
             label34.Size = new Size(60, 20);
             label34.TabIndex = 57;
@@ -1086,7 +1080,7 @@
             // 
             sorgulamaEvTuruBox.FormattingEnabled = true;
             sorgulamaEvTuruBox.Items.AddRange(new object[] { "Kiralık", "Satılık" });
-            sorgulamaEvTuruBox.Location = new Point(453, 260);
+            sorgulamaEvTuruBox.Location = new Point(596, 167);
             sorgulamaEvTuruBox.Name = "sorgulamaEvTuruBox";
             sorgulamaEvTuruBox.Size = new Size(151, 28);
             sorgulamaEvTuruBox.TabIndex = 56;
@@ -1096,7 +1090,7 @@
             // 
             label35.AutoSize = true;
             label35.ForeColor = Color.Black;
-            label35.Location = new Point(453, 164);
+            label35.Location = new Point(596, 63);
             label35.Name = "label35";
             label35.Size = new Size(71, 20);
             label35.TabIndex = 55;
@@ -1106,7 +1100,7 @@
             // 
             sorgulamaEvCesidiBox.FormattingEnabled = true;
             sorgulamaEvCesidiBox.Items.AddRange(new object[] { "Daire", "Bahçeli", "Müstakil", "Dubleks", "Stüdyo", "Belirtilmemiş" });
-            sorgulamaEvCesidiBox.Location = new Point(453, 187);
+            sorgulamaEvCesidiBox.Location = new Point(596, 86);
             sorgulamaEvCesidiBox.Name = "sorgulamaEvCesidiBox";
             sorgulamaEvCesidiBox.Size = new Size(151, 28);
             sorgulamaEvCesidiBox.TabIndex = 54;
@@ -1115,7 +1109,7 @@
             // label33
             // 
             label33.AutoSize = true;
-            label33.Location = new Point(256, 142);
+            label33.Location = new Point(402, 145);
             label33.Name = "label33";
             label33.Size = new Size(71, 20);
             label33.TabIndex = 53;
@@ -1123,7 +1117,7 @@
             // 
             // sorgulamaMinAlanNumeric
             // 
-            sorgulamaMinAlanNumeric.Location = new Point(256, 165);
+            sorgulamaMinAlanNumeric.Location = new Point(402, 168);
             sorgulamaMinAlanNumeric.Name = "sorgulamaMinAlanNumeric";
             sorgulamaMinAlanNumeric.Size = new Size(150, 27);
             sorgulamaMinAlanNumeric.TabIndex = 52;
@@ -1132,7 +1126,7 @@
             // 
             label31.AutoSize = true;
             label31.ForeColor = Color.Black;
-            label31.Location = new Point(56, 209);
+            label31.Location = new Point(202, 212);
             label31.Name = "label31";
             label31.Size = new Size(46, 20);
             label31.TabIndex = 51;
@@ -1141,7 +1135,7 @@
             // sorgulamaSemtBox
             // 
             sorgulamaSemtBox.FormattingEnabled = true;
-            sorgulamaSemtBox.Location = new Point(56, 232);
+            sorgulamaSemtBox.Location = new Point(202, 235);
             sorgulamaSemtBox.Name = "sorgulamaSemtBox";
             sorgulamaSemtBox.Size = new Size(151, 28);
             sorgulamaSemtBox.TabIndex = 50;
@@ -1151,7 +1145,7 @@
             // 
             label32.AutoSize = true;
             label32.ForeColor = Color.Black;
-            label32.Location = new Point(56, 142);
+            label32.Location = new Point(202, 145);
             label32.Name = "label32";
             label32.Size = new Size(35, 20);
             label32.TabIndex = 49;
@@ -1161,36 +1155,16 @@
             // 
             sorgulamaIlceBox.FormattingEnabled = true;
             sorgulamaIlceBox.Items.AddRange(new object[] { "Fatih", "Beşiktaş", "Beyoğlu", "Üsküdar", "Kadıköy", "Sarıyer", "Şişli", "Zeytinburnu", "Eyüpsultan", "Bakırköy", "Kağıthane", "Maltepe", "Bayrampaşa", "Gaziosmanpaşa", "Sultangazi", "Bahçelievler", "Pendik", "Kartal" });
-            sorgulamaIlceBox.Location = new Point(56, 165);
+            sorgulamaIlceBox.Location = new Point(202, 168);
             sorgulamaIlceBox.Name = "sorgulamaIlceBox";
             sorgulamaIlceBox.Size = new Size(151, 28);
             sorgulamaIlceBox.TabIndex = 48;
             sorgulamaIlceBox.Text = "Farketmez";
             // 
-            // label30
-            // 
-            label30.AutoSize = true;
-            label30.ForeColor = Color.Black;
-            label30.Location = new Point(450, 59);
-            label30.Name = "label30";
-            label30.Size = new Size(115, 20);
-            label30.TabIndex = 47;
-            label30.Text = "Aktiflik Durumu:";
-            // 
-            // sorgulamaAktiflikBox
-            // 
-            sorgulamaAktiflikBox.FormattingEnabled = true;
-            sorgulamaAktiflikBox.Items.AddRange(new object[] { "Aktif", "Aktif değil" });
-            sorgulamaAktiflikBox.Location = new Point(450, 82);
-            sorgulamaAktiflikBox.Name = "sorgulamaAktiflikBox";
-            sorgulamaAktiflikBox.Size = new Size(151, 28);
-            sorgulamaAktiflikBox.TabIndex = 46;
-            sorgulamaAktiflikBox.Text = "Farketmez";
-            // 
             // label29
             // 
             label29.AutoSize = true;
-            label29.Location = new Point(259, 60);
+            label29.Location = new Point(405, 63);
             label29.Name = "label29";
             label29.Size = new Size(75, 20);
             label29.TabIndex = 3;
@@ -1198,7 +1172,7 @@
             // 
             // sorgulamaMaxFiyatNumeric
             // 
-            sorgulamaMaxFiyatNumeric.Location = new Point(259, 83);
+            sorgulamaMaxFiyatNumeric.Location = new Point(405, 86);
             sorgulamaMaxFiyatNumeric.Name = "sorgulamaMaxFiyatNumeric";
             sorgulamaMaxFiyatNumeric.Size = new Size(150, 27);
             sorgulamaMaxFiyatNumeric.TabIndex = 2;
@@ -1206,7 +1180,7 @@
             // label28
             // 
             label28.AutoSize = true;
-            label28.Location = new Point(56, 60);
+            label28.Location = new Point(202, 63);
             label28.Name = "label28";
             label28.Size = new Size(72, 20);
             label28.TabIndex = 1;
@@ -1214,10 +1188,50 @@
             // 
             // sorgulamaMinFiyatNumeric
             // 
-            sorgulamaMinFiyatNumeric.Location = new Point(56, 83);
+            sorgulamaMinFiyatNumeric.Location = new Point(202, 86);
             sorgulamaMinFiyatNumeric.Name = "sorgulamaMinFiyatNumeric";
             sorgulamaMinFiyatNumeric.Size = new Size(150, 27);
             sorgulamaMinFiyatNumeric.TabIndex = 0;
+            // 
+            // sorguSonucSayfasi
+            // 
+            sorguSonucSayfasi.BackColor = Color.Plum;
+            sorguSonucSayfasi.Controls.Add(button7);
+            sorguSonucSayfasi.Controls.Add(label37);
+            sorguSonucSayfasi.Controls.Add(sorguSonucPanel);
+            sorguSonucSayfasi.Location = new Point(164, 85);
+            sorguSonucSayfasi.Name = "sorguSonucSayfasi";
+            sorguSonucSayfasi.Size = new Size(992, 656);
+            sorguSonucSayfasi.TabIndex = 27;
+            // 
+            // button7
+            // 
+            button7.Location = new Point(16, 72);
+            button7.Name = "button7";
+            button7.Size = new Size(247, 29);
+            button7.TabIndex = 26;
+            button7.Text = "Aktif Olmayanları Göster";
+            button7.UseVisualStyleBackColor = true;
+            button7.Click += button7_Click;
+            // 
+            // label37
+            // 
+            label37.AutoSize = true;
+            label37.Font = new Font("Segoe UI", 20F, FontStyle.Regular, GraphicsUnit.Point);
+            label37.ForeColor = Color.White;
+            label37.Location = new Point(395, 20);
+            label37.Name = "label37";
+            label37.Size = new Size(229, 46);
+            label37.TabIndex = 25;
+            label37.Text = "Sorgu Sonucu";
+            // 
+            // sorguSonucPanel
+            // 
+            sorguSonucPanel.BackColor = Color.Gainsboro;
+            sorguSonucPanel.Location = new Point(16, 107);
+            sorguSonucPanel.Name = "sorguSonucPanel";
+            sorguSonucPanel.Size = new Size(960, 474);
+            sorguSonucPanel.TabIndex = 0;
             // 
             // Form1
             // 
@@ -1226,13 +1240,14 @@
             ClientSize = new Size(1193, 753);
             Controls.Add(navBarPanel);
             Controls.Add(headerPanel);
+            Controls.Add(hosGeldinizSayfasi);
+            Controls.Add(satilikEvlerSayfasi);
+            Controls.Add(sorguSonucSayfasi);
             Controls.Add(sorgulamaSayfasi);
             Controls.Add(kiralikEvlerSayfasi);
             Controls.Add(yeniKayitSayfasi);
             Controls.Add(duzenlemeSayfasi);
             Controls.Add(ayrintiSayfasi);
-            Controls.Add(hosGeldinizSayfasi);
-            Controls.Add(satilikEvlerSayfasi);
             Name = "Form1";
             Text = "Form1";
             headerPanel.ResumeLayout(false);
@@ -1279,6 +1294,8 @@
             ((System.ComponentModel.ISupportInitialize)sorgulamaMinAlanNumeric).EndInit();
             ((System.ComponentModel.ISupportInitialize)sorgulamaMaxFiyatNumeric).EndInit();
             ((System.ComponentModel.ISupportInitialize)sorgulamaMinFiyatNumeric).EndInit();
+            sorguSonucSayfasi.ResumeLayout(false);
+            sorguSonucSayfasi.PerformLayout();
             ResumeLayout(false);
         }
 
@@ -1356,7 +1373,6 @@
         private ComboBox duzenleAktiflikBox;
         private Panel hosGeldinizSayfasi;
         private Label hosGeldinizLabel;
-        private Panel panel2;
         private Button button4;
         private Panel satilikEvlerSayfasi;
         private Button button5;
@@ -1374,8 +1390,6 @@
         private ComboBox sorgulamaSemtBox;
         private Label label32;
         private ComboBox sorgulamaIlceBox;
-        private Label label30;
-        private ComboBox sorgulamaAktiflikBox;
         private Label label33;
         private NumericUpDown sorgulamaMinAlanNumeric;
         private Label label34;
@@ -1385,5 +1399,9 @@
         private Button sorgulaButton;
         private Label label36;
         private NumericUpDown sorgulamaOdaSayisiNumeric;
+        private Panel sorguSonucSayfasi;
+        private Button button7;
+        private Label label37;
+        private Panel sorguSonucPanel;
     }
 }

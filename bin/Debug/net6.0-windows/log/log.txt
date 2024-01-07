@@ -1,0 +1,2034 @@
+Yeni oluşturulan Evin oda sayisi: 2  11.12.2023 16:06:09
+Yeni oluşturulan Evin kat numarası: 3  11.12.2023 16:06:09
+Yeni oluşturulan Evin semti: Bebek  11.12.2023 16:06:09
+Yeni oluşturulan Evin ilçesi: Beşiktaş  11.12.2023 16:06:09
+Yeni oluşturulan Evin alani: 40  11.12.2023 16:06:09
+Yeni oluşturulan Evin yapim tarihi: 2000  11.12.2023 16:06:09
+Yeni oluşturulan Evin emlak numarasi: 100022  11.12.2023 16:06:09
+Yeni oluşturulan Evin ceşidi: Daire  11.12.2023 16:06:09
+Yeni oluşturulan Evin getiri orani: 0,07  11.12.2023 16:06:09
+Yeni oluşturulan Evin oda sayisi: 3  11.12.2023 16:06:53
+Yeni oluşturulan Evin kat numarası: 4  11.12.2023 16:06:53
+Yeni oluşturulan Evin semti: Cihangir  11.12.2023 16:06:53
+Yeni oluşturulan Evin ilçesi: Beşiktaş  11.12.2023 16:06:53
+Yeni oluşturulan Evin alani: 90  11.12.2023 16:06:53
+Yeni oluşturulan Evin yapim tarihi: 2003  11.12.2023 16:06:53
+Yeni oluşturulan Evin emlak numarasi: 100023  11.12.2023 16:06:53
+Yeni oluşturulan Evin ceşidi: Daire  11.12.2023 16:06:53
+Yeni oluşturulan Evin getiri orani: 0,06  11.12.2023 16:06:53
+Yeni oluşturulan Evin oda sayisi: 1  11.12.2023 16:07:22
+Yeni oluşturulan Evin kat numarası: 5  11.12.2023 16:07:22
+Yeni oluşturulan Evin semti: Fener  11.12.2023 16:07:22
+Yeni oluşturulan Evin ilçesi: Fatih  11.12.2023 16:07:22
+Yeni oluşturulan Evin alani: 90  11.12.2023 16:07:22
+Yeni oluşturulan Evin yapim tarihi: 2010  11.12.2023 16:07:22
+Yeni oluşturulan Evin emlak numarasi: 100555  11.12.2023 16:07:22
+Yeni oluşturulan Evin ceşidi: Stüdyo  11.12.2023 16:07:22
+Yeni oluşturulan Evin getiri orani: 0,06  11.12.2023 16:07:22
+Yeni oluşturulan Evin oda sayisi: 2  11.12.2023 16:07:55
+Yeni oluşturulan Evin kat numarası: 5  11.12.2023 16:07:55
+Yeni oluşturulan Evin semti: Vefa  11.12.2023 16:07:55
+Yeni oluşturulan Evin ilçesi: Fatih  11.12.2023 16:07:55
+Yeni oluşturulan Evin alani: 120  11.12.2023 16:07:55
+Yeni oluşturulan Evin yapim tarihi: 2014  11.12.2023 16:07:55
+Yeni oluşturulan Evin emlak numarasi: 100560  11.12.2023 16:07:55
+Yeni oluşturulan Evin ceşidi: Daire  11.12.2023 16:07:55
+Yeni oluşturulan Evin getiri orani: 0,06  11.12.2023 16:07:55
+Yeni oluşturulan Evin oda sayisi: 4  11.12.2023 16:08:45
+Yeni oluşturulan Evin kat numarası: 5  11.12.2023 16:08:45
+Yeni oluşturulan Evin semti: Beylerbeyi  11.12.2023 16:08:45
+Yeni oluşturulan Evin ilçesi: Üsküdar  11.12.2023 16:08:45
+Yeni oluşturulan Evin alani: 110  11.12.2023 16:08:45
+Yeni oluşturulan Evin yapim tarihi: 2009  11.12.2023 16:08:45
+Yeni oluşturulan Evin emlak numarasi: 409999  11.12.2023 16:08:45
+Yeni oluşturulan Evin ceşidi: Daire  11.12.2023 16:08:45
+Yeni oluşturulan Evin getiri orani: 0,12  11.12.2023 16:08:45
+Yeni oluşturulan Evin oda sayisi: 4  11.12.2023 16:09:32
+Yeni oluşturulan Evin kat numarası: 2  11.12.2023 16:09:32
+Yeni oluşturulan Evin semti: Çatalçeşme  11.12.2023 16:09:32
+Yeni oluşturulan Evin ilçesi: Kadıköy  11.12.2023 16:09:32
+Yeni oluşturulan Evin alani: 140  11.12.2023 16:09:32
+Yeni oluşturulan Evin yapim tarihi: 2004  11.12.2023 16:09:32
+Yeni oluşturulan Evin emlak numarasi: 609965  11.12.2023 16:09:32
+Yeni oluşturulan Evin ceşidi: Dubleks  11.12.2023 16:09:32
+Yeni oluşturulan Evin getiri orani: 0,1  11.12.2023 16:09:32
+Yeni oluşturulan Evin oda sayisi: 4  11.12.2023 16:09:42
+Yeni oluşturulan Evin kat numarası: 5  11.12.2023 16:09:42
+Yeni oluşturulan Evin semti: Beylerbeyi  11.12.2023 16:09:42
+Yeni oluşturulan Evin ilçesi: Üsküdar  11.12.2023 16:09:42
+Yeni oluşturulan Evin alani: 110  11.12.2023 16:09:42
+Yeni oluşturulan Evin ceşidi: Daire  11.12.2023 16:09:42
+Yeni oluşturulan Evin yapim tarihi: 2009  11.12.2023 16:09:42
+Yeni oluşturulan Evin emlak numarasi: 409999  11.12.2023 16:09:42
+Yeni oluşturulan Evin getiri orani: 0,12  11.12.2023 16:09:42
+Yeni oluşturulan Evin oda sayisi: 2  11.12.2023 16:09:42
+Yeni oluşturulan Evin kat numarası: 3  11.12.2023 16:09:42
+Yeni oluşturulan Evin semti: Bebek  11.12.2023 16:09:42
+Yeni oluşturulan Evin ilçesi: Beşiktaş  11.12.2023 16:09:42
+Yeni oluşturulan Evin alani: 40  11.12.2023 16:09:42
+Yeni oluşturulan Evin yapim tarihi: 2000  11.12.2023 16:09:42
+Yeni oluşturulan Evin emlak numarasi: 100022  11.12.2023 16:09:42
+Yeni oluşturulan Evin ceşidi: Daire  11.12.2023 16:09:42
+Yeni oluşturulan Evin getiri orani: 0,07  11.12.2023 16:09:42
+Yeni oluşturulan Evin oda sayisi: 3  11.12.2023 16:09:42
+Yeni oluşturulan Evin kat numarası: 4  11.12.2023 16:09:42
+Yeni oluşturulan Evin semti: Cihangir  11.12.2023 16:09:42
+Yeni oluşturulan Evin ilçesi: Beşiktaş  11.12.2023 16:09:42
+Yeni oluşturulan Evin alani: 90  11.12.2023 16:09:42
+Yeni oluşturulan Evin yapim tarihi: 2003  11.12.2023 16:09:42
+Yeni oluşturulan Evin emlak numarasi: 100023  11.12.2023 16:09:42
+Yeni oluşturulan Evin ceşidi: Daire  11.12.2023 16:09:42
+Yeni oluşturulan Evin getiri orani: 0,06  11.12.2023 16:09:42
+Yeni oluşturulan Evin oda sayisi: 1  11.12.2023 16:09:42
+Yeni oluşturulan Evin kat numarası: 5  11.12.2023 16:09:42
+Yeni oluşturulan Evin semti: Fener  11.12.2023 16:09:42
+Yeni oluşturulan Evin ilçesi: Fatih  11.12.2023 16:09:42
+Yeni oluşturulan Evin alani: 90  11.12.2023 16:09:42
+Yeni oluşturulan Evin yapim tarihi: 2010  11.12.2023 16:09:42
+Yeni oluşturulan Evin emlak numarasi: 100555  11.12.2023 16:09:42
+Yeni oluşturulan Evin ceşidi: Stüdyo  11.12.2023 16:09:42
+Yeni oluşturulan Evin getiri orani: 0,06  11.12.2023 16:09:42
+Yeni oluşturulan Evin oda sayisi: 2  11.12.2023 16:09:42
+Yeni oluşturulan Evin kat numarası: 5  11.12.2023 16:09:42
+Yeni oluşturulan Evin semti: Vefa  11.12.2023 16:09:42
+Yeni oluşturulan Evin ilçesi: Fatih  11.12.2023 16:09:42
+Yeni oluşturulan Evin alani: 120  11.12.2023 16:09:42
+Yeni oluşturulan Evin yapim tarihi: 2014  11.12.2023 16:09:42
+Yeni oluşturulan Evin emlak numarasi: 100560  11.12.2023 16:09:42
+Yeni oluşturulan Evin ceşidi: Daire  11.12.2023 16:09:42
+Yeni oluşturulan Evin getiri orani: 0,06  11.12.2023 16:09:42
+Yeni oluşturulan Evin oda sayisi: 4  11.12.2023 16:09:42
+Yeni oluşturulan Evin kat numarası: 5  11.12.2023 16:09:42
+Yeni oluşturulan Evin semti: Beylerbeyi  11.12.2023 16:09:42
+Yeni oluşturulan Evin ilçesi: Üsküdar  11.12.2023 16:09:42
+Yeni oluşturulan Evin alani: 110  11.12.2023 16:09:42
+Yeni oluşturulan Evin yapim tarihi: 2009  11.12.2023 16:09:42
+Yeni oluşturulan Evin emlak numarasi: 409999  11.12.2023 16:09:42
+Yeni oluşturulan Evin ceşidi: Daire  11.12.2023 16:09:42
+Yeni oluşturulan Evin getiri orani: 0,12  11.12.2023 16:09:42
+Yeni oluşturulan Evin oda sayisi: 4  11.12.2023 16:09:42
+Yeni oluşturulan Evin kat numarası: 2  11.12.2023 16:09:42
+Yeni oluşturulan Evin semti: Çatalçeşme  11.12.2023 16:09:42
+Yeni oluşturulan Evin ilçesi: Kadıköy  11.12.2023 16:09:42
+Yeni oluşturulan Evin alani: 140  11.12.2023 16:09:42
+Yeni oluşturulan Evin yapim tarihi: 2004  11.12.2023 16:09:42
+Yeni oluşturulan Evin emlak numarasi: 609965  11.12.2023 16:09:42
+Yeni oluşturulan Evin ceşidi: Dubleks  11.12.2023 16:09:42
+Yeni oluşturulan Evin getiri orani: 0,1  11.12.2023 16:09:42
+Yeni oluşturulan Evin oda sayisi: 3  11.12.2023 16:09:55
+Yeni oluşturulan Evin kat numarası: 4  11.12.2023 16:09:55
+Yeni oluşturulan Evin semti: Cihangir  11.12.2023 16:09:55
+Yeni oluşturulan Evin ilçesi: Beşiktaş  11.12.2023 16:09:55
+Yeni oluşturulan Evin alani: 90  11.12.2023 16:09:55
+Yeni oluşturulan Evin ceşidi: Daire  11.12.2023 16:09:55
+Yeni oluşturulan Evin yapim tarihi: 2003  11.12.2023 16:09:55
+Yeni oluşturulan Evin emlak numarasi: 100023  11.12.2023 16:09:55
+Yeni oluşturulan Evin getiri orani: 0,06  11.12.2023 16:09:56
+Yeni oluşturulan Evin oda sayisi: 2  11.12.2023 16:09:56
+Yeni oluşturulan Evin kat numarası: 3  11.12.2023 16:09:56
+Yeni oluşturulan Evin semti: Bebek  11.12.2023 16:09:56
+Yeni oluşturulan Evin ilçesi: Beşiktaş  11.12.2023 16:09:56
+Yeni oluşturulan Evin alani: 40  11.12.2023 16:09:56
+Yeni oluşturulan Evin yapim tarihi: 2000  11.12.2023 16:09:56
+Yeni oluşturulan Evin emlak numarasi: 100022  11.12.2023 16:09:56
+Yeni oluşturulan Evin ceşidi: Daire  11.12.2023 16:09:56
+Yeni oluşturulan Evin getiri orani: 0,07  11.12.2023 16:09:56
+Yeni oluşturulan Evin oda sayisi: 3  11.12.2023 16:09:56
+Yeni oluşturulan Evin kat numarası: 4  11.12.2023 16:09:56
+Yeni oluşturulan Evin semti: Cihangir  11.12.2023 16:09:56
+Yeni oluşturulan Evin ilçesi: Beşiktaş  11.12.2023 16:09:56
+Yeni oluşturulan Evin alani: 90  11.12.2023 16:09:56
+Yeni oluşturulan Evin yapim tarihi: 2003  11.12.2023 16:09:56
+Yeni oluşturulan Evin emlak numarasi: 100023  11.12.2023 16:09:56
+Yeni oluşturulan Evin ceşidi: Daire  11.12.2023 16:09:56
+Yeni oluşturulan Evin getiri orani: 0,06  11.12.2023 16:09:56
+Yeni oluşturulan Evin oda sayisi: 1  11.12.2023 16:09:56
+Yeni oluşturulan Evin kat numarası: 5  11.12.2023 16:09:56
+Yeni oluşturulan Evin semti: Fener  11.12.2023 16:09:56
+Yeni oluşturulan Evin ilçesi: Fatih  11.12.2023 16:09:56
+Yeni oluşturulan Evin alani: 90  11.12.2023 16:09:56
+Yeni oluşturulan Evin yapim tarihi: 2010  11.12.2023 16:09:56
+Yeni oluşturulan Evin emlak numarasi: 100555  11.12.2023 16:09:56
+Yeni oluşturulan Evin ceşidi: Stüdyo  11.12.2023 16:09:56
+Yeni oluşturulan Evin getiri orani: 0,06  11.12.2023 16:09:56
+Yeni oluşturulan Evin oda sayisi: 2  11.12.2023 16:09:56
+Yeni oluşturulan Evin kat numarası: 5  11.12.2023 16:09:56
+Yeni oluşturulan Evin semti: Vefa  11.12.2023 16:09:56
+Yeni oluşturulan Evin ilçesi: Fatih  11.12.2023 16:09:56
+Yeni oluşturulan Evin alani: 120  11.12.2023 16:09:56
+Yeni oluşturulan Evin yapim tarihi: 2014  11.12.2023 16:09:56
+Yeni oluşturulan Evin emlak numarasi: 100560  11.12.2023 16:09:56
+Yeni oluşturulan Evin ceşidi: Daire  11.12.2023 16:09:56
+Yeni oluşturulan Evin getiri orani: 0,06  11.12.2023 16:09:56
+Yeni oluşturulan Evin oda sayisi: 4  11.12.2023 16:09:56
+Yeni oluşturulan Evin kat numarası: 5  11.12.2023 16:09:56
+Yeni oluşturulan Evin semti: Beylerbeyi  11.12.2023 16:09:56
+Yeni oluşturulan Evin ilçesi: Üsküdar  11.12.2023 16:09:56
+Yeni oluşturulan Evin alani: 110  11.12.2023 16:09:56
+Yeni oluşturulan Evin yapim tarihi: 2009  11.12.2023 16:09:56
+Yeni oluşturulan Evin emlak numarasi: 409999  11.12.2023 16:09:56
+Yeni oluşturulan Evin ceşidi: Daire  11.12.2023 16:09:56
+Yeni oluşturulan Evin getiri orani: 0,12  11.12.2023 16:09:56
+Yeni oluşturulan Evin oda sayisi: 4  11.12.2023 16:09:56
+Yeni oluşturulan Evin kat numarası: 2  11.12.2023 16:09:56
+Yeni oluşturulan Evin semti: Çatalçeşme  11.12.2023 16:09:56
+Yeni oluşturulan Evin ilçesi: Kadıköy  11.12.2023 16:09:56
+Yeni oluşturulan Evin alani: 140  11.12.2023 16:09:56
+Yeni oluşturulan Evin yapim tarihi: 2004  11.12.2023 16:09:56
+Yeni oluşturulan Evin emlak numarasi: 609965  11.12.2023 16:09:56
+Yeni oluşturulan Evin ceşidi: Dubleks  11.12.2023 16:09:56
+Yeni oluşturulan Evin getiri orani: 0,1  11.12.2023 16:09:56
+Yeni oluşturulan Evin oda sayisi: 4  11.12.2023 16:10:43
+Yeni oluşturulan Evin kat numarası: 0  11.12.2023 16:10:43
+Yeni oluşturulan Evin semti: Merter  11.12.2023 16:10:43
+Yeni oluşturulan Evin ilçesi: Zeytinburnu  11.12.2023 16:10:43
+Yeni oluşturulan Evin alani: 240  11.12.2023 16:10:43
+Yeni oluşturulan Evin yapim tarihi: 2005  11.12.2023 16:10:43
+Yeni oluşturulan Evin emlak numarasi: 609777  11.12.2023 16:10:43
+Yeni oluşturulan Evin ceşidi: Bahçeli  11.12.2023 16:10:43
+Yeni oluşturulan Evin getiri orani: 0,1  11.12.2023 16:10:43
+Yeni oluşturulan Evin oda sayisi: 6  11.12.2023 16:11:16
+Yeni oluşturulan Evin kat numarası: 0  11.12.2023 16:11:16
+Yeni oluşturulan Evin semti: Akaretler  11.12.2023 16:11:16
+Yeni oluşturulan Evin ilçesi: Beşiktaş  11.12.2023 16:11:16
+Yeni oluşturulan Evin alani: 230  11.12.2023 16:11:16
+Yeni oluşturulan Evin yapim tarihi: 2022  11.12.2023 16:11:16
+Yeni oluşturulan Evin emlak numarasi: 609779  11.12.2023 16:11:16
+Yeni oluşturulan Evin ceşidi: Müstakil  11.12.2023 16:11:16
+Yeni oluşturulan Evin getiri orani: 0,08  11.12.2023 16:11:16
+Yeni oluşturulan Evin oda sayisi: 7  11.12.2023 16:12:16
+Yeni oluşturulan Evin kat numarası: 0  11.12.2023 16:12:16
+Yeni oluşturulan Evin semti: Beşyüzevler  11.12.2023 16:12:16
+Yeni oluşturulan Evin ilçesi: Bayrampaşa  11.12.2023 16:12:16
+Yeni oluşturulan Evin alani: 300  11.12.2023 16:12:16
+Yeni oluşturulan Evin yapim tarihi: 2014  11.12.2023 16:12:16
+Yeni oluşturulan Evin emlak numarasi: 609779  11.12.2023 16:12:16
+Yeni oluşturulan Evin ceşidi: Bahçeli  11.12.2023 16:12:16
+Yeni oluşturulan Evin getiri orani: 0,11  11.12.2023 16:12:16
+Yeni oluşturulan Evin oda sayisi: 7  11.12.2023 16:12:27
+Yeni oluşturulan Evin kat numarası: 0  11.12.2023 16:12:27
+Yeni oluşturulan Evin semti: Beşyüzevler  11.12.2023 16:12:27
+Yeni oluşturulan Evin ilçesi: Bayrampaşa  11.12.2023 16:12:27
+Yeni oluşturulan Evin alani: 300  11.12.2023 16:12:27
+Yeni oluşturulan Evin yapim tarihi: 2014  11.12.2023 16:12:27
+Yeni oluşturulan Evin emlak numarasi: 309713  11.12.2023 16:12:27
+Yeni oluşturulan Evin ceşidi: Bahçeli  11.12.2023 16:12:27
+Yeni oluşturulan Evin getiri orani: 0,11  11.12.2023 16:12:27
+Yeni oluşturulan Evin oda sayisi: 2  11.12.2023 16:13:46
+Yeni oluşturulan Evin kat numarası: 1  11.12.2023 16:13:46
+Yeni oluşturulan Evin semti: Ortaköy  11.12.2023 16:13:46
+Yeni oluşturulan Evin ilçesi: Beşiktaş  11.12.2023 16:13:46
+Yeni oluşturulan Evin alani: 130  11.12.2023 16:13:46
+Yeni oluşturulan Evin yapim tarihi: 2014  11.12.2023 16:13:46
+Yeni oluşturulan Evin emlak numarasi: 309712  11.12.2023 16:13:46
+Yeni oluşturulan Evin ceşidi: Stüdyo  11.12.2023 16:13:46
+Yeni oluşturulan Evin getiri orani: 0,15  11.12.2023 16:13:46
+Yeni oluşturulan Evin oda sayisi: 3  11.12.2023 16:14:24
+Yeni oluşturulan Evin kat numarası: 1  11.12.2023 16:14:24
+Yeni oluşturulan Evin semti: Keberburgaz  11.12.2023 16:14:24
+Yeni oluşturulan Evin ilçesi: Eyüpsultan  11.12.2023 16:14:24
+Yeni oluşturulan Evin alani: 190  11.12.2023 16:14:24
+Yeni oluşturulan Evin yapim tarihi: 2002  11.12.2023 16:14:24
+Yeni oluşturulan Evin emlak numarasi: 309444  11.12.2023 16:14:24
+Yeni oluşturulan Evin ceşidi: Belirtilmemiş  11.12.2023 16:14:24
+Yeni oluşturulan Evin getiri orani: 0,13  11.12.2023 16:14:24
+Yeni oluşturulan Evin oda sayisi: 4  11.12.2023 16:15:04
+Yeni oluşturulan Evin kat numarası: 0  11.12.2023 16:15:04
+Yeni oluşturulan Evin semti: Merter  11.12.2023 16:15:04
+Yeni oluşturulan Evin ilçesi: Zeytinburnu  11.12.2023 16:15:04
+Yeni oluşturulan Evin alani: 240  11.12.2023 16:15:04
+Yeni oluşturulan Evin ceşidi: Bahçeli  11.12.2023 16:15:04
+Yeni oluşturulan Evin yapim tarihi: 2005  11.12.2023 16:15:04
+Yeni oluşturulan Evin emlak numarasi: 609777  11.12.2023 16:15:04
+Yeni oluşturulan Evin getiri orani: 0,1  11.12.2023 16:15:04
+Yeni oluşturulan Evin oda sayisi: 2  11.12.2023 16:15:04
+Yeni oluşturulan Evin kat numarası: 3  11.12.2023 16:15:04
+Yeni oluşturulan Evin semti: Bebek  11.12.2023 16:15:04
+Yeni oluşturulan Evin ilçesi: Beşiktaş  11.12.2023 16:15:04
+Yeni oluşturulan Evin alani: 40  11.12.2023 16:15:04
+Yeni oluşturulan Evin yapim tarihi: 2000  11.12.2023 16:15:04
+Yeni oluşturulan Evin emlak numarasi: 100022  11.12.2023 16:15:04
+Yeni oluşturulan Evin ceşidi: Daire  11.12.2023 16:15:04
+Yeni oluşturulan Evin getiri orani: 0,07  11.12.2023 16:15:04
+Yeni oluşturulan Evin oda sayisi: 3  11.12.2023 16:15:04
+Yeni oluşturulan Evin kat numarası: 4  11.12.2023 16:15:04
+Yeni oluşturulan Evin semti: Cihangir  11.12.2023 16:15:04
+Yeni oluşturulan Evin ilçesi: Beşiktaş  11.12.2023 16:15:04
+Yeni oluşturulan Evin alani: 90  11.12.2023 16:15:04
+Yeni oluşturulan Evin yapim tarihi: 2003  11.12.2023 16:15:04
+Yeni oluşturulan Evin emlak numarasi: 100023  11.12.2023 16:15:04
+Yeni oluşturulan Evin ceşidi: Daire  11.12.2023 16:15:04
+Yeni oluşturulan Evin getiri orani: 0,06  11.12.2023 16:15:04
+Yeni oluşturulan Evin oda sayisi: 1  11.12.2023 16:15:04
+Yeni oluşturulan Evin kat numarası: 5  11.12.2023 16:15:04
+Yeni oluşturulan Evin semti: Fener  11.12.2023 16:15:04
+Yeni oluşturulan Evin ilçesi: Fatih  11.12.2023 16:15:04
+Yeni oluşturulan Evin alani: 90  11.12.2023 16:15:04
+Yeni oluşturulan Evin yapim tarihi: 2010  11.12.2023 16:15:04
+Yeni oluşturulan Evin emlak numarasi: 100555  11.12.2023 16:15:04
+Yeni oluşturulan Evin ceşidi: Stüdyo  11.12.2023 16:15:04
+Yeni oluşturulan Evin getiri orani: 0,06  11.12.2023 16:15:04
+Yeni oluşturulan Evin oda sayisi: 2  11.12.2023 16:15:04
+Yeni oluşturulan Evin kat numarası: 5  11.12.2023 16:15:04
+Yeni oluşturulan Evin semti: Vefa  11.12.2023 16:15:04
+Yeni oluşturulan Evin ilçesi: Fatih  11.12.2023 16:15:04
+Yeni oluşturulan Evin alani: 120  11.12.2023 16:15:04
+Yeni oluşturulan Evin yapim tarihi: 2014  11.12.2023 16:15:04
+Yeni oluşturulan Evin emlak numarasi: 100560  11.12.2023 16:15:04
+Yeni oluşturulan Evin ceşidi: Daire  11.12.2023 16:15:04
+Yeni oluşturulan Evin getiri orani: 0,06  11.12.2023 16:15:04
+Yeni oluşturulan Evin oda sayisi: 4  11.12.2023 16:15:04
+Yeni oluşturulan Evin kat numarası: 5  11.12.2023 16:15:04
+Yeni oluşturulan Evin semti: Beylerbeyi  11.12.2023 16:15:04
+Yeni oluşturulan Evin ilçesi: Üsküdar  11.12.2023 16:15:04
+Yeni oluşturulan Evin alani: 110  11.12.2023 16:15:04
+Yeni oluşturulan Evin yapim tarihi: 2009  11.12.2023 16:15:04
+Yeni oluşturulan Evin emlak numarasi: 409999  11.12.2023 16:15:04
+Yeni oluşturulan Evin ceşidi: Daire  11.12.2023 16:15:04
+Yeni oluşturulan Evin getiri orani: 0,12  11.12.2023 16:15:04
+Yeni oluşturulan Evin oda sayisi: 4  11.12.2023 16:15:04
+Yeni oluşturulan Evin kat numarası: 2  11.12.2023 16:15:04
+Yeni oluşturulan Evin semti: Çatalçeşme  11.12.2023 16:15:04
+Yeni oluşturulan Evin ilçesi: Kadıköy  11.12.2023 16:15:04
+Yeni oluşturulan Evin alani: 140  11.12.2023 16:15:04
+Yeni oluşturulan Evin yapim tarihi: 2004  11.12.2023 16:15:04
+Yeni oluşturulan Evin emlak numarasi: 609965  11.12.2023 16:15:04
+Yeni oluşturulan Evin ceşidi: Dubleks  11.12.2023 16:15:04
+Yeni oluşturulan Evin getiri orani: 0,1  11.12.2023 16:15:04
+Yeni oluşturulan Evin oda sayisi: 4  11.12.2023 16:15:04
+Yeni oluşturulan Evin kat numarası: 0  11.12.2023 16:15:04
+Yeni oluşturulan Evin semti: Merter  11.12.2023 16:15:04
+Yeni oluşturulan Evin ilçesi: Zeytinburnu  11.12.2023 16:15:04
+Yeni oluşturulan Evin alani: 240  11.12.2023 16:15:04
+Yeni oluşturulan Evin yapim tarihi: 2005  11.12.2023 16:15:04
+Yeni oluşturulan Evin emlak numarasi: 609777  11.12.2023 16:15:04
+Yeni oluşturulan Evin ceşidi: Bahçeli  11.12.2023 16:15:04
+Yeni oluşturulan Evin getiri orani: 0,1  11.12.2023 16:15:04
+Yeni oluşturulan Evin oda sayisi: 6  11.12.2023 16:15:04
+Yeni oluşturulan Evin kat numarası: 0  11.12.2023 16:15:04
+Yeni oluşturulan Evin semti: Akaretler  11.12.2023 16:15:04
+Yeni oluşturulan Evin ilçesi: Beşiktaş  11.12.2023 16:15:04
+Yeni oluşturulan Evin alani: 230  11.12.2023 16:15:04
+Yeni oluşturulan Evin yapim tarihi: 2022  11.12.2023 16:15:04
+Yeni oluşturulan Evin emlak numarasi: 609779  11.12.2023 16:15:04
+Yeni oluşturulan Evin ceşidi: Müstakil  11.12.2023 16:15:04
+Yeni oluşturulan Evin getiri orani: 0,08  11.12.2023 16:15:04
+Yeni oluşturulan Evin oda sayisi: 7  11.12.2023 16:15:04
+Yeni oluşturulan Evin kat numarası: 0  11.12.2023 16:15:04
+Yeni oluşturulan Evin semti: Beşyüzevler  11.12.2023 16:15:04
+Yeni oluşturulan Evin ilçesi: Bayrampaşa  11.12.2023 16:15:04
+Yeni oluşturulan Evin alani: 300  11.12.2023 16:15:04
+Yeni oluşturulan Evin yapim tarihi: 2014  11.12.2023 16:15:04
+Yeni oluşturulan Evin emlak numarasi: 309713  11.12.2023 16:15:04
+Yeni oluşturulan Evin ceşidi: Bahçeli  11.12.2023 16:15:04
+Yeni oluşturulan Evin getiri orani: 0,11  11.12.2023 16:15:04
+Yeni oluşturulan Evin oda sayisi: 2  11.12.2023 16:15:04
+Yeni oluşturulan Evin kat numarası: 1  11.12.2023 16:15:04
+Yeni oluşturulan Evin semti: Ortaköy  11.12.2023 16:15:04
+Yeni oluşturulan Evin ilçesi: Beşiktaş  11.12.2023 16:15:04
+Yeni oluşturulan Evin alani: 130  11.12.2023 16:15:04
+Yeni oluşturulan Evin yapim tarihi: 2014  11.12.2023 16:15:04
+Yeni oluşturulan Evin emlak numarasi: 309712  11.12.2023 16:15:04
+Yeni oluşturulan Evin ceşidi: Stüdyo  11.12.2023 16:15:04
+Yeni oluşturulan Evin getiri orani: 0,15  11.12.2023 16:15:04
+Yeni oluşturulan Evin oda sayisi: 3  11.12.2023 16:15:04
+Yeni oluşturulan Evin kat numarası: 1  11.12.2023 16:15:04
+Yeni oluşturulan Evin semti: Keberburgaz  11.12.2023 16:15:04
+Yeni oluşturulan Evin ilçesi: Eyüpsultan  11.12.2023 16:15:04
+Yeni oluşturulan Evin alani: 190  11.12.2023 16:15:04
+Yeni oluşturulan Evin yapim tarihi: 2002  11.12.2023 16:15:04
+Yeni oluşturulan Evin emlak numarasi: 309444  11.12.2023 16:15:04
+Yeni oluşturulan Evin ceşidi: Belirtilmemiş  11.12.2023 16:15:04
+Yeni oluşturulan Evin getiri orani: 0,13  11.12.2023 16:15:04
+Yeni oluşturulan Evin oda sayisi: 2  11.12.2023 16:16:00
+Yeni oluşturulan Evin kat numarası: 3  11.12.2023 16:16:00
+Yeni oluşturulan Evin semti: Bebek  11.12.2023 16:16:00
+Yeni oluşturulan Evin ilçesi: Beşiktaş  11.12.2023 16:16:00
+Yeni oluşturulan Evin alani: 41  11.12.2023 16:16:00
+Yeni oluşturulan Evin ceşidi: Daire  11.12.2023 16:16:00
+Yeni oluşturulan Evin yapim tarihi: 2000  11.12.2023 16:16:00
+Yeni oluşturulan Evin emlak numarasi: 100022  11.12.2023 16:16:00
+Yeni oluşturulan Evin getiri orani: 0,07  11.12.2023 16:16:00
+Yeni oluşturulan Evin oda sayisi: 2  11.12.2023 16:16:00
+Yeni oluşturulan Evin kat numarası: 3  11.12.2023 16:16:00
+Yeni oluşturulan Evin semti: Bebek  11.12.2023 16:16:00
+Yeni oluşturulan Evin ilçesi: Beşiktaş  11.12.2023 16:16:00
+Yeni oluşturulan Evin alani: 41  11.12.2023 16:16:00
+Yeni oluşturulan Evin yapim tarihi: 2000  11.12.2023 16:16:00
+Yeni oluşturulan Evin emlak numarasi: 100022  11.12.2023 16:16:00
+Yeni oluşturulan Evin ceşidi: Daire  11.12.2023 16:16:00
+Yeni oluşturulan Evin getiri orani: 0,07  11.12.2023 16:16:00
+Yeni oluşturulan Evin oda sayisi: 3  11.12.2023 16:16:00
+Yeni oluşturulan Evin kat numarası: 4  11.12.2023 16:16:00
+Yeni oluşturulan Evin semti: Cihangir  11.12.2023 16:16:00
+Yeni oluşturulan Evin ilçesi: Beşiktaş  11.12.2023 16:16:00
+Yeni oluşturulan Evin alani: 90  11.12.2023 16:16:00
+Yeni oluşturulan Evin yapim tarihi: 2003  11.12.2023 16:16:00
+Yeni oluşturulan Evin emlak numarasi: 100023  11.12.2023 16:16:00
+Yeni oluşturulan Evin ceşidi: Daire  11.12.2023 16:16:00
+Yeni oluşturulan Evin getiri orani: 0,06  11.12.2023 16:16:00
+Yeni oluşturulan Evin oda sayisi: 1  11.12.2023 16:16:00
+Yeni oluşturulan Evin kat numarası: 5  11.12.2023 16:16:00
+Yeni oluşturulan Evin semti: Fener  11.12.2023 16:16:00
+Yeni oluşturulan Evin ilçesi: Fatih  11.12.2023 16:16:00
+Yeni oluşturulan Evin alani: 90  11.12.2023 16:16:00
+Yeni oluşturulan Evin yapim tarihi: 2010  11.12.2023 16:16:00
+Yeni oluşturulan Evin emlak numarasi: 100555  11.12.2023 16:16:00
+Yeni oluşturulan Evin ceşidi: Stüdyo  11.12.2023 16:16:00
+Yeni oluşturulan Evin getiri orani: 0,06  11.12.2023 16:16:00
+Yeni oluşturulan Evin oda sayisi: 2  11.12.2023 16:16:00
+Yeni oluşturulan Evin kat numarası: 5  11.12.2023 16:16:00
+Yeni oluşturulan Evin semti: Vefa  11.12.2023 16:16:00
+Yeni oluşturulan Evin ilçesi: Fatih  11.12.2023 16:16:00
+Yeni oluşturulan Evin alani: 120  11.12.2023 16:16:00
+Yeni oluşturulan Evin yapim tarihi: 2014  11.12.2023 16:16:00
+Yeni oluşturulan Evin emlak numarasi: 100560  11.12.2023 16:16:00
+Yeni oluşturulan Evin ceşidi: Daire  11.12.2023 16:16:00
+Yeni oluşturulan Evin getiri orani: 0,06  11.12.2023 16:16:00
+Yeni oluşturulan Evin oda sayisi: 4  11.12.2023 16:16:00
+Yeni oluşturulan Evin kat numarası: 5  11.12.2023 16:16:00
+Yeni oluşturulan Evin semti: Beylerbeyi  11.12.2023 16:16:00
+Yeni oluşturulan Evin ilçesi: Üsküdar  11.12.2023 16:16:00
+Yeni oluşturulan Evin alani: 110  11.12.2023 16:16:00
+Yeni oluşturulan Evin yapim tarihi: 2009  11.12.2023 16:16:00
+Yeni oluşturulan Evin emlak numarasi: 409999  11.12.2023 16:16:00
+Yeni oluşturulan Evin ceşidi: Daire  11.12.2023 16:16:00
+Yeni oluşturulan Evin getiri orani: 0,12  11.12.2023 16:16:00
+Yeni oluşturulan Evin oda sayisi: 4  11.12.2023 16:16:00
+Yeni oluşturulan Evin kat numarası: 2  11.12.2023 16:16:00
+Yeni oluşturulan Evin semti: Çatalçeşme  11.12.2023 16:16:00
+Yeni oluşturulan Evin ilçesi: Kadıköy  11.12.2023 16:16:00
+Yeni oluşturulan Evin alani: 140  11.12.2023 16:16:00
+Yeni oluşturulan Evin yapim tarihi: 2004  11.12.2023 16:16:00
+Yeni oluşturulan Evin emlak numarasi: 609965  11.12.2023 16:16:00
+Yeni oluşturulan Evin ceşidi: Dubleks  11.12.2023 16:16:00
+Yeni oluşturulan Evin getiri orani: 0,1  11.12.2023 16:16:00
+Yeni oluşturulan Evin oda sayisi: 4  11.12.2023 16:16:00
+Yeni oluşturulan Evin kat numarası: 0  11.12.2023 16:16:00
+Yeni oluşturulan Evin semti: Merter  11.12.2023 16:16:00
+Yeni oluşturulan Evin ilçesi: Zeytinburnu  11.12.2023 16:16:00
+Yeni oluşturulan Evin alani: 240  11.12.2023 16:16:00
+Yeni oluşturulan Evin yapim tarihi: 2005  11.12.2023 16:16:00
+Yeni oluşturulan Evin emlak numarasi: 609777  11.12.2023 16:16:00
+Yeni oluşturulan Evin ceşidi: Bahçeli  11.12.2023 16:16:00
+Yeni oluşturulan Evin getiri orani: 0,1  11.12.2023 16:16:00
+Yeni oluşturulan Evin oda sayisi: 6  11.12.2023 16:16:00
+Yeni oluşturulan Evin kat numarası: 0  11.12.2023 16:16:00
+Yeni oluşturulan Evin semti: Akaretler  11.12.2023 16:16:00
+Yeni oluşturulan Evin ilçesi: Beşiktaş  11.12.2023 16:16:00
+Yeni oluşturulan Evin alani: 230  11.12.2023 16:16:00
+Yeni oluşturulan Evin yapim tarihi: 2022  11.12.2023 16:16:00
+Yeni oluşturulan Evin emlak numarasi: 609779  11.12.2023 16:16:00
+Yeni oluşturulan Evin ceşidi: Müstakil  11.12.2023 16:16:00
+Yeni oluşturulan Evin getiri orani: 0,08  11.12.2023 16:16:00
+Yeni oluşturulan Evin oda sayisi: 7  11.12.2023 16:16:00
+Yeni oluşturulan Evin kat numarası: 0  11.12.2023 16:16:00
+Yeni oluşturulan Evin semti: Beşyüzevler  11.12.2023 16:16:00
+Yeni oluşturulan Evin ilçesi: Bayrampaşa  11.12.2023 16:16:00
+Yeni oluşturulan Evin alani: 300  11.12.2023 16:16:00
+Yeni oluşturulan Evin yapim tarihi: 2014  11.12.2023 16:16:00
+Yeni oluşturulan Evin emlak numarasi: 309713  11.12.2023 16:16:00
+Yeni oluşturulan Evin ceşidi: Bahçeli  11.12.2023 16:16:00
+Yeni oluşturulan Evin getiri orani: 0,11  11.12.2023 16:16:00
+Yeni oluşturulan Evin oda sayisi: 2  11.12.2023 16:16:00
+Yeni oluşturulan Evin kat numarası: 1  11.12.2023 16:16:00
+Yeni oluşturulan Evin semti: Ortaköy  11.12.2023 16:16:00
+Yeni oluşturulan Evin ilçesi: Beşiktaş  11.12.2023 16:16:00
+Yeni oluşturulan Evin alani: 130  11.12.2023 16:16:00
+Yeni oluşturulan Evin yapim tarihi: 2014  11.12.2023 16:16:00
+Yeni oluşturulan Evin emlak numarasi: 309712  11.12.2023 16:16:00
+Yeni oluşturulan Evin ceşidi: Stüdyo  11.12.2023 16:16:00
+Yeni oluşturulan Evin getiri orani: 0,15  11.12.2023 16:16:00
+Yeni oluşturulan Evin oda sayisi: 3  11.12.2023 16:16:00
+Yeni oluşturulan Evin kat numarası: 1  11.12.2023 16:16:00
+Yeni oluşturulan Evin semti: Keberburgaz  11.12.2023 16:16:00
+Yeni oluşturulan Evin ilçesi: Eyüpsultan  11.12.2023 16:16:00
+Yeni oluşturulan Evin alani: 190  11.12.2023 16:16:00
+Yeni oluşturulan Evin yapim tarihi: 2002  11.12.2023 16:16:00
+Yeni oluşturulan Evin emlak numarasi: 309444  11.12.2023 16:16:00
+Yeni oluşturulan Evin ceşidi: Belirtilmemiş  11.12.2023 16:16:00
+Yeni oluşturulan Evin getiri orani: 0,13  11.12.2023 16:16:00
+Yeni oluşturulan Evin oda sayisi: 2  11.12.2023 16:18:52
+Yeni oluşturulan Evin kat numarası: 3  11.12.2023 16:18:52
+Yeni oluşturulan Evin semti: Bebek  11.12.2023 16:18:52
+Yeni oluşturulan Evin ilçesi: Beşiktaş  11.12.2023 16:18:52
+Yeni oluşturulan Evin alani: 41  11.12.2023 16:18:52
+Yeni oluşturulan Evin yapim tarihi: 2000  11.12.2023 16:18:52
+Yeni oluşturulan Evin emlak numarasi: 100022  11.12.2023 16:18:52
+Yeni oluşturulan Evin ceşidi: Daire  11.12.2023 16:18:52
+Yeni oluşturulan Evin getiri orani: 0,07  11.12.2023 16:18:52
+Yeni oluşturulan Evin oda sayisi: 3  11.12.2023 16:18:52
+Yeni oluşturulan Evin kat numarası: 4  11.12.2023 16:18:52
+Yeni oluşturulan Evin semti: Cihangir  11.12.2023 16:18:52
+Yeni oluşturulan Evin ilçesi: Beşiktaş  11.12.2023 16:18:52
+Yeni oluşturulan Evin alani: 90  11.12.2023 16:18:52
+Yeni oluşturulan Evin yapim tarihi: 2003  11.12.2023 16:18:52
+Yeni oluşturulan Evin emlak numarasi: 100023  11.12.2023 16:18:52
+Yeni oluşturulan Evin ceşidi: Daire  11.12.2023 16:18:52
+Yeni oluşturulan Evin getiri orani: 0,06  11.12.2023 16:18:52
+Yeni oluşturulan Evin oda sayisi: 1  11.12.2023 16:18:52
+Yeni oluşturulan Evin kat numarası: 5  11.12.2023 16:18:52
+Yeni oluşturulan Evin semti: Fener  11.12.2023 16:18:52
+Yeni oluşturulan Evin ilçesi: Fatih  11.12.2023 16:18:52
+Yeni oluşturulan Evin alani: 90  11.12.2023 16:18:52
+Yeni oluşturulan Evin yapim tarihi: 2010  11.12.2023 16:18:52
+Yeni oluşturulan Evin emlak numarasi: 100555  11.12.2023 16:18:52
+Yeni oluşturulan Evin ceşidi: Stüdyo  11.12.2023 16:18:52
+Yeni oluşturulan Evin getiri orani: 0,06  11.12.2023 16:18:52
+Yeni oluşturulan Evin oda sayisi: 2  11.12.2023 16:18:52
+Yeni oluşturulan Evin kat numarası: 5  11.12.2023 16:18:52
+Yeni oluşturulan Evin semti: Vefa  11.12.2023 16:18:52
+Yeni oluşturulan Evin ilçesi: Fatih  11.12.2023 16:18:52
+Yeni oluşturulan Evin alani: 120  11.12.2023 16:18:52
+Yeni oluşturulan Evin yapim tarihi: 2014  11.12.2023 16:18:52
+Yeni oluşturulan Evin emlak numarasi: 100560  11.12.2023 16:18:52
+Yeni oluşturulan Evin ceşidi: Daire  11.12.2023 16:18:52
+Yeni oluşturulan Evin getiri orani: 0,06  11.12.2023 16:18:52
+Yeni oluşturulan Evin oda sayisi: 4  11.12.2023 16:18:52
+Yeni oluşturulan Evin kat numarası: 5  11.12.2023 16:18:52
+Yeni oluşturulan Evin semti: Beylerbeyi  11.12.2023 16:18:52
+Yeni oluşturulan Evin ilçesi: Üsküdar  11.12.2023 16:18:52
+Yeni oluşturulan Evin alani: 110  11.12.2023 16:18:52
+Yeni oluşturulan Evin yapim tarihi: 2009  11.12.2023 16:18:52
+Yeni oluşturulan Evin emlak numarasi: 409999  11.12.2023 16:18:52
+Yeni oluşturulan Evin ceşidi: Daire  11.12.2023 16:18:52
+Yeni oluşturulan Evin getiri orani: 0,12  11.12.2023 16:18:52
+Yeni oluşturulan Evin oda sayisi: 4  11.12.2023 16:18:52
+Yeni oluşturulan Evin kat numarası: 2  11.12.2023 16:18:52
+Yeni oluşturulan Evin semti: Çatalçeşme  11.12.2023 16:18:52
+Yeni oluşturulan Evin ilçesi: Kadıköy  11.12.2023 16:18:52
+Yeni oluşturulan Evin alani: 140  11.12.2023 16:18:52
+Yeni oluşturulan Evin yapim tarihi: 2004  11.12.2023 16:18:52
+Yeni oluşturulan Evin emlak numarasi: 609965  11.12.2023 16:18:52
+Yeni oluşturulan Evin ceşidi: Dubleks  11.12.2023 16:18:52
+Yeni oluşturulan Evin getiri orani: 0,1  11.12.2023 16:18:52
+Yeni oluşturulan Evin oda sayisi: 4  11.12.2023 16:18:52
+Yeni oluşturulan Evin kat numarası: 0  11.12.2023 16:18:52
+Yeni oluşturulan Evin semti: Merter  11.12.2023 16:18:52
+Yeni oluşturulan Evin ilçesi: Zeytinburnu  11.12.2023 16:18:52
+Yeni oluşturulan Evin alani: 240  11.12.2023 16:18:52
+Yeni oluşturulan Evin yapim tarihi: 2005  11.12.2023 16:18:52
+Yeni oluşturulan Evin emlak numarasi: 609777  11.12.2023 16:18:52
+Yeni oluşturulan Evin ceşidi: Bahçeli  11.12.2023 16:18:52
+Yeni oluşturulan Evin getiri orani: 0,1  11.12.2023 16:18:52
+Yeni oluşturulan Evin oda sayisi: 6  11.12.2023 16:18:52
+Yeni oluşturulan Evin kat numarası: 0  11.12.2023 16:18:52
+Yeni oluşturulan Evin semti: Akaretler  11.12.2023 16:18:52
+Yeni oluşturulan Evin ilçesi: Beşiktaş  11.12.2023 16:18:52
+Yeni oluşturulan Evin alani: 230  11.12.2023 16:18:52
+Yeni oluşturulan Evin yapim tarihi: 2022  11.12.2023 16:18:52
+Yeni oluşturulan Evin emlak numarasi: 609779  11.12.2023 16:18:52
+Yeni oluşturulan Evin ceşidi: Müstakil  11.12.2023 16:18:52
+Yeni oluşturulan Evin getiri orani: 0,08  11.12.2023 16:18:52
+Yeni oluşturulan Evin oda sayisi: 7  11.12.2023 16:18:52
+Yeni oluşturulan Evin kat numarası: 0  11.12.2023 16:18:52
+Yeni oluşturulan Evin semti: Beşyüzevler  11.12.2023 16:18:52
+Yeni oluşturulan Evin ilçesi: Bayrampaşa  11.12.2023 16:18:52
+Yeni oluşturulan Evin alani: 300  11.12.2023 16:18:52
+Yeni oluşturulan Evin yapim tarihi: 2014  11.12.2023 16:18:52
+Yeni oluşturulan Evin emlak numarasi: 309713  11.12.2023 16:18:52
+Yeni oluşturulan Evin ceşidi: Bahçeli  11.12.2023 16:18:52
+Yeni oluşturulan Evin getiri orani: 0,11  11.12.2023 16:18:52
+Yeni oluşturulan Evin oda sayisi: 2  11.12.2023 16:18:52
+Yeni oluşturulan Evin kat numarası: 1  11.12.2023 16:18:52
+Yeni oluşturulan Evin semti: Ortaköy  11.12.2023 16:18:52
+Yeni oluşturulan Evin ilçesi: Beşiktaş  11.12.2023 16:18:52
+Yeni oluşturulan Evin alani: 130  11.12.2023 16:18:52
+Yeni oluşturulan Evin yapim tarihi: 2014  11.12.2023 16:18:52
+Yeni oluşturulan Evin emlak numarasi: 309712  11.12.2023 16:18:52
+Yeni oluşturulan Evin ceşidi: Stüdyo  11.12.2023 16:18:52
+Yeni oluşturulan Evin getiri orani: 0,15  11.12.2023 16:18:52
+Yeni oluşturulan Evin oda sayisi: 3  11.12.2023 16:18:52
+Yeni oluşturulan Evin kat numarası: 1  11.12.2023 16:18:52
+Yeni oluşturulan Evin semti: Keberburgaz  11.12.2023 16:18:52
+Yeni oluşturulan Evin ilçesi: Eyüpsultan  11.12.2023 16:18:52
+Yeni oluşturulan Evin alani: 190  11.12.2023 16:18:52
+Yeni oluşturulan Evin yapim tarihi: 2002  11.12.2023 16:18:52
+Yeni oluşturulan Evin emlak numarasi: 309444  11.12.2023 16:18:52
+Yeni oluşturulan Evin ceşidi: Belirtilmemiş  11.12.2023 16:18:52
+Yeni oluşturulan Evin getiri orani: 0,13  11.12.2023 16:18:52
+Yeni oluşturulan Evin oda sayisi: 6  11.12.2023 16:19:12
+Yeni oluşturulan Evin kat numarası: 0  11.12.2023 16:19:12
+Yeni oluşturulan Evin semti: Akaretler  11.12.2023 16:19:12
+Yeni oluşturulan Evin ilçesi: Beşiktaş  11.12.2023 16:19:12
+Yeni oluşturulan Evin alani: 231  11.12.2023 16:19:12
+Yeni oluşturulan Evin ceşidi: Müstakil  11.12.2023 16:19:12
+Yeni oluşturulan Evin yapim tarihi: 2022  11.12.2023 16:19:12
+Yeni oluşturulan Evin emlak numarasi: 609779  11.12.2023 16:19:12
+Yeni oluşturulan Evin getiri orani: 0,08  11.12.2023 16:19:12
+Yeni oluşturulan Evin oda sayisi: 2  11.12.2023 16:19:12
+Yeni oluşturulan Evin kat numarası: 3  11.12.2023 16:19:12
+Yeni oluşturulan Evin semti: Bebek  11.12.2023 16:19:12
+Yeni oluşturulan Evin ilçesi: Beşiktaş  11.12.2023 16:19:12
+Yeni oluşturulan Evin alani: 41  11.12.2023 16:19:12
+Yeni oluşturulan Evin yapim tarihi: 2000  11.12.2023 16:19:12
+Yeni oluşturulan Evin emlak numarasi: 100022  11.12.2023 16:19:12
+Yeni oluşturulan Evin ceşidi: Daire  11.12.2023 16:19:12
+Yeni oluşturulan Evin getiri orani: 0,07  11.12.2023 16:19:12
+Yeni oluşturulan Evin oda sayisi: 3  11.12.2023 16:19:12
+Yeni oluşturulan Evin kat numarası: 4  11.12.2023 16:19:12
+Yeni oluşturulan Evin semti: Cihangir  11.12.2023 16:19:12
+Yeni oluşturulan Evin ilçesi: Beşiktaş  11.12.2023 16:19:12
+Yeni oluşturulan Evin alani: 90  11.12.2023 16:19:12
+Yeni oluşturulan Evin yapim tarihi: 2003  11.12.2023 16:19:12
+Yeni oluşturulan Evin emlak numarasi: 100023  11.12.2023 16:19:12
+Yeni oluşturulan Evin ceşidi: Daire  11.12.2023 16:19:12
+Yeni oluşturulan Evin getiri orani: 0,06  11.12.2023 16:19:12
+Yeni oluşturulan Evin oda sayisi: 1  11.12.2023 16:19:12
+Yeni oluşturulan Evin kat numarası: 5  11.12.2023 16:19:12
+Yeni oluşturulan Evin semti: Fener  11.12.2023 16:19:12
+Yeni oluşturulan Evin ilçesi: Fatih  11.12.2023 16:19:12
+Yeni oluşturulan Evin alani: 90  11.12.2023 16:19:12
+Yeni oluşturulan Evin yapim tarihi: 2010  11.12.2023 16:19:12
+Yeni oluşturulan Evin emlak numarasi: 100555  11.12.2023 16:19:12
+Yeni oluşturulan Evin ceşidi: Stüdyo  11.12.2023 16:19:12
+Yeni oluşturulan Evin getiri orani: 0,06  11.12.2023 16:19:12
+Yeni oluşturulan Evin oda sayisi: 2  11.12.2023 16:19:12
+Yeni oluşturulan Evin kat numarası: 5  11.12.2023 16:19:12
+Yeni oluşturulan Evin semti: Vefa  11.12.2023 16:19:12
+Yeni oluşturulan Evin ilçesi: Fatih  11.12.2023 16:19:12
+Yeni oluşturulan Evin alani: 120  11.12.2023 16:19:12
+Yeni oluşturulan Evin yapim tarihi: 2014  11.12.2023 16:19:12
+Yeni oluşturulan Evin emlak numarasi: 100560  11.12.2023 16:19:12
+Yeni oluşturulan Evin ceşidi: Daire  11.12.2023 16:19:12
+Yeni oluşturulan Evin getiri orani: 0,06  11.12.2023 16:19:12
+Yeni oluşturulan Evin oda sayisi: 4  11.12.2023 16:19:12
+Yeni oluşturulan Evin kat numarası: 5  11.12.2023 16:19:12
+Yeni oluşturulan Evin semti: Beylerbeyi  11.12.2023 16:19:12
+Yeni oluşturulan Evin ilçesi: Üsküdar  11.12.2023 16:19:12
+Yeni oluşturulan Evin alani: 110  11.12.2023 16:19:12
+Yeni oluşturulan Evin yapim tarihi: 2009  11.12.2023 16:19:12
+Yeni oluşturulan Evin emlak numarasi: 409999  11.12.2023 16:19:12
+Yeni oluşturulan Evin ceşidi: Daire  11.12.2023 16:19:12
+Yeni oluşturulan Evin getiri orani: 0,12  11.12.2023 16:19:12
+Yeni oluşturulan Evin oda sayisi: 4  11.12.2023 16:19:12
+Yeni oluşturulan Evin kat numarası: 2  11.12.2023 16:19:12
+Yeni oluşturulan Evin semti: Çatalçeşme  11.12.2023 16:19:12
+Yeni oluşturulan Evin ilçesi: Kadıköy  11.12.2023 16:19:12
+Yeni oluşturulan Evin alani: 140  11.12.2023 16:19:12
+Yeni oluşturulan Evin yapim tarihi: 2004  11.12.2023 16:19:12
+Yeni oluşturulan Evin emlak numarasi: 609965  11.12.2023 16:19:12
+Yeni oluşturulan Evin ceşidi: Dubleks  11.12.2023 16:19:12
+Yeni oluşturulan Evin getiri orani: 0,1  11.12.2023 16:19:12
+Yeni oluşturulan Evin oda sayisi: 4  11.12.2023 16:19:12
+Yeni oluşturulan Evin kat numarası: 0  11.12.2023 16:19:12
+Yeni oluşturulan Evin semti: Merter  11.12.2023 16:19:12
+Yeni oluşturulan Evin ilçesi: Zeytinburnu  11.12.2023 16:19:12
+Yeni oluşturulan Evin alani: 240  11.12.2023 16:19:12
+Yeni oluşturulan Evin yapim tarihi: 2005  11.12.2023 16:19:12
+Yeni oluşturulan Evin emlak numarasi: 609777  11.12.2023 16:19:12
+Yeni oluşturulan Evin ceşidi: Bahçeli  11.12.2023 16:19:12
+Yeni oluşturulan Evin getiri orani: 0,1  11.12.2023 16:19:12
+Yeni oluşturulan Evin oda sayisi: 6  11.12.2023 16:19:12
+Yeni oluşturulan Evin kat numarası: 0  11.12.2023 16:19:12
+Yeni oluşturulan Evin semti: Akaretler  11.12.2023 16:19:12
+Yeni oluşturulan Evin ilçesi: Beşiktaş  11.12.2023 16:19:12
+Yeni oluşturulan Evin alani: 231  11.12.2023 16:19:12
+Yeni oluşturulan Evin yapim tarihi: 2022  11.12.2023 16:19:12
+Yeni oluşturulan Evin emlak numarasi: 609779  11.12.2023 16:19:12
+Yeni oluşturulan Evin ceşidi: Müstakil  11.12.2023 16:19:12
+Yeni oluşturulan Evin getiri orani: 0,08  11.12.2023 16:19:12
+Yeni oluşturulan Evin oda sayisi: 7  11.12.2023 16:19:12
+Yeni oluşturulan Evin kat numarası: 0  11.12.2023 16:19:12
+Yeni oluşturulan Evin semti: Beşyüzevler  11.12.2023 16:19:12
+Yeni oluşturulan Evin ilçesi: Bayrampaşa  11.12.2023 16:19:12
+Yeni oluşturulan Evin alani: 300  11.12.2023 16:19:12
+Yeni oluşturulan Evin yapim tarihi: 2014  11.12.2023 16:19:12
+Yeni oluşturulan Evin emlak numarasi: 309713  11.12.2023 16:19:12
+Yeni oluşturulan Evin ceşidi: Bahçeli  11.12.2023 16:19:12
+Yeni oluşturulan Evin getiri orani: 0,11  11.12.2023 16:19:12
+Yeni oluşturulan Evin oda sayisi: 2  11.12.2023 16:19:12
+Yeni oluşturulan Evin kat numarası: 1  11.12.2023 16:19:12
+Yeni oluşturulan Evin semti: Ortaköy  11.12.2023 16:19:12
+Yeni oluşturulan Evin ilçesi: Beşiktaş  11.12.2023 16:19:12
+Yeni oluşturulan Evin alani: 130  11.12.2023 16:19:12
+Yeni oluşturulan Evin yapim tarihi: 2014  11.12.2023 16:19:12
+Yeni oluşturulan Evin emlak numarasi: 309712  11.12.2023 16:19:12
+Yeni oluşturulan Evin ceşidi: Stüdyo  11.12.2023 16:19:12
+Yeni oluşturulan Evin getiri orani: 0,15  11.12.2023 16:19:12
+Yeni oluşturulan Evin oda sayisi: 3  11.12.2023 16:19:12
+Yeni oluşturulan Evin kat numarası: 1  11.12.2023 16:19:12
+Yeni oluşturulan Evin semti: Keberburgaz  11.12.2023 16:19:12
+Yeni oluşturulan Evin ilçesi: Eyüpsultan  11.12.2023 16:19:12
+Yeni oluşturulan Evin alani: 190  11.12.2023 16:19:12
+Yeni oluşturulan Evin yapim tarihi: 2002  11.12.2023 16:19:12
+Yeni oluşturulan Evin emlak numarasi: 309444  11.12.2023 16:19:12
+Yeni oluşturulan Evin ceşidi: Belirtilmemiş  11.12.2023 16:19:12
+Yeni oluşturulan Evin getiri orani: 0,13  11.12.2023 16:19:12
+Yeni oluşturulan Evin oda sayisi: 1  11.12.2023 16:19:23
+Yeni oluşturulan Evin kat numarası: 5  11.12.2023 16:19:23
+Yeni oluşturulan Evin semti: Fener  11.12.2023 16:19:23
+Yeni oluşturulan Evin ilçesi: Fatih  11.12.2023 16:19:23
+Yeni oluşturulan Evin alani: 91  11.12.2023 16:19:23
+Yeni oluşturulan Evin ceşidi: Stüdyo  11.12.2023 16:19:23
+Yeni oluşturulan Evin yapim tarihi: 2010  11.12.2023 16:19:23
+Yeni oluşturulan Evin emlak numarasi: 100555  11.12.2023 16:19:23
+Yeni oluşturulan Evin getiri orani: 0,06  11.12.2023 16:19:23
+Yeni oluşturulan Evin oda sayisi: 2  11.12.2023 16:19:23
+Yeni oluşturulan Evin kat numarası: 3  11.12.2023 16:19:23
+Yeni oluşturulan Evin semti: Bebek  11.12.2023 16:19:23
+Yeni oluşturulan Evin ilçesi: Beşiktaş  11.12.2023 16:19:23
+Yeni oluşturulan Evin alani: 41  11.12.2023 16:19:23
+Yeni oluşturulan Evin yapim tarihi: 2000  11.12.2023 16:19:23
+Yeni oluşturulan Evin emlak numarasi: 100022  11.12.2023 16:19:23
+Yeni oluşturulan Evin ceşidi: Daire  11.12.2023 16:19:23
+Yeni oluşturulan Evin getiri orani: 0,07  11.12.2023 16:19:23
+Yeni oluşturulan Evin oda sayisi: 3  11.12.2023 16:19:23
+Yeni oluşturulan Evin kat numarası: 4  11.12.2023 16:19:23
+Yeni oluşturulan Evin semti: Cihangir  11.12.2023 16:19:23
+Yeni oluşturulan Evin ilçesi: Beşiktaş  11.12.2023 16:19:23
+Yeni oluşturulan Evin alani: 90  11.12.2023 16:19:23
+Yeni oluşturulan Evin yapim tarihi: 2003  11.12.2023 16:19:23
+Yeni oluşturulan Evin emlak numarasi: 100023  11.12.2023 16:19:23
+Yeni oluşturulan Evin ceşidi: Daire  11.12.2023 16:19:23
+Yeni oluşturulan Evin getiri orani: 0,06  11.12.2023 16:19:23
+Yeni oluşturulan Evin oda sayisi: 1  11.12.2023 16:19:23
+Yeni oluşturulan Evin kat numarası: 5  11.12.2023 16:19:23
+Yeni oluşturulan Evin semti: Fener  11.12.2023 16:19:23
+Yeni oluşturulan Evin ilçesi: Fatih  11.12.2023 16:19:23
+Yeni oluşturulan Evin alani: 91  11.12.2023 16:19:23
+Yeni oluşturulan Evin yapim tarihi: 2010  11.12.2023 16:19:23
+Yeni oluşturulan Evin emlak numarasi: 100555  11.12.2023 16:19:23
+Yeni oluşturulan Evin ceşidi: Stüdyo  11.12.2023 16:19:23
+Yeni oluşturulan Evin getiri orani: 0,06  11.12.2023 16:19:23
+Yeni oluşturulan Evin oda sayisi: 2  11.12.2023 16:19:23
+Yeni oluşturulan Evin kat numarası: 5  11.12.2023 16:19:23
+Yeni oluşturulan Evin semti: Vefa  11.12.2023 16:19:23
+Yeni oluşturulan Evin ilçesi: Fatih  11.12.2023 16:19:23
+Yeni oluşturulan Evin alani: 120  11.12.2023 16:19:23
+Yeni oluşturulan Evin yapim tarihi: 2014  11.12.2023 16:19:23
+Yeni oluşturulan Evin emlak numarasi: 100560  11.12.2023 16:19:23
+Yeni oluşturulan Evin ceşidi: Daire  11.12.2023 16:19:23
+Yeni oluşturulan Evin getiri orani: 0,06  11.12.2023 16:19:23
+Yeni oluşturulan Evin oda sayisi: 4  11.12.2023 16:19:23
+Yeni oluşturulan Evin kat numarası: 5  11.12.2023 16:19:23
+Yeni oluşturulan Evin semti: Beylerbeyi  11.12.2023 16:19:23
+Yeni oluşturulan Evin ilçesi: Üsküdar  11.12.2023 16:19:23
+Yeni oluşturulan Evin alani: 110  11.12.2023 16:19:23
+Yeni oluşturulan Evin yapim tarihi: 2009  11.12.2023 16:19:23
+Yeni oluşturulan Evin emlak numarasi: 409999  11.12.2023 16:19:23
+Yeni oluşturulan Evin ceşidi: Daire  11.12.2023 16:19:23
+Yeni oluşturulan Evin getiri orani: 0,12  11.12.2023 16:19:23
+Yeni oluşturulan Evin oda sayisi: 4  11.12.2023 16:19:23
+Yeni oluşturulan Evin kat numarası: 2  11.12.2023 16:19:23
+Yeni oluşturulan Evin semti: Çatalçeşme  11.12.2023 16:19:23
+Yeni oluşturulan Evin ilçesi: Kadıköy  11.12.2023 16:19:23
+Yeni oluşturulan Evin alani: 140  11.12.2023 16:19:23
+Yeni oluşturulan Evin yapim tarihi: 2004  11.12.2023 16:19:23
+Yeni oluşturulan Evin emlak numarasi: 609965  11.12.2023 16:19:23
+Yeni oluşturulan Evin ceşidi: Dubleks  11.12.2023 16:19:23
+Yeni oluşturulan Evin getiri orani: 0,1  11.12.2023 16:19:23
+Yeni oluşturulan Evin oda sayisi: 4  11.12.2023 16:19:23
+Yeni oluşturulan Evin kat numarası: 0  11.12.2023 16:19:23
+Yeni oluşturulan Evin semti: Merter  11.12.2023 16:19:23
+Yeni oluşturulan Evin ilçesi: Zeytinburnu  11.12.2023 16:19:23
+Yeni oluşturulan Evin alani: 240  11.12.2023 16:19:23
+Yeni oluşturulan Evin yapim tarihi: 2005  11.12.2023 16:19:23
+Yeni oluşturulan Evin emlak numarasi: 609777  11.12.2023 16:19:23
+Yeni oluşturulan Evin ceşidi: Bahçeli  11.12.2023 16:19:23
+Yeni oluşturulan Evin getiri orani: 0,1  11.12.2023 16:19:23
+Yeni oluşturulan Evin oda sayisi: 6  11.12.2023 16:19:23
+Yeni oluşturulan Evin kat numarası: 0  11.12.2023 16:19:23
+Yeni oluşturulan Evin semti: Akaretler  11.12.2023 16:19:23
+Yeni oluşturulan Evin ilçesi: Beşiktaş  11.12.2023 16:19:23
+Yeni oluşturulan Evin alani: 231  11.12.2023 16:19:23
+Yeni oluşturulan Evin yapim tarihi: 2022  11.12.2023 16:19:23
+Yeni oluşturulan Evin emlak numarasi: 609779  11.12.2023 16:19:23
+Yeni oluşturulan Evin ceşidi: Müstakil  11.12.2023 16:19:23
+Yeni oluşturulan Evin getiri orani: 0,08  11.12.2023 16:19:23
+Yeni oluşturulan Evin oda sayisi: 7  11.12.2023 16:19:23
+Yeni oluşturulan Evin kat numarası: 0  11.12.2023 16:19:23
+Yeni oluşturulan Evin semti: Beşyüzevler  11.12.2023 16:19:23
+Yeni oluşturulan Evin ilçesi: Bayrampaşa  11.12.2023 16:19:23
+Yeni oluşturulan Evin alani: 300  11.12.2023 16:19:23
+Yeni oluşturulan Evin yapim tarihi: 2014  11.12.2023 16:19:23
+Yeni oluşturulan Evin emlak numarasi: 309713  11.12.2023 16:19:23
+Yeni oluşturulan Evin ceşidi: Bahçeli  11.12.2023 16:19:23
+Yeni oluşturulan Evin getiri orani: 0,11  11.12.2023 16:19:23
+Yeni oluşturulan Evin oda sayisi: 2  11.12.2023 16:19:23
+Yeni oluşturulan Evin kat numarası: 1  11.12.2023 16:19:23
+Yeni oluşturulan Evin semti: Ortaköy  11.12.2023 16:19:23
+Yeni oluşturulan Evin ilçesi: Beşiktaş  11.12.2023 16:19:23
+Yeni oluşturulan Evin alani: 130  11.12.2023 16:19:23
+Yeni oluşturulan Evin yapim tarihi: 2014  11.12.2023 16:19:23
+Yeni oluşturulan Evin emlak numarasi: 309712  11.12.2023 16:19:23
+Yeni oluşturulan Evin ceşidi: Stüdyo  11.12.2023 16:19:23
+Yeni oluşturulan Evin getiri orani: 0,15  11.12.2023 16:19:23
+Yeni oluşturulan Evin oda sayisi: 3  11.12.2023 16:19:23
+Yeni oluşturulan Evin kat numarası: 1  11.12.2023 16:19:23
+Yeni oluşturulan Evin semti: Keberburgaz  11.12.2023 16:19:23
+Yeni oluşturulan Evin ilçesi: Eyüpsultan  11.12.2023 16:19:23
+Yeni oluşturulan Evin alani: 190  11.12.2023 16:19:23
+Yeni oluşturulan Evin yapim tarihi: 2002  11.12.2023 16:19:23
+Yeni oluşturulan Evin emlak numarasi: 309444  11.12.2023 16:19:23
+Yeni oluşturulan Evin ceşidi: Belirtilmemiş  11.12.2023 16:19:23
+Yeni oluşturulan Evin getiri orani: 0,13  11.12.2023 16:19:23
+Yeni oluşturulan Evin oda sayisi: 2  11.12.2023 16:24:04
+Yeni oluşturulan Evin kat numarası: 3  11.12.2023 16:24:04
+Yeni oluşturulan Evin semti: Bebek  11.12.2023 16:24:04
+Yeni oluşturulan Evin ilçesi: Beşiktaş  11.12.2023 16:24:04
+Yeni oluşturulan Evin alani: 41  11.12.2023 16:24:04
+Yeni oluşturulan Evin yapim tarihi: 2000  11.12.2023 16:24:04
+Yeni oluşturulan Evin emlak numarasi: 100022  11.12.2023 16:24:04
+Yeni oluşturulan Evin ceşidi: Daire  11.12.2023 16:24:04
+Yeni oluşturulan Evin getiri orani: 0,07  11.12.2023 16:24:04
+Yeni oluşturulan Evin oda sayisi: 3  11.12.2023 16:24:04
+Yeni oluşturulan Evin kat numarası: 4  11.12.2023 16:24:04
+Yeni oluşturulan Evin semti: Cihangir  11.12.2023 16:24:04
+Yeni oluşturulan Evin ilçesi: Beşiktaş  11.12.2023 16:24:04
+Yeni oluşturulan Evin alani: 90  11.12.2023 16:24:04
+Yeni oluşturulan Evin yapim tarihi: 2003  11.12.2023 16:24:04
+Yeni oluşturulan Evin emlak numarasi: 100023  11.12.2023 16:24:04
+Yeni oluşturulan Evin ceşidi: Daire  11.12.2023 16:24:04
+Yeni oluşturulan Evin getiri orani: 0,06  11.12.2023 16:24:04
+Yeni oluşturulan Evin oda sayisi: 1  11.12.2023 16:24:04
+Yeni oluşturulan Evin kat numarası: 5  11.12.2023 16:24:04
+Yeni oluşturulan Evin semti: Fener  11.12.2023 16:24:04
+Yeni oluşturulan Evin ilçesi: Fatih  11.12.2023 16:24:04
+Yeni oluşturulan Evin alani: 91  11.12.2023 16:24:04
+Yeni oluşturulan Evin yapim tarihi: 2010  11.12.2023 16:24:04
+Yeni oluşturulan Evin emlak numarasi: 100555  11.12.2023 16:24:04
+Yeni oluşturulan Evin ceşidi: Stüdyo  11.12.2023 16:24:04
+Yeni oluşturulan Evin getiri orani: 0,06  11.12.2023 16:24:04
+Yeni oluşturulan Evin oda sayisi: 2  11.12.2023 16:24:04
+Yeni oluşturulan Evin kat numarası: 5  11.12.2023 16:24:04
+Yeni oluşturulan Evin semti: Vefa  11.12.2023 16:24:04
+Yeni oluşturulan Evin ilçesi: Fatih  11.12.2023 16:24:04
+Yeni oluşturulan Evin alani: 120  11.12.2023 16:24:04
+Yeni oluşturulan Evin yapim tarihi: 2014  11.12.2023 16:24:04
+Yeni oluşturulan Evin emlak numarasi: 100560  11.12.2023 16:24:04
+Yeni oluşturulan Evin ceşidi: Daire  11.12.2023 16:24:04
+Yeni oluşturulan Evin getiri orani: 0,06  11.12.2023 16:24:04
+Yeni oluşturulan Evin oda sayisi: 4  11.12.2023 16:24:04
+Yeni oluşturulan Evin kat numarası: 5  11.12.2023 16:24:04
+Yeni oluşturulan Evin semti: Beylerbeyi  11.12.2023 16:24:04
+Yeni oluşturulan Evin ilçesi: Üsküdar  11.12.2023 16:24:04
+Yeni oluşturulan Evin alani: 110  11.12.2023 16:24:04
+Yeni oluşturulan Evin yapim tarihi: 2009  11.12.2023 16:24:04
+Yeni oluşturulan Evin emlak numarasi: 409999  11.12.2023 16:24:04
+Yeni oluşturulan Evin ceşidi: Daire  11.12.2023 16:24:04
+Yeni oluşturulan Evin getiri orani: 0,12  11.12.2023 16:24:04
+Yeni oluşturulan Evin oda sayisi: 4  11.12.2023 16:24:04
+Yeni oluşturulan Evin kat numarası: 2  11.12.2023 16:24:04
+Yeni oluşturulan Evin semti: Çatalçeşme  11.12.2023 16:24:04
+Yeni oluşturulan Evin ilçesi: Kadıköy  11.12.2023 16:24:04
+Yeni oluşturulan Evin alani: 140  11.12.2023 16:24:04
+Yeni oluşturulan Evin yapim tarihi: 2004  11.12.2023 16:24:04
+Yeni oluşturulan Evin emlak numarasi: 609965  11.12.2023 16:24:04
+Yeni oluşturulan Evin ceşidi: Dubleks  11.12.2023 16:24:04
+Yeni oluşturulan Evin getiri orani: 0,1  11.12.2023 16:24:04
+Yeni oluşturulan Evin oda sayisi: 4  11.12.2023 16:24:04
+Yeni oluşturulan Evin kat numarası: 0  11.12.2023 16:24:04
+Yeni oluşturulan Evin semti: Merter  11.12.2023 16:24:04
+Yeni oluşturulan Evin ilçesi: Zeytinburnu  11.12.2023 16:24:04
+Yeni oluşturulan Evin alani: 240  11.12.2023 16:24:04
+Yeni oluşturulan Evin yapim tarihi: 2005  11.12.2023 16:24:04
+Yeni oluşturulan Evin emlak numarasi: 609777  11.12.2023 16:24:04
+Yeni oluşturulan Evin ceşidi: Bahçeli  11.12.2023 16:24:04
+Yeni oluşturulan Evin getiri orani: 0,1  11.12.2023 16:24:04
+Yeni oluşturulan Evin oda sayisi: 6  11.12.2023 16:24:04
+Yeni oluşturulan Evin kat numarası: 0  11.12.2023 16:24:04
+Yeni oluşturulan Evin semti: Akaretler  11.12.2023 16:24:04
+Yeni oluşturulan Evin ilçesi: Beşiktaş  11.12.2023 16:24:04
+Yeni oluşturulan Evin alani: 231  11.12.2023 16:24:04
+Yeni oluşturulan Evin yapim tarihi: 2022  11.12.2023 16:24:04
+Yeni oluşturulan Evin emlak numarasi: 609779  11.12.2023 16:24:04
+Yeni oluşturulan Evin ceşidi: Müstakil  11.12.2023 16:24:04
+Yeni oluşturulan Evin getiri orani: 0,08  11.12.2023 16:24:04
+Yeni oluşturulan Evin oda sayisi: 7  11.12.2023 16:24:04
+Yeni oluşturulan Evin kat numarası: 0  11.12.2023 16:24:04
+Yeni oluşturulan Evin semti: Beşyüzevler  11.12.2023 16:24:04
+Yeni oluşturulan Evin ilçesi: Bayrampaşa  11.12.2023 16:24:04
+Yeni oluşturulan Evin alani: 300  11.12.2023 16:24:04
+Yeni oluşturulan Evin yapim tarihi: 2014  11.12.2023 16:24:04
+Yeni oluşturulan Evin emlak numarasi: 309713  11.12.2023 16:24:04
+Yeni oluşturulan Evin ceşidi: Bahçeli  11.12.2023 16:24:04
+Yeni oluşturulan Evin getiri orani: 0,11  11.12.2023 16:24:04
+Yeni oluşturulan Evin oda sayisi: 2  11.12.2023 16:24:04
+Yeni oluşturulan Evin kat numarası: 1  11.12.2023 16:24:04
+Yeni oluşturulan Evin semti: Ortaköy  11.12.2023 16:24:04
+Yeni oluşturulan Evin ilçesi: Beşiktaş  11.12.2023 16:24:04
+Yeni oluşturulan Evin alani: 130  11.12.2023 16:24:04
+Yeni oluşturulan Evin yapim tarihi: 2014  11.12.2023 16:24:04
+Yeni oluşturulan Evin emlak numarasi: 309712  11.12.2023 16:24:04
+Yeni oluşturulan Evin ceşidi: Stüdyo  11.12.2023 16:24:04
+Yeni oluşturulan Evin getiri orani: 0,15  11.12.2023 16:24:04
+Yeni oluşturulan Evin oda sayisi: 3  11.12.2023 16:24:04
+Yeni oluşturulan Evin kat numarası: 1  11.12.2023 16:24:04
+Yeni oluşturulan Evin semti: Keberburgaz  11.12.2023 16:24:04
+Yeni oluşturulan Evin ilçesi: Eyüpsultan  11.12.2023 16:24:04
+Yeni oluşturulan Evin alani: 190  11.12.2023 16:24:04
+Yeni oluşturulan Evin yapim tarihi: 2002  11.12.2023 16:24:04
+Yeni oluşturulan Evin emlak numarasi: 309444  11.12.2023 16:24:04
+Yeni oluşturulan Evin ceşidi: Belirtilmemiş  11.12.2023 16:24:04
+Yeni oluşturulan Evin getiri orani: 0,13  11.12.2023 16:24:04
+Yeni oluşturulan Evin oda sayisi: 2  11.12.2023 16:37:05
+Yeni oluşturulan Evin kat numarası: 3  11.12.2023 16:37:05
+Yeni oluşturulan Evin semti: Bebek  11.12.2023 16:37:05
+Yeni oluşturulan Evin ilçesi: Beşiktaş  11.12.2023 16:37:05
+Yeni oluşturulan Evin alani: 41  11.12.2023 16:37:05
+Yeni oluşturulan Evin yapim tarihi: 2000  11.12.2023 16:37:05
+Yeni oluşturulan Evin emlak numarasi: 100022  11.12.2023 16:37:05
+Yeni oluşturulan Evin ceşidi: Daire  11.12.2023 16:37:05
+Yeni oluşturulan Evin getiri orani: 0,07  11.12.2023 16:37:05
+Yeni oluşturulan Evin oda sayisi: 3  11.12.2023 16:37:05
+Yeni oluşturulan Evin kat numarası: 4  11.12.2023 16:37:05
+Yeni oluşturulan Evin semti: Cihangir  11.12.2023 16:37:05
+Yeni oluşturulan Evin ilçesi: Beşiktaş  11.12.2023 16:37:05
+Yeni oluşturulan Evin alani: 90  11.12.2023 16:37:05
+Yeni oluşturulan Evin yapim tarihi: 2003  11.12.2023 16:37:05
+Yeni oluşturulan Evin emlak numarasi: 100023  11.12.2023 16:37:05
+Yeni oluşturulan Evin ceşidi: Daire  11.12.2023 16:37:05
+Yeni oluşturulan Evin getiri orani: 0,06  11.12.2023 16:37:05
+Yeni oluşturulan Evin oda sayisi: 1  11.12.2023 16:37:05
+Yeni oluşturulan Evin kat numarası: 5  11.12.2023 16:37:05
+Yeni oluşturulan Evin semti: Fener  11.12.2023 16:37:05
+Yeni oluşturulan Evin ilçesi: Fatih  11.12.2023 16:37:05
+Yeni oluşturulan Evin alani: 91  11.12.2023 16:37:05
+Yeni oluşturulan Evin yapim tarihi: 2010  11.12.2023 16:37:05
+Yeni oluşturulan Evin emlak numarasi: 100555  11.12.2023 16:37:05
+Yeni oluşturulan Evin ceşidi: Stüdyo  11.12.2023 16:37:05
+Yeni oluşturulan Evin getiri orani: 0,06  11.12.2023 16:37:05
+Yeni oluşturulan Evin oda sayisi: 2  11.12.2023 16:37:05
+Yeni oluşturulan Evin kat numarası: 5  11.12.2023 16:37:05
+Yeni oluşturulan Evin semti: Vefa  11.12.2023 16:37:05
+Yeni oluşturulan Evin ilçesi: Fatih  11.12.2023 16:37:05
+Yeni oluşturulan Evin alani: 120  11.12.2023 16:37:05
+Yeni oluşturulan Evin yapim tarihi: 2014  11.12.2023 16:37:05
+Yeni oluşturulan Evin emlak numarasi: 100560  11.12.2023 16:37:05
+Yeni oluşturulan Evin ceşidi: Daire  11.12.2023 16:37:05
+Yeni oluşturulan Evin getiri orani: 0,06  11.12.2023 16:37:05
+Yeni oluşturulan Evin oda sayisi: 4  11.12.2023 16:37:05
+Yeni oluşturulan Evin kat numarası: 5  11.12.2023 16:37:05
+Yeni oluşturulan Evin semti: Beylerbeyi  11.12.2023 16:37:05
+Yeni oluşturulan Evin ilçesi: Üsküdar  11.12.2023 16:37:05
+Yeni oluşturulan Evin alani: 110  11.12.2023 16:37:05
+Yeni oluşturulan Evin yapim tarihi: 2009  11.12.2023 16:37:05
+Yeni oluşturulan Evin emlak numarasi: 409999  11.12.2023 16:37:05
+Yeni oluşturulan Evin ceşidi: Daire  11.12.2023 16:37:05
+Yeni oluşturulan Evin getiri orani: 0,12  11.12.2023 16:37:05
+Yeni oluşturulan Evin oda sayisi: 4  11.12.2023 16:37:05
+Yeni oluşturulan Evin kat numarası: 2  11.12.2023 16:37:05
+Yeni oluşturulan Evin semti: Çatalçeşme  11.12.2023 16:37:05
+Yeni oluşturulan Evin ilçesi: Kadıköy  11.12.2023 16:37:05
+Yeni oluşturulan Evin alani: 140  11.12.2023 16:37:05
+Yeni oluşturulan Evin yapim tarihi: 2004  11.12.2023 16:37:05
+Yeni oluşturulan Evin emlak numarasi: 609965  11.12.2023 16:37:05
+Yeni oluşturulan Evin ceşidi: Dubleks  11.12.2023 16:37:05
+Yeni oluşturulan Evin getiri orani: 0,1  11.12.2023 16:37:05
+Yeni oluşturulan Evin oda sayisi: 4  11.12.2023 16:37:05
+Yeni oluşturulan Evin kat numarası: 0  11.12.2023 16:37:05
+Yeni oluşturulan Evin semti: Merter  11.12.2023 16:37:05
+Yeni oluşturulan Evin ilçesi: Zeytinburnu  11.12.2023 16:37:05
+Yeni oluşturulan Evin alani: 240  11.12.2023 16:37:05
+Yeni oluşturulan Evin yapim tarihi: 2005  11.12.2023 16:37:05
+Yeni oluşturulan Evin emlak numarasi: 609777  11.12.2023 16:37:05
+Yeni oluşturulan Evin ceşidi: Bahçeli  11.12.2023 16:37:05
+Yeni oluşturulan Evin getiri orani: 0,1  11.12.2023 16:37:05
+Yeni oluşturulan Evin oda sayisi: 6  11.12.2023 16:37:05
+Yeni oluşturulan Evin kat numarası: 0  11.12.2023 16:37:05
+Yeni oluşturulan Evin semti: Akaretler  11.12.2023 16:37:05
+Yeni oluşturulan Evin ilçesi: Beşiktaş  11.12.2023 16:37:05
+Yeni oluşturulan Evin alani: 231  11.12.2023 16:37:05
+Yeni oluşturulan Evin yapim tarihi: 2022  11.12.2023 16:37:05
+Yeni oluşturulan Evin emlak numarasi: 609779  11.12.2023 16:37:05
+Yeni oluşturulan Evin ceşidi: Müstakil  11.12.2023 16:37:05
+Yeni oluşturulan Evin getiri orani: 0,08  11.12.2023 16:37:05
+Yeni oluşturulan Evin oda sayisi: 7  11.12.2023 16:37:05
+Yeni oluşturulan Evin kat numarası: 0  11.12.2023 16:37:05
+Yeni oluşturulan Evin semti: Beşyüzevler  11.12.2023 16:37:05
+Yeni oluşturulan Evin ilçesi: Bayrampaşa  11.12.2023 16:37:05
+Yeni oluşturulan Evin alani: 300  11.12.2023 16:37:05
+Yeni oluşturulan Evin yapim tarihi: 2014  11.12.2023 16:37:05
+Yeni oluşturulan Evin emlak numarasi: 309713  11.12.2023 16:37:05
+Yeni oluşturulan Evin ceşidi: Bahçeli  11.12.2023 16:37:05
+Yeni oluşturulan Evin getiri orani: 0,11  11.12.2023 16:37:05
+Yeni oluşturulan Evin oda sayisi: 2  11.12.2023 16:37:05
+Yeni oluşturulan Evin kat numarası: 1  11.12.2023 16:37:05
+Yeni oluşturulan Evin semti: Ortaköy  11.12.2023 16:37:05
+Yeni oluşturulan Evin ilçesi: Beşiktaş  11.12.2023 16:37:05
+Yeni oluşturulan Evin alani: 130  11.12.2023 16:37:05
+Yeni oluşturulan Evin yapim tarihi: 2014  11.12.2023 16:37:05
+Yeni oluşturulan Evin emlak numarasi: 309712  11.12.2023 16:37:05
+Yeni oluşturulan Evin ceşidi: Stüdyo  11.12.2023 16:37:05
+Yeni oluşturulan Evin getiri orani: 0,15  11.12.2023 16:37:05
+Yeni oluşturulan Evin oda sayisi: 3  11.12.2023 16:37:05
+Yeni oluşturulan Evin kat numarası: 1  11.12.2023 16:37:05
+Yeni oluşturulan Evin semti: Keberburgaz  11.12.2023 16:37:05
+Yeni oluşturulan Evin ilçesi: Eyüpsultan  11.12.2023 16:37:05
+Yeni oluşturulan Evin alani: 190  11.12.2023 16:37:05
+Yeni oluşturulan Evin yapim tarihi: 2002  11.12.2023 16:37:05
+Yeni oluşturulan Evin emlak numarasi: 309444  11.12.2023 16:37:05
+Yeni oluşturulan Evin ceşidi: Belirtilmemiş  11.12.2023 16:37:05
+Yeni oluşturulan Evin getiri orani: 0,13  11.12.2023 16:37:05
+Yeni oluşturulan Evin oda sayisi: 2  11.12.2023 16:38:39
+Yeni oluşturulan Evin kat numarası: 3  11.12.2023 16:38:39
+Yeni oluşturulan Evin semti: Bebek  11.12.2023 16:38:39
+Yeni oluşturulan Evin ilçesi: Beşiktaş  11.12.2023 16:38:39
+Yeni oluşturulan Evin alani: 41  11.12.2023 16:38:39
+Yeni oluşturulan Evin yapim tarihi: 2000  11.12.2023 16:38:39
+Yeni oluşturulan Evin emlak numarasi: 100022  11.12.2023 16:38:39
+Yeni oluşturulan Evin ceşidi: Daire  11.12.2023 16:38:39
+Yeni oluşturulan Evin getiri orani: 0,07  11.12.2023 16:38:39
+Yeni oluşturulan Evin oda sayisi: 3  11.12.2023 16:38:39
+Yeni oluşturulan Evin kat numarası: 4  11.12.2023 16:38:39
+Yeni oluşturulan Evin semti: Cihangir  11.12.2023 16:38:39
+Yeni oluşturulan Evin ilçesi: Beşiktaş  11.12.2023 16:38:39
+Yeni oluşturulan Evin alani: 90  11.12.2023 16:38:39
+Yeni oluşturulan Evin yapim tarihi: 2003  11.12.2023 16:38:39
+Yeni oluşturulan Evin emlak numarasi: 100023  11.12.2023 16:38:39
+Yeni oluşturulan Evin ceşidi: Daire  11.12.2023 16:38:39
+Yeni oluşturulan Evin getiri orani: 0,06  11.12.2023 16:38:39
+Yeni oluşturulan Evin oda sayisi: 1  11.12.2023 16:38:39
+Yeni oluşturulan Evin kat numarası: 5  11.12.2023 16:38:39
+Yeni oluşturulan Evin semti: Fener  11.12.2023 16:38:39
+Yeni oluşturulan Evin ilçesi: Fatih  11.12.2023 16:38:39
+Yeni oluşturulan Evin alani: 91  11.12.2023 16:38:39
+Yeni oluşturulan Evin yapim tarihi: 2010  11.12.2023 16:38:39
+Yeni oluşturulan Evin emlak numarasi: 100555  11.12.2023 16:38:39
+Yeni oluşturulan Evin ceşidi: Stüdyo  11.12.2023 16:38:39
+Yeni oluşturulan Evin getiri orani: 0,06  11.12.2023 16:38:39
+Yeni oluşturulan Evin oda sayisi: 2  11.12.2023 16:38:39
+Yeni oluşturulan Evin kat numarası: 5  11.12.2023 16:38:39
+Yeni oluşturulan Evin semti: Vefa  11.12.2023 16:38:39
+Yeni oluşturulan Evin ilçesi: Fatih  11.12.2023 16:38:39
+Yeni oluşturulan Evin alani: 120  11.12.2023 16:38:39
+Yeni oluşturulan Evin yapim tarihi: 2014  11.12.2023 16:38:39
+Yeni oluşturulan Evin emlak numarasi: 100560  11.12.2023 16:38:39
+Yeni oluşturulan Evin ceşidi: Daire  11.12.2023 16:38:39
+Yeni oluşturulan Evin getiri orani: 0,06  11.12.2023 16:38:39
+Yeni oluşturulan Evin oda sayisi: 4  11.12.2023 16:38:39
+Yeni oluşturulan Evin kat numarası: 5  11.12.2023 16:38:39
+Yeni oluşturulan Evin semti: Beylerbeyi  11.12.2023 16:38:39
+Yeni oluşturulan Evin ilçesi: Üsküdar  11.12.2023 16:38:39
+Yeni oluşturulan Evin alani: 110  11.12.2023 16:38:39
+Yeni oluşturulan Evin yapim tarihi: 2009  11.12.2023 16:38:39
+Yeni oluşturulan Evin emlak numarasi: 409999  11.12.2023 16:38:39
+Yeni oluşturulan Evin ceşidi: Daire  11.12.2023 16:38:39
+Yeni oluşturulan Evin getiri orani: 0,12  11.12.2023 16:38:39
+Yeni oluşturulan Evin oda sayisi: 4  11.12.2023 16:38:39
+Yeni oluşturulan Evin kat numarası: 2  11.12.2023 16:38:39
+Yeni oluşturulan Evin semti: Çatalçeşme  11.12.2023 16:38:39
+Yeni oluşturulan Evin ilçesi: Kadıköy  11.12.2023 16:38:39
+Yeni oluşturulan Evin alani: 140  11.12.2023 16:38:39
+Yeni oluşturulan Evin yapim tarihi: 2004  11.12.2023 16:38:39
+Yeni oluşturulan Evin emlak numarasi: 609965  11.12.2023 16:38:39
+Yeni oluşturulan Evin ceşidi: Dubleks  11.12.2023 16:38:39
+Yeni oluşturulan Evin getiri orani: 0,1  11.12.2023 16:38:39
+Yeni oluşturulan Evin oda sayisi: 4  11.12.2023 16:38:39
+Yeni oluşturulan Evin kat numarası: 0  11.12.2023 16:38:39
+Yeni oluşturulan Evin semti: Merter  11.12.2023 16:38:39
+Yeni oluşturulan Evin ilçesi: Zeytinburnu  11.12.2023 16:38:39
+Yeni oluşturulan Evin alani: 240  11.12.2023 16:38:39
+Yeni oluşturulan Evin yapim tarihi: 2005  11.12.2023 16:38:39
+Yeni oluşturulan Evin emlak numarasi: 609777  11.12.2023 16:38:39
+Yeni oluşturulan Evin ceşidi: Bahçeli  11.12.2023 16:38:39
+Yeni oluşturulan Evin getiri orani: 0,1  11.12.2023 16:38:39
+Yeni oluşturulan Evin oda sayisi: 6  11.12.2023 16:38:39
+Yeni oluşturulan Evin kat numarası: 0  11.12.2023 16:38:39
+Yeni oluşturulan Evin semti: Akaretler  11.12.2023 16:38:39
+Yeni oluşturulan Evin ilçesi: Beşiktaş  11.12.2023 16:38:39
+Yeni oluşturulan Evin alani: 231  11.12.2023 16:38:39
+Yeni oluşturulan Evin yapim tarihi: 2022  11.12.2023 16:38:39
+Yeni oluşturulan Evin emlak numarasi: 609779  11.12.2023 16:38:39
+Yeni oluşturulan Evin ceşidi: Müstakil  11.12.2023 16:38:39
+Yeni oluşturulan Evin getiri orani: 0,08  11.12.2023 16:38:39
+Yeni oluşturulan Evin oda sayisi: 7  11.12.2023 16:38:39
+Yeni oluşturulan Evin kat numarası: 0  11.12.2023 16:38:39
+Yeni oluşturulan Evin semti: Beşyüzevler  11.12.2023 16:38:39
+Yeni oluşturulan Evin ilçesi: Bayrampaşa  11.12.2023 16:38:39
+Yeni oluşturulan Evin alani: 300  11.12.2023 16:38:39
+Yeni oluşturulan Evin yapim tarihi: 2014  11.12.2023 16:38:39
+Yeni oluşturulan Evin emlak numarasi: 309713  11.12.2023 16:38:39
+Yeni oluşturulan Evin ceşidi: Bahçeli  11.12.2023 16:38:39
+Yeni oluşturulan Evin getiri orani: 0,11  11.12.2023 16:38:39
+Yeni oluşturulan Evin oda sayisi: 2  11.12.2023 16:38:39
+Yeni oluşturulan Evin kat numarası: 1  11.12.2023 16:38:39
+Yeni oluşturulan Evin semti: Ortaköy  11.12.2023 16:38:39
+Yeni oluşturulan Evin ilçesi: Beşiktaş  11.12.2023 16:38:39
+Yeni oluşturulan Evin alani: 130  11.12.2023 16:38:39
+Yeni oluşturulan Evin yapim tarihi: 2014  11.12.2023 16:38:39
+Yeni oluşturulan Evin emlak numarasi: 309712  11.12.2023 16:38:39
+Yeni oluşturulan Evin ceşidi: Stüdyo  11.12.2023 16:38:39
+Yeni oluşturulan Evin getiri orani: 0,15  11.12.2023 16:38:39
+Yeni oluşturulan Evin oda sayisi: 3  11.12.2023 16:38:39
+Yeni oluşturulan Evin kat numarası: 1  11.12.2023 16:38:39
+Yeni oluşturulan Evin semti: Keberburgaz  11.12.2023 16:38:39
+Yeni oluşturulan Evin ilçesi: Eyüpsultan  11.12.2023 16:38:39
+Yeni oluşturulan Evin alani: 190  11.12.2023 16:38:39
+Yeni oluşturulan Evin yapim tarihi: 2002  11.12.2023 16:38:39
+Yeni oluşturulan Evin emlak numarasi: 309444  11.12.2023 16:38:39
+Yeni oluşturulan Evin ceşidi: Belirtilmemiş  11.12.2023 16:38:39
+Yeni oluşturulan Evin getiri orani: 0,13  11.12.2023 16:38:39
+Yeni oluşturulan Evin oda sayisi: 2  11.12.2023 16:40:01
+Yeni oluşturulan Evin kat numarası: 3  11.12.2023 16:40:01
+Yeni oluşturulan Evin semti: Bebek  11.12.2023 16:40:01
+Yeni oluşturulan Evin ilçesi: Beşiktaş  11.12.2023 16:40:01
+Yeni oluşturulan Evin alani: 41  11.12.2023 16:40:01
+Yeni oluşturulan Evin yapim tarihi: 2000  11.12.2023 16:40:01
+Yeni oluşturulan Evin emlak numarasi: 100022  11.12.2023 16:40:01
+Yeni oluşturulan Evin ceşidi: Daire  11.12.2023 16:40:01
+Yeni oluşturulan Evin getiri orani: 0,07  11.12.2023 16:40:01
+Yeni oluşturulan Evin oda sayisi: 3  11.12.2023 16:40:01
+Yeni oluşturulan Evin kat numarası: 4  11.12.2023 16:40:01
+Yeni oluşturulan Evin semti: Cihangir  11.12.2023 16:40:01
+Yeni oluşturulan Evin ilçesi: Beşiktaş  11.12.2023 16:40:01
+Yeni oluşturulan Evin alani: 90  11.12.2023 16:40:01
+Yeni oluşturulan Evin yapim tarihi: 2003  11.12.2023 16:40:01
+Yeni oluşturulan Evin emlak numarasi: 100023  11.12.2023 16:40:01
+Yeni oluşturulan Evin ceşidi: Daire  11.12.2023 16:40:01
+Yeni oluşturulan Evin getiri orani: 0,06  11.12.2023 16:40:01
+Yeni oluşturulan Evin oda sayisi: 1  11.12.2023 16:40:01
+Yeni oluşturulan Evin kat numarası: 5  11.12.2023 16:40:01
+Yeni oluşturulan Evin semti: Fener  11.12.2023 16:40:01
+Yeni oluşturulan Evin ilçesi: Fatih  11.12.2023 16:40:01
+Yeni oluşturulan Evin alani: 91  11.12.2023 16:40:01
+Yeni oluşturulan Evin yapim tarihi: 2010  11.12.2023 16:40:01
+Yeni oluşturulan Evin emlak numarasi: 100555  11.12.2023 16:40:01
+Yeni oluşturulan Evin ceşidi: Stüdyo  11.12.2023 16:40:01
+Yeni oluşturulan Evin getiri orani: 0,06  11.12.2023 16:40:01
+Yeni oluşturulan Evin oda sayisi: 2  11.12.2023 16:40:01
+Yeni oluşturulan Evin kat numarası: 5  11.12.2023 16:40:01
+Yeni oluşturulan Evin semti: Vefa  11.12.2023 16:40:01
+Yeni oluşturulan Evin ilçesi: Fatih  11.12.2023 16:40:01
+Yeni oluşturulan Evin alani: 120  11.12.2023 16:40:01
+Yeni oluşturulan Evin yapim tarihi: 2014  11.12.2023 16:40:01
+Yeni oluşturulan Evin emlak numarasi: 100560  11.12.2023 16:40:01
+Yeni oluşturulan Evin ceşidi: Daire  11.12.2023 16:40:01
+Yeni oluşturulan Evin getiri orani: 0,06  11.12.2023 16:40:01
+Yeni oluşturulan Evin oda sayisi: 4  11.12.2023 16:40:01
+Yeni oluşturulan Evin kat numarası: 5  11.12.2023 16:40:01
+Yeni oluşturulan Evin semti: Beylerbeyi  11.12.2023 16:40:01
+Yeni oluşturulan Evin ilçesi: Üsküdar  11.12.2023 16:40:01
+Yeni oluşturulan Evin alani: 110  11.12.2023 16:40:01
+Yeni oluşturulan Evin yapim tarihi: 2009  11.12.2023 16:40:01
+Yeni oluşturulan Evin emlak numarasi: 409999  11.12.2023 16:40:01
+Yeni oluşturulan Evin ceşidi: Daire  11.12.2023 16:40:01
+Yeni oluşturulan Evin getiri orani: 0,12  11.12.2023 16:40:01
+Yeni oluşturulan Evin oda sayisi: 4  11.12.2023 16:40:01
+Yeni oluşturulan Evin kat numarası: 2  11.12.2023 16:40:01
+Yeni oluşturulan Evin semti: Çatalçeşme  11.12.2023 16:40:01
+Yeni oluşturulan Evin ilçesi: Kadıköy  11.12.2023 16:40:01
+Yeni oluşturulan Evin alani: 140  11.12.2023 16:40:01
+Yeni oluşturulan Evin yapim tarihi: 2004  11.12.2023 16:40:01
+Yeni oluşturulan Evin emlak numarasi: 609965  11.12.2023 16:40:01
+Yeni oluşturulan Evin ceşidi: Dubleks  11.12.2023 16:40:01
+Yeni oluşturulan Evin getiri orani: 0,1  11.12.2023 16:40:01
+Yeni oluşturulan Evin oda sayisi: 4  11.12.2023 16:40:01
+Yeni oluşturulan Evin kat numarası: 0  11.12.2023 16:40:01
+Yeni oluşturulan Evin semti: Merter  11.12.2023 16:40:01
+Yeni oluşturulan Evin ilçesi: Zeytinburnu  11.12.2023 16:40:01
+Yeni oluşturulan Evin alani: 240  11.12.2023 16:40:01
+Yeni oluşturulan Evin yapim tarihi: 2005  11.12.2023 16:40:01
+Yeni oluşturulan Evin emlak numarasi: 609777  11.12.2023 16:40:01
+Yeni oluşturulan Evin ceşidi: Bahçeli  11.12.2023 16:40:01
+Yeni oluşturulan Evin getiri orani: 0,1  11.12.2023 16:40:01
+Yeni oluşturulan Evin oda sayisi: 6  11.12.2023 16:40:01
+Yeni oluşturulan Evin kat numarası: 0  11.12.2023 16:40:01
+Yeni oluşturulan Evin semti: Akaretler  11.12.2023 16:40:01
+Yeni oluşturulan Evin ilçesi: Beşiktaş  11.12.2023 16:40:01
+Yeni oluşturulan Evin alani: 231  11.12.2023 16:40:01
+Yeni oluşturulan Evin yapim tarihi: 2022  11.12.2023 16:40:01
+Yeni oluşturulan Evin emlak numarasi: 609779  11.12.2023 16:40:01
+Yeni oluşturulan Evin ceşidi: Müstakil  11.12.2023 16:40:01
+Yeni oluşturulan Evin getiri orani: 0,08  11.12.2023 16:40:01
+Yeni oluşturulan Evin oda sayisi: 7  11.12.2023 16:40:01
+Yeni oluşturulan Evin kat numarası: 0  11.12.2023 16:40:01
+Yeni oluşturulan Evin semti: Beşyüzevler  11.12.2023 16:40:01
+Yeni oluşturulan Evin ilçesi: Bayrampaşa  11.12.2023 16:40:01
+Yeni oluşturulan Evin alani: 300  11.12.2023 16:40:01
+Yeni oluşturulan Evin yapim tarihi: 2014  11.12.2023 16:40:01
+Yeni oluşturulan Evin emlak numarasi: 309713  11.12.2023 16:40:01
+Yeni oluşturulan Evin ceşidi: Bahçeli  11.12.2023 16:40:01
+Yeni oluşturulan Evin getiri orani: 0,11  11.12.2023 16:40:01
+Yeni oluşturulan Evin oda sayisi: 2  11.12.2023 16:40:01
+Yeni oluşturulan Evin kat numarası: 1  11.12.2023 16:40:01
+Yeni oluşturulan Evin semti: Ortaköy  11.12.2023 16:40:01
+Yeni oluşturulan Evin ilçesi: Beşiktaş  11.12.2023 16:40:01
+Yeni oluşturulan Evin alani: 130  11.12.2023 16:40:01
+Yeni oluşturulan Evin yapim tarihi: 2014  11.12.2023 16:40:01
+Yeni oluşturulan Evin emlak numarasi: 309712  11.12.2023 16:40:01
+Yeni oluşturulan Evin ceşidi: Stüdyo  11.12.2023 16:40:01
+Yeni oluşturulan Evin getiri orani: 0,15  11.12.2023 16:40:01
+Yeni oluşturulan Evin oda sayisi: 3  11.12.2023 16:40:01
+Yeni oluşturulan Evin kat numarası: 1  11.12.2023 16:40:01
+Yeni oluşturulan Evin semti: Keberburgaz  11.12.2023 16:40:01
+Yeni oluşturulan Evin ilçesi: Eyüpsultan  11.12.2023 16:40:01
+Yeni oluşturulan Evin alani: 190  11.12.2023 16:40:01
+Yeni oluşturulan Evin yapim tarihi: 2002  11.12.2023 16:40:01
+Yeni oluşturulan Evin emlak numarasi: 309444  11.12.2023 16:40:01
+Yeni oluşturulan Evin ceşidi: Belirtilmemiş  11.12.2023 16:40:01
+Yeni oluşturulan Evin getiri orani: 0,13  11.12.2023 16:40:01
+Yeni oluşturulan Evin oda sayisi: 2  11.12.2023 16:40:38
+Yeni oluşturulan Evin kat numarası: 3  11.12.2023 16:40:38
+Yeni oluşturulan Evin semti: Bebek  11.12.2023 16:40:38
+Yeni oluşturulan Evin ilçesi: Beşiktaş  11.12.2023 16:40:38
+Yeni oluşturulan Evin alani: 41  11.12.2023 16:40:38
+Yeni oluşturulan Evin yapim tarihi: 2000  11.12.2023 16:40:38
+Yeni oluşturulan Evin emlak numarasi: 100022  11.12.2023 16:40:38
+Yeni oluşturulan Evin ceşidi: Daire  11.12.2023 16:40:38
+Yeni oluşturulan Evin getiri orani: 0,07  11.12.2023 16:40:38
+Yeni oluşturulan Evin oda sayisi: 3  11.12.2023 16:40:38
+Yeni oluşturulan Evin kat numarası: 4  11.12.2023 16:40:38
+Yeni oluşturulan Evin semti: Cihangir  11.12.2023 16:40:38
+Yeni oluşturulan Evin ilçesi: Beşiktaş  11.12.2023 16:40:38
+Yeni oluşturulan Evin alani: 90  11.12.2023 16:40:38
+Yeni oluşturulan Evin yapim tarihi: 2003  11.12.2023 16:40:38
+Yeni oluşturulan Evin emlak numarasi: 100023  11.12.2023 16:40:38
+Yeni oluşturulan Evin ceşidi: Daire  11.12.2023 16:40:38
+Yeni oluşturulan Evin getiri orani: 0,06  11.12.2023 16:40:38
+Yeni oluşturulan Evin oda sayisi: 1  11.12.2023 16:40:38
+Yeni oluşturulan Evin kat numarası: 5  11.12.2023 16:40:38
+Yeni oluşturulan Evin semti: Fener  11.12.2023 16:40:38
+Yeni oluşturulan Evin ilçesi: Fatih  11.12.2023 16:40:38
+Yeni oluşturulan Evin alani: 91  11.12.2023 16:40:38
+Yeni oluşturulan Evin yapim tarihi: 2010  11.12.2023 16:40:38
+Yeni oluşturulan Evin emlak numarasi: 100555  11.12.2023 16:40:38
+Yeni oluşturulan Evin ceşidi: Stüdyo  11.12.2023 16:40:38
+Yeni oluşturulan Evin getiri orani: 0,06  11.12.2023 16:40:38
+Yeni oluşturulan Evin oda sayisi: 2  11.12.2023 16:40:38
+Yeni oluşturulan Evin kat numarası: 5  11.12.2023 16:40:38
+Yeni oluşturulan Evin semti: Vefa  11.12.2023 16:40:38
+Yeni oluşturulan Evin ilçesi: Fatih  11.12.2023 16:40:38
+Yeni oluşturulan Evin alani: 120  11.12.2023 16:40:38
+Yeni oluşturulan Evin yapim tarihi: 2014  11.12.2023 16:40:38
+Yeni oluşturulan Evin emlak numarasi: 100560  11.12.2023 16:40:38
+Yeni oluşturulan Evin ceşidi: Daire  11.12.2023 16:40:38
+Yeni oluşturulan Evin getiri orani: 0,06  11.12.2023 16:40:38
+Yeni oluşturulan Evin oda sayisi: 4  11.12.2023 16:40:38
+Yeni oluşturulan Evin kat numarası: 5  11.12.2023 16:40:38
+Yeni oluşturulan Evin semti: Beylerbeyi  11.12.2023 16:40:38
+Yeni oluşturulan Evin ilçesi: Üsküdar  11.12.2023 16:40:38
+Yeni oluşturulan Evin alani: 110  11.12.2023 16:40:38
+Yeni oluşturulan Evin yapim tarihi: 2009  11.12.2023 16:40:38
+Yeni oluşturulan Evin emlak numarasi: 409999  11.12.2023 16:40:38
+Yeni oluşturulan Evin ceşidi: Daire  11.12.2023 16:40:38
+Yeni oluşturulan Evin getiri orani: 0,12  11.12.2023 16:40:38
+Yeni oluşturulan Evin oda sayisi: 4  11.12.2023 16:40:38
+Yeni oluşturulan Evin kat numarası: 2  11.12.2023 16:40:38
+Yeni oluşturulan Evin semti: Çatalçeşme  11.12.2023 16:40:38
+Yeni oluşturulan Evin ilçesi: Kadıköy  11.12.2023 16:40:38
+Yeni oluşturulan Evin alani: 140  11.12.2023 16:40:38
+Yeni oluşturulan Evin yapim tarihi: 2004  11.12.2023 16:40:38
+Yeni oluşturulan Evin emlak numarasi: 609965  11.12.2023 16:40:38
+Yeni oluşturulan Evin ceşidi: Dubleks  11.12.2023 16:40:38
+Yeni oluşturulan Evin getiri orani: 0,1  11.12.2023 16:40:38
+Yeni oluşturulan Evin oda sayisi: 4  11.12.2023 16:40:38
+Yeni oluşturulan Evin kat numarası: 0  11.12.2023 16:40:38
+Yeni oluşturulan Evin semti: Merter  11.12.2023 16:40:38
+Yeni oluşturulan Evin ilçesi: Zeytinburnu  11.12.2023 16:40:38
+Yeni oluşturulan Evin alani: 240  11.12.2023 16:40:38
+Yeni oluşturulan Evin yapim tarihi: 2005  11.12.2023 16:40:38
+Yeni oluşturulan Evin emlak numarasi: 609777  11.12.2023 16:40:38
+Yeni oluşturulan Evin ceşidi: Bahçeli  11.12.2023 16:40:38
+Yeni oluşturulan Evin getiri orani: 0,1  11.12.2023 16:40:38
+Yeni oluşturulan Evin oda sayisi: 6  11.12.2023 16:40:38
+Yeni oluşturulan Evin kat numarası: 0  11.12.2023 16:40:38
+Yeni oluşturulan Evin semti: Akaretler  11.12.2023 16:40:38
+Yeni oluşturulan Evin ilçesi: Beşiktaş  11.12.2023 16:40:38
+Yeni oluşturulan Evin alani: 231  11.12.2023 16:40:38
+Yeni oluşturulan Evin yapim tarihi: 2022  11.12.2023 16:40:38
+Yeni oluşturulan Evin emlak numarasi: 609779  11.12.2023 16:40:38
+Yeni oluşturulan Evin ceşidi: Müstakil  11.12.2023 16:40:38
+Yeni oluşturulan Evin getiri orani: 0,08  11.12.2023 16:40:38
+Yeni oluşturulan Evin oda sayisi: 7  11.12.2023 16:40:38
+Yeni oluşturulan Evin kat numarası: 0  11.12.2023 16:40:38
+Yeni oluşturulan Evin semti: Beşyüzevler  11.12.2023 16:40:38
+Yeni oluşturulan Evin ilçesi: Bayrampaşa  11.12.2023 16:40:38
+Yeni oluşturulan Evin alani: 300  11.12.2023 16:40:38
+Yeni oluşturulan Evin yapim tarihi: 2014  11.12.2023 16:40:38
+Yeni oluşturulan Evin emlak numarasi: 309713  11.12.2023 16:40:38
+Yeni oluşturulan Evin ceşidi: Bahçeli  11.12.2023 16:40:38
+Yeni oluşturulan Evin getiri orani: 0,11  11.12.2023 16:40:38
+Yeni oluşturulan Evin oda sayisi: 2  11.12.2023 16:40:38
+Yeni oluşturulan Evin kat numarası: 1  11.12.2023 16:40:38
+Yeni oluşturulan Evin semti: Ortaköy  11.12.2023 16:40:38
+Yeni oluşturulan Evin ilçesi: Beşiktaş  11.12.2023 16:40:38
+Yeni oluşturulan Evin alani: 130  11.12.2023 16:40:38
+Yeni oluşturulan Evin yapim tarihi: 2014  11.12.2023 16:40:38
+Yeni oluşturulan Evin emlak numarasi: 309712  11.12.2023 16:40:38
+Yeni oluşturulan Evin ceşidi: Stüdyo  11.12.2023 16:40:38
+Yeni oluşturulan Evin getiri orani: 0,15  11.12.2023 16:40:38
+Yeni oluşturulan Evin oda sayisi: 3  11.12.2023 16:40:38
+Yeni oluşturulan Evin kat numarası: 1  11.12.2023 16:40:38
+Yeni oluşturulan Evin semti: Keberburgaz  11.12.2023 16:40:38
+Yeni oluşturulan Evin ilçesi: Eyüpsultan  11.12.2023 16:40:38
+Yeni oluşturulan Evin alani: 190  11.12.2023 16:40:38
+Yeni oluşturulan Evin yapim tarihi: 2002  11.12.2023 16:40:38
+Yeni oluşturulan Evin emlak numarasi: 309444  11.12.2023 16:40:38
+Yeni oluşturulan Evin ceşidi: Belirtilmemiş  11.12.2023 16:40:38
+Yeni oluşturulan Evin getiri orani: 0,13  11.12.2023 16:40:38
+Yeni oluşturulan Evin oda sayisi: 2  11.12.2023 16:41:25
+Yeni oluşturulan Evin kat numarası: 3  11.12.2023 16:41:25
+Yeni oluşturulan Evin semti: Bebek  11.12.2023 16:41:25
+Yeni oluşturulan Evin ilçesi: Beşiktaş  11.12.2023 16:41:25
+Yeni oluşturulan Evin alani: 41  11.12.2023 16:41:25
+Yeni oluşturulan Evin yapim tarihi: 2000  11.12.2023 16:41:25
+Yeni oluşturulan Evin emlak numarasi: 100022  11.12.2023 16:41:25
+Yeni oluşturulan Evin ceşidi: Daire  11.12.2023 16:41:25
+Yeni oluşturulan Evin getiri orani: 0,07  11.12.2023 16:41:25
+Yeni oluşturulan Evin oda sayisi: 3  11.12.2023 16:41:25
+Yeni oluşturulan Evin kat numarası: 4  11.12.2023 16:41:25
+Yeni oluşturulan Evin semti: Cihangir  11.12.2023 16:41:25
+Yeni oluşturulan Evin ilçesi: Beşiktaş  11.12.2023 16:41:25
+Yeni oluşturulan Evin alani: 90  11.12.2023 16:41:25
+Yeni oluşturulan Evin yapim tarihi: 2003  11.12.2023 16:41:25
+Yeni oluşturulan Evin emlak numarasi: 100023  11.12.2023 16:41:25
+Yeni oluşturulan Evin ceşidi: Daire  11.12.2023 16:41:25
+Yeni oluşturulan Evin getiri orani: 0,06  11.12.2023 16:41:25
+Yeni oluşturulan Evin oda sayisi: 1  11.12.2023 16:41:25
+Yeni oluşturulan Evin kat numarası: 5  11.12.2023 16:41:25
+Yeni oluşturulan Evin semti: Fener  11.12.2023 16:41:25
+Yeni oluşturulan Evin ilçesi: Fatih  11.12.2023 16:41:25
+Yeni oluşturulan Evin alani: 91  11.12.2023 16:41:25
+Yeni oluşturulan Evin yapim tarihi: 2010  11.12.2023 16:41:25
+Yeni oluşturulan Evin emlak numarasi: 100555  11.12.2023 16:41:25
+Yeni oluşturulan Evin ceşidi: Stüdyo  11.12.2023 16:41:25
+Yeni oluşturulan Evin getiri orani: 0,06  11.12.2023 16:41:25
+Yeni oluşturulan Evin oda sayisi: 2  11.12.2023 16:41:25
+Yeni oluşturulan Evin kat numarası: 5  11.12.2023 16:41:25
+Yeni oluşturulan Evin semti: Vefa  11.12.2023 16:41:25
+Yeni oluşturulan Evin ilçesi: Fatih  11.12.2023 16:41:25
+Yeni oluşturulan Evin alani: 120  11.12.2023 16:41:25
+Yeni oluşturulan Evin yapim tarihi: 2014  11.12.2023 16:41:25
+Yeni oluşturulan Evin emlak numarasi: 100560  11.12.2023 16:41:25
+Yeni oluşturulan Evin ceşidi: Daire  11.12.2023 16:41:25
+Yeni oluşturulan Evin getiri orani: 0,06  11.12.2023 16:41:25
+Yeni oluşturulan Evin oda sayisi: 4  11.12.2023 16:41:25
+Yeni oluşturulan Evin kat numarası: 5  11.12.2023 16:41:25
+Yeni oluşturulan Evin semti: Beylerbeyi  11.12.2023 16:41:25
+Yeni oluşturulan Evin ilçesi: Üsküdar  11.12.2023 16:41:25
+Yeni oluşturulan Evin alani: 110  11.12.2023 16:41:25
+Yeni oluşturulan Evin yapim tarihi: 2009  11.12.2023 16:41:25
+Yeni oluşturulan Evin emlak numarasi: 409999  11.12.2023 16:41:25
+Yeni oluşturulan Evin ceşidi: Daire  11.12.2023 16:41:25
+Yeni oluşturulan Evin getiri orani: 0,12  11.12.2023 16:41:25
+Yeni oluşturulan Evin oda sayisi: 4  11.12.2023 16:41:25
+Yeni oluşturulan Evin kat numarası: 2  11.12.2023 16:41:25
+Yeni oluşturulan Evin semti: Çatalçeşme  11.12.2023 16:41:25
+Yeni oluşturulan Evin ilçesi: Kadıköy  11.12.2023 16:41:25
+Yeni oluşturulan Evin alani: 140  11.12.2023 16:41:25
+Yeni oluşturulan Evin yapim tarihi: 2004  11.12.2023 16:41:25
+Yeni oluşturulan Evin emlak numarasi: 609965  11.12.2023 16:41:25
+Yeni oluşturulan Evin ceşidi: Dubleks  11.12.2023 16:41:25
+Yeni oluşturulan Evin getiri orani: 0,1  11.12.2023 16:41:25
+Yeni oluşturulan Evin oda sayisi: 4  11.12.2023 16:41:25
+Yeni oluşturulan Evin kat numarası: 0  11.12.2023 16:41:25
+Yeni oluşturulan Evin semti: Merter  11.12.2023 16:41:25
+Yeni oluşturulan Evin ilçesi: Zeytinburnu  11.12.2023 16:41:25
+Yeni oluşturulan Evin alani: 240  11.12.2023 16:41:25
+Yeni oluşturulan Evin yapim tarihi: 2005  11.12.2023 16:41:25
+Yeni oluşturulan Evin emlak numarasi: 609777  11.12.2023 16:41:25
+Yeni oluşturulan Evin ceşidi: Bahçeli  11.12.2023 16:41:25
+Yeni oluşturulan Evin getiri orani: 0,1  11.12.2023 16:41:25
+Yeni oluşturulan Evin oda sayisi: 6  11.12.2023 16:41:25
+Yeni oluşturulan Evin kat numarası: 0  11.12.2023 16:41:25
+Yeni oluşturulan Evin semti: Akaretler  11.12.2023 16:41:25
+Yeni oluşturulan Evin ilçesi: Beşiktaş  11.12.2023 16:41:25
+Yeni oluşturulan Evin alani: 231  11.12.2023 16:41:25
+Yeni oluşturulan Evin yapim tarihi: 2022  11.12.2023 16:41:25
+Yeni oluşturulan Evin emlak numarasi: 609779  11.12.2023 16:41:25
+Yeni oluşturulan Evin ceşidi: Müstakil  11.12.2023 16:41:25
+Yeni oluşturulan Evin getiri orani: 0,08  11.12.2023 16:41:25
+Yeni oluşturulan Evin oda sayisi: 7  11.12.2023 16:41:25
+Yeni oluşturulan Evin kat numarası: 0  11.12.2023 16:41:25
+Yeni oluşturulan Evin semti: Beşyüzevler  11.12.2023 16:41:25
+Yeni oluşturulan Evin ilçesi: Bayrampaşa  11.12.2023 16:41:25
+Yeni oluşturulan Evin alani: 300  11.12.2023 16:41:25
+Yeni oluşturulan Evin yapim tarihi: 2014  11.12.2023 16:41:25
+Yeni oluşturulan Evin emlak numarasi: 309713  11.12.2023 16:41:25
+Yeni oluşturulan Evin ceşidi: Bahçeli  11.12.2023 16:41:25
+Yeni oluşturulan Evin getiri orani: 0,11  11.12.2023 16:41:25
+Yeni oluşturulan Evin oda sayisi: 2  11.12.2023 16:41:25
+Yeni oluşturulan Evin kat numarası: 1  11.12.2023 16:41:25
+Yeni oluşturulan Evin semti: Ortaköy  11.12.2023 16:41:25
+Yeni oluşturulan Evin ilçesi: Beşiktaş  11.12.2023 16:41:25
+Yeni oluşturulan Evin alani: 130  11.12.2023 16:41:25
+Yeni oluşturulan Evin yapim tarihi: 2014  11.12.2023 16:41:25
+Yeni oluşturulan Evin emlak numarasi: 309712  11.12.2023 16:41:25
+Yeni oluşturulan Evin ceşidi: Stüdyo  11.12.2023 16:41:25
+Yeni oluşturulan Evin getiri orani: 0,15  11.12.2023 16:41:25
+Yeni oluşturulan Evin oda sayisi: 3  11.12.2023 16:41:25
+Yeni oluşturulan Evin kat numarası: 1  11.12.2023 16:41:25
+Yeni oluşturulan Evin semti: Keberburgaz  11.12.2023 16:41:25
+Yeni oluşturulan Evin ilçesi: Eyüpsultan  11.12.2023 16:41:25
+Yeni oluşturulan Evin alani: 190  11.12.2023 16:41:25
+Yeni oluşturulan Evin yapim tarihi: 2002  11.12.2023 16:41:25
+Yeni oluşturulan Evin emlak numarasi: 309444  11.12.2023 16:41:25
+Yeni oluşturulan Evin ceşidi: Belirtilmemiş  11.12.2023 16:41:25
+Yeni oluşturulan Evin getiri orani: 0,13  11.12.2023 16:41:25
+Yeni oluşturulan Evin oda sayisi: 2  11.12.2023 16:42:10
+Yeni oluşturulan Evin kat numarası: 3  11.12.2023 16:42:10
+Yeni oluşturulan Evin semti: Bebek  11.12.2023 16:42:10
+Yeni oluşturulan Evin ilçesi: Beşiktaş  11.12.2023 16:42:10
+Yeni oluşturulan Evin alani: 41  11.12.2023 16:42:10
+Yeni oluşturulan Evin yapim tarihi: 2000  11.12.2023 16:42:10
+Yeni oluşturulan Evin emlak numarasi: 100022  11.12.2023 16:42:10
+Yeni oluşturulan Evin ceşidi: Daire  11.12.2023 16:42:10
+Yeni oluşturulan Evin getiri orani: 0,07  11.12.2023 16:42:10
+Yeni oluşturulan Evin oda sayisi: 3  11.12.2023 16:42:10
+Yeni oluşturulan Evin kat numarası: 4  11.12.2023 16:42:10
+Yeni oluşturulan Evin semti: Cihangir  11.12.2023 16:42:10
+Yeni oluşturulan Evin ilçesi: Beşiktaş  11.12.2023 16:42:10
+Yeni oluşturulan Evin alani: 90  11.12.2023 16:42:10
+Yeni oluşturulan Evin yapim tarihi: 2003  11.12.2023 16:42:10
+Yeni oluşturulan Evin emlak numarasi: 100023  11.12.2023 16:42:10
+Yeni oluşturulan Evin ceşidi: Daire  11.12.2023 16:42:10
+Yeni oluşturulan Evin getiri orani: 0,06  11.12.2023 16:42:10
+Yeni oluşturulan Evin oda sayisi: 1  11.12.2023 16:42:10
+Yeni oluşturulan Evin kat numarası: 5  11.12.2023 16:42:10
+Yeni oluşturulan Evin semti: Fener  11.12.2023 16:42:10
+Yeni oluşturulan Evin ilçesi: Fatih  11.12.2023 16:42:10
+Yeni oluşturulan Evin alani: 91  11.12.2023 16:42:10
+Yeni oluşturulan Evin yapim tarihi: 2010  11.12.2023 16:42:10
+Yeni oluşturulan Evin emlak numarasi: 100555  11.12.2023 16:42:10
+Yeni oluşturulan Evin ceşidi: Stüdyo  11.12.2023 16:42:10
+Yeni oluşturulan Evin getiri orani: 0,06  11.12.2023 16:42:10
+Yeni oluşturulan Evin oda sayisi: 2  11.12.2023 16:42:10
+Yeni oluşturulan Evin kat numarası: 5  11.12.2023 16:42:10
+Yeni oluşturulan Evin semti: Vefa  11.12.2023 16:42:10
+Yeni oluşturulan Evin ilçesi: Fatih  11.12.2023 16:42:10
+Yeni oluşturulan Evin alani: 120  11.12.2023 16:42:10
+Yeni oluşturulan Evin yapim tarihi: 2014  11.12.2023 16:42:10
+Yeni oluşturulan Evin emlak numarasi: 100560  11.12.2023 16:42:10
+Yeni oluşturulan Evin ceşidi: Daire  11.12.2023 16:42:10
+Yeni oluşturulan Evin getiri orani: 0,06  11.12.2023 16:42:10
+Yeni oluşturulan Evin oda sayisi: 4  11.12.2023 16:42:10
+Yeni oluşturulan Evin kat numarası: 5  11.12.2023 16:42:10
+Yeni oluşturulan Evin semti: Beylerbeyi  11.12.2023 16:42:10
+Yeni oluşturulan Evin ilçesi: Üsküdar  11.12.2023 16:42:10
+Yeni oluşturulan Evin alani: 110  11.12.2023 16:42:10
+Yeni oluşturulan Evin yapim tarihi: 2009  11.12.2023 16:42:10
+Yeni oluşturulan Evin emlak numarasi: 409999  11.12.2023 16:42:10
+Yeni oluşturulan Evin ceşidi: Daire  11.12.2023 16:42:10
+Yeni oluşturulan Evin getiri orani: 0,12  11.12.2023 16:42:10
+Yeni oluşturulan Evin oda sayisi: 4  11.12.2023 16:42:10
+Yeni oluşturulan Evin kat numarası: 2  11.12.2023 16:42:10
+Yeni oluşturulan Evin semti: Çatalçeşme  11.12.2023 16:42:10
+Yeni oluşturulan Evin ilçesi: Kadıköy  11.12.2023 16:42:10
+Yeni oluşturulan Evin alani: 140  11.12.2023 16:42:10
+Yeni oluşturulan Evin yapim tarihi: 2004  11.12.2023 16:42:10
+Yeni oluşturulan Evin emlak numarasi: 609965  11.12.2023 16:42:10
+Yeni oluşturulan Evin ceşidi: Dubleks  11.12.2023 16:42:10
+Yeni oluşturulan Evin getiri orani: 0,1  11.12.2023 16:42:10
+Yeni oluşturulan Evin oda sayisi: 4  11.12.2023 16:42:10
+Yeni oluşturulan Evin kat numarası: 0  11.12.2023 16:42:10
+Yeni oluşturulan Evin semti: Merter  11.12.2023 16:42:10
+Yeni oluşturulan Evin ilçesi: Zeytinburnu  11.12.2023 16:42:10
+Yeni oluşturulan Evin alani: 240  11.12.2023 16:42:10
+Yeni oluşturulan Evin yapim tarihi: 2005  11.12.2023 16:42:10
+Yeni oluşturulan Evin emlak numarasi: 609777  11.12.2023 16:42:10
+Yeni oluşturulan Evin ceşidi: Bahçeli  11.12.2023 16:42:10
+Yeni oluşturulan Evin getiri orani: 0,1  11.12.2023 16:42:10
+Yeni oluşturulan Evin oda sayisi: 6  11.12.2023 16:42:10
+Yeni oluşturulan Evin kat numarası: 0  11.12.2023 16:42:10
+Yeni oluşturulan Evin semti: Akaretler  11.12.2023 16:42:10
+Yeni oluşturulan Evin ilçesi: Beşiktaş  11.12.2023 16:42:10
+Yeni oluşturulan Evin alani: 231  11.12.2023 16:42:10
+Yeni oluşturulan Evin yapim tarihi: 2022  11.12.2023 16:42:10
+Yeni oluşturulan Evin emlak numarasi: 609779  11.12.2023 16:42:10
+Yeni oluşturulan Evin ceşidi: Müstakil  11.12.2023 16:42:10
+Yeni oluşturulan Evin getiri orani: 0,08  11.12.2023 16:42:10
+Yeni oluşturulan Evin oda sayisi: 7  11.12.2023 16:42:10
+Yeni oluşturulan Evin kat numarası: 0  11.12.2023 16:42:10
+Yeni oluşturulan Evin semti: Beşyüzevler  11.12.2023 16:42:10
+Yeni oluşturulan Evin ilçesi: Bayrampaşa  11.12.2023 16:42:10
+Yeni oluşturulan Evin alani: 300  11.12.2023 16:42:10
+Yeni oluşturulan Evin yapim tarihi: 2014  11.12.2023 16:42:10
+Yeni oluşturulan Evin emlak numarasi: 309713  11.12.2023 16:42:10
+Yeni oluşturulan Evin ceşidi: Bahçeli  11.12.2023 16:42:10
+Yeni oluşturulan Evin getiri orani: 0,11  11.12.2023 16:42:10
+Yeni oluşturulan Evin oda sayisi: 2  11.12.2023 16:42:10
+Yeni oluşturulan Evin kat numarası: 1  11.12.2023 16:42:10
+Yeni oluşturulan Evin semti: Ortaköy  11.12.2023 16:42:10
+Yeni oluşturulan Evin ilçesi: Beşiktaş  11.12.2023 16:42:10
+Yeni oluşturulan Evin alani: 130  11.12.2023 16:42:10
+Yeni oluşturulan Evin yapim tarihi: 2014  11.12.2023 16:42:10
+Yeni oluşturulan Evin emlak numarasi: 309712  11.12.2023 16:42:10
+Yeni oluşturulan Evin ceşidi: Stüdyo  11.12.2023 16:42:10
+Yeni oluşturulan Evin getiri orani: 0,15  11.12.2023 16:42:10
+Yeni oluşturulan Evin oda sayisi: 3  11.12.2023 16:42:10
+Yeni oluşturulan Evin kat numarası: 1  11.12.2023 16:42:10
+Yeni oluşturulan Evin semti: Keberburgaz  11.12.2023 16:42:10
+Yeni oluşturulan Evin ilçesi: Eyüpsultan  11.12.2023 16:42:10
+Yeni oluşturulan Evin alani: 190  11.12.2023 16:42:10
+Yeni oluşturulan Evin yapim tarihi: 2002  11.12.2023 16:42:10
+Yeni oluşturulan Evin emlak numarasi: 309444  11.12.2023 16:42:10
+Yeni oluşturulan Evin ceşidi: Belirtilmemiş  11.12.2023 16:42:10
+Yeni oluşturulan Evin getiri orani: 0,13  11.12.2023 16:42:10
+Yeni oluşturulan Evin oda sayisi: 2  11.12.2023 16:43:43
+Yeni oluşturulan Evin kat numarası: 3  11.12.2023 16:43:43
+Yeni oluşturulan Evin semti: Bebek  11.12.2023 16:43:43
+Yeni oluşturulan Evin ilçesi: Beşiktaş  11.12.2023 16:43:43
+Yeni oluşturulan Evin alani: 41  11.12.2023 16:43:43
+Yeni oluşturulan Evin yapim tarihi: 2000  11.12.2023 16:43:43
+Yeni oluşturulan Evin emlak numarasi: 100022  11.12.2023 16:43:43
+Yeni oluşturulan Evin ceşidi: Daire  11.12.2023 16:43:43
+Yeni oluşturulan Evin getiri orani: 0,07  11.12.2023 16:43:43
+Yeni oluşturulan Evin oda sayisi: 3  11.12.2023 16:43:43
+Yeni oluşturulan Evin kat numarası: 4  11.12.2023 16:43:43
+Yeni oluşturulan Evin semti: Cihangir  11.12.2023 16:43:43
+Yeni oluşturulan Evin ilçesi: Beşiktaş  11.12.2023 16:43:43
+Yeni oluşturulan Evin alani: 90  11.12.2023 16:43:43
+Yeni oluşturulan Evin yapim tarihi: 2003  11.12.2023 16:43:43
+Yeni oluşturulan Evin emlak numarasi: 100023  11.12.2023 16:43:43
+Yeni oluşturulan Evin ceşidi: Daire  11.12.2023 16:43:43
+Yeni oluşturulan Evin getiri orani: 0,06  11.12.2023 16:43:43
+Yeni oluşturulan Evin oda sayisi: 1  11.12.2023 16:43:43
+Yeni oluşturulan Evin kat numarası: 5  11.12.2023 16:43:43
+Yeni oluşturulan Evin semti: Fener  11.12.2023 16:43:43
+Yeni oluşturulan Evin ilçesi: Fatih  11.12.2023 16:43:43
+Yeni oluşturulan Evin alani: 91  11.12.2023 16:43:43
+Yeni oluşturulan Evin yapim tarihi: 2010  11.12.2023 16:43:43
+Yeni oluşturulan Evin emlak numarasi: 100555  11.12.2023 16:43:43
+Yeni oluşturulan Evin ceşidi: Stüdyo  11.12.2023 16:43:43
+Yeni oluşturulan Evin getiri orani: 0,06  11.12.2023 16:43:43
+Yeni oluşturulan Evin oda sayisi: 2  11.12.2023 16:43:43
+Yeni oluşturulan Evin kat numarası: 5  11.12.2023 16:43:43
+Yeni oluşturulan Evin semti: Vefa  11.12.2023 16:43:43
+Yeni oluşturulan Evin ilçesi: Fatih  11.12.2023 16:43:43
+Yeni oluşturulan Evin alani: 120  11.12.2023 16:43:43
+Yeni oluşturulan Evin yapim tarihi: 2014  11.12.2023 16:43:43
+Yeni oluşturulan Evin emlak numarasi: 100560  11.12.2023 16:43:43
+Yeni oluşturulan Evin ceşidi: Daire  11.12.2023 16:43:43
+Yeni oluşturulan Evin getiri orani: 0,06  11.12.2023 16:43:43
+Yeni oluşturulan Evin oda sayisi: 4  11.12.2023 16:43:43
+Yeni oluşturulan Evin kat numarası: 5  11.12.2023 16:43:43
+Yeni oluşturulan Evin semti: Beylerbeyi  11.12.2023 16:43:43
+Yeni oluşturulan Evin ilçesi: Üsküdar  11.12.2023 16:43:43
+Yeni oluşturulan Evin alani: 110  11.12.2023 16:43:43
+Yeni oluşturulan Evin yapim tarihi: 2009  11.12.2023 16:43:43
+Yeni oluşturulan Evin emlak numarasi: 409999  11.12.2023 16:43:43
+Yeni oluşturulan Evin ceşidi: Daire  11.12.2023 16:43:43
+Yeni oluşturulan Evin getiri orani: 0,12  11.12.2023 16:43:43
+Yeni oluşturulan Evin oda sayisi: 4  11.12.2023 16:43:43
+Yeni oluşturulan Evin kat numarası: 2  11.12.2023 16:43:43
+Yeni oluşturulan Evin semti: Çatalçeşme  11.12.2023 16:43:43
+Yeni oluşturulan Evin ilçesi: Kadıköy  11.12.2023 16:43:43
+Yeni oluşturulan Evin alani: 140  11.12.2023 16:43:43
+Yeni oluşturulan Evin yapim tarihi: 2004  11.12.2023 16:43:43
+Yeni oluşturulan Evin emlak numarasi: 609965  11.12.2023 16:43:43
+Yeni oluşturulan Evin ceşidi: Dubleks  11.12.2023 16:43:43
+Yeni oluşturulan Evin getiri orani: 0,1  11.12.2023 16:43:43
+Yeni oluşturulan Evin oda sayisi: 4  11.12.2023 16:43:43
+Yeni oluşturulan Evin kat numarası: 0  11.12.2023 16:43:43
+Yeni oluşturulan Evin semti: Merter  11.12.2023 16:43:43
+Yeni oluşturulan Evin ilçesi: Zeytinburnu  11.12.2023 16:43:43
+Yeni oluşturulan Evin alani: 240  11.12.2023 16:43:43
+Yeni oluşturulan Evin yapim tarihi: 2005  11.12.2023 16:43:43
+Yeni oluşturulan Evin emlak numarasi: 609777  11.12.2023 16:43:43
+Yeni oluşturulan Evin ceşidi: Bahçeli  11.12.2023 16:43:43
+Yeni oluşturulan Evin getiri orani: 0,1  11.12.2023 16:43:43
+Yeni oluşturulan Evin oda sayisi: 6  11.12.2023 16:43:43
+Yeni oluşturulan Evin kat numarası: 0  11.12.2023 16:43:43
+Yeni oluşturulan Evin semti: Akaretler  11.12.2023 16:43:43
+Yeni oluşturulan Evin ilçesi: Beşiktaş  11.12.2023 16:43:43
+Yeni oluşturulan Evin alani: 231  11.12.2023 16:43:43
+Yeni oluşturulan Evin yapim tarihi: 2022  11.12.2023 16:43:43
+Yeni oluşturulan Evin emlak numarasi: 609779  11.12.2023 16:43:43
+Yeni oluşturulan Evin ceşidi: Müstakil  11.12.2023 16:43:43
+Yeni oluşturulan Evin getiri orani: 0,08  11.12.2023 16:43:43
+Yeni oluşturulan Evin oda sayisi: 7  11.12.2023 16:43:43
+Yeni oluşturulan Evin kat numarası: 0  11.12.2023 16:43:43
+Yeni oluşturulan Evin semti: Beşyüzevler  11.12.2023 16:43:43
+Yeni oluşturulan Evin ilçesi: Bayrampaşa  11.12.2023 16:43:43
+Yeni oluşturulan Evin alani: 300  11.12.2023 16:43:43
+Yeni oluşturulan Evin yapim tarihi: 2014  11.12.2023 16:43:43
+Yeni oluşturulan Evin emlak numarasi: 309713  11.12.2023 16:43:43
+Yeni oluşturulan Evin ceşidi: Bahçeli  11.12.2023 16:43:43
+Yeni oluşturulan Evin getiri orani: 0,11  11.12.2023 16:43:43
+Yeni oluşturulan Evin oda sayisi: 2  11.12.2023 16:43:43
+Yeni oluşturulan Evin kat numarası: 1  11.12.2023 16:43:43
+Yeni oluşturulan Evin semti: Ortaköy  11.12.2023 16:43:43
+Yeni oluşturulan Evin ilçesi: Beşiktaş  11.12.2023 16:43:43
+Yeni oluşturulan Evin alani: 130  11.12.2023 16:43:43
+Yeni oluşturulan Evin yapim tarihi: 2014  11.12.2023 16:43:43
+Yeni oluşturulan Evin emlak numarasi: 309712  11.12.2023 16:43:43
+Yeni oluşturulan Evin ceşidi: Stüdyo  11.12.2023 16:43:43
+Yeni oluşturulan Evin getiri orani: 0,15  11.12.2023 16:43:43
+Yeni oluşturulan Evin oda sayisi: 3  11.12.2023 16:43:43
+Yeni oluşturulan Evin kat numarası: 1  11.12.2023 16:43:43
+Yeni oluşturulan Evin semti: Keberburgaz  11.12.2023 16:43:43
+Yeni oluşturulan Evin ilçesi: Eyüpsultan  11.12.2023 16:43:43
+Yeni oluşturulan Evin alani: 190  11.12.2023 16:43:43
+Yeni oluşturulan Evin yapim tarihi: 2002  11.12.2023 16:43:43
+Yeni oluşturulan Evin emlak numarasi: 309444  11.12.2023 16:43:43
+Yeni oluşturulan Evin ceşidi: Belirtilmemiş  11.12.2023 16:43:43
+Yeni oluşturulan Evin getiri orani: 0,13  11.12.2023 16:43:43
+Yeni oluşturulan Evin oda sayisi: 2  11.12.2023 16:48:26
+Yeni oluşturulan Evin kat numarası: 3  11.12.2023 16:48:26
+Yeni oluşturulan Evin semti: Bebek  11.12.2023 16:48:26
+Yeni oluşturulan Evin ilçesi: Beşiktaş  11.12.2023 16:48:26
+Yeni oluşturulan Evin alani: 41  11.12.2023 16:48:26
+Yeni oluşturulan Evin yapim tarihi: 2000  11.12.2023 16:48:26
+Yeni oluşturulan Evin emlak numarasi: 100022  11.12.2023 16:48:26
+Yeni oluşturulan Evin ceşidi: Daire  11.12.2023 16:48:26
+Yeni oluşturulan Evin getiri orani: 0,07  11.12.2023 16:48:26
+Yeni oluşturulan Evin oda sayisi: 3  11.12.2023 16:48:26
+Yeni oluşturulan Evin kat numarası: 4  11.12.2023 16:48:26
+Yeni oluşturulan Evin semti: Cihangir  11.12.2023 16:48:26
+Yeni oluşturulan Evin ilçesi: Beşiktaş  11.12.2023 16:48:26
+Yeni oluşturulan Evin alani: 90  11.12.2023 16:48:26
+Yeni oluşturulan Evin yapim tarihi: 2003  11.12.2023 16:48:26
+Yeni oluşturulan Evin emlak numarasi: 100023  11.12.2023 16:48:26
+Yeni oluşturulan Evin ceşidi: Daire  11.12.2023 16:48:26
+Yeni oluşturulan Evin getiri orani: 0,06  11.12.2023 16:48:26
+Yeni oluşturulan Evin oda sayisi: 1  11.12.2023 16:48:26
+Yeni oluşturulan Evin kat numarası: 5  11.12.2023 16:48:26
+Yeni oluşturulan Evin semti: Fener  11.12.2023 16:48:26
+Yeni oluşturulan Evin ilçesi: Fatih  11.12.2023 16:48:26
+Yeni oluşturulan Evin alani: 91  11.12.2023 16:48:26
+Yeni oluşturulan Evin yapim tarihi: 2010  11.12.2023 16:48:26
+Yeni oluşturulan Evin emlak numarasi: 100555  11.12.2023 16:48:26
+Yeni oluşturulan Evin ceşidi: Stüdyo  11.12.2023 16:48:26
+Yeni oluşturulan Evin getiri orani: 0,06  11.12.2023 16:48:26
+Yeni oluşturulan Evin oda sayisi: 2  11.12.2023 16:48:26
+Yeni oluşturulan Evin kat numarası: 5  11.12.2023 16:48:26
+Yeni oluşturulan Evin semti: Vefa  11.12.2023 16:48:26
+Yeni oluşturulan Evin ilçesi: Fatih  11.12.2023 16:48:26
+Yeni oluşturulan Evin alani: 120  11.12.2023 16:48:26
+Yeni oluşturulan Evin yapim tarihi: 2014  11.12.2023 16:48:26
+Yeni oluşturulan Evin emlak numarasi: 100560  11.12.2023 16:48:26
+Yeni oluşturulan Evin ceşidi: Daire  11.12.2023 16:48:26
+Yeni oluşturulan Evin getiri orani: 0,06  11.12.2023 16:48:26
+Yeni oluşturulan Evin oda sayisi: 4  11.12.2023 16:48:26
+Yeni oluşturulan Evin kat numarası: 5  11.12.2023 16:48:26
+Yeni oluşturulan Evin semti: Beylerbeyi  11.12.2023 16:48:26
+Yeni oluşturulan Evin ilçesi: Üsküdar  11.12.2023 16:48:26
+Yeni oluşturulan Evin alani: 110  11.12.2023 16:48:26
+Yeni oluşturulan Evin yapim tarihi: 2009  11.12.2023 16:48:26
+Yeni oluşturulan Evin emlak numarasi: 409999  11.12.2023 16:48:26
+Yeni oluşturulan Evin ceşidi: Daire  11.12.2023 16:48:26
+Yeni oluşturulan Evin getiri orani: 0,12  11.12.2023 16:48:26
+Yeni oluşturulan Evin oda sayisi: 4  11.12.2023 16:48:26
+Yeni oluşturulan Evin kat numarası: 2  11.12.2023 16:48:26
+Yeni oluşturulan Evin semti: Çatalçeşme  11.12.2023 16:48:26
+Yeni oluşturulan Evin ilçesi: Kadıköy  11.12.2023 16:48:26
+Yeni oluşturulan Evin alani: 140  11.12.2023 16:48:26
+Yeni oluşturulan Evin yapim tarihi: 2004  11.12.2023 16:48:26
+Yeni oluşturulan Evin emlak numarasi: 609965  11.12.2023 16:48:26
+Yeni oluşturulan Evin ceşidi: Dubleks  11.12.2023 16:48:26
+Yeni oluşturulan Evin getiri orani: 0,1  11.12.2023 16:48:26
+Yeni oluşturulan Evin oda sayisi: 4  11.12.2023 16:48:26
+Yeni oluşturulan Evin kat numarası: 0  11.12.2023 16:48:26
+Yeni oluşturulan Evin semti: Merter  11.12.2023 16:48:26
+Yeni oluşturulan Evin ilçesi: Zeytinburnu  11.12.2023 16:48:26
+Yeni oluşturulan Evin alani: 240  11.12.2023 16:48:26
+Yeni oluşturulan Evin yapim tarihi: 2005  11.12.2023 16:48:26
+Yeni oluşturulan Evin emlak numarasi: 609777  11.12.2023 16:48:26
+Yeni oluşturulan Evin ceşidi: Bahçeli  11.12.2023 16:48:26
+Yeni oluşturulan Evin getiri orani: 0,1  11.12.2023 16:48:26
+Yeni oluşturulan Evin oda sayisi: 6  11.12.2023 16:48:26
+Yeni oluşturulan Evin kat numarası: 0  11.12.2023 16:48:26
+Yeni oluşturulan Evin semti: Akaretler  11.12.2023 16:48:26
+Yeni oluşturulan Evin ilçesi: Beşiktaş  11.12.2023 16:48:26
+Yeni oluşturulan Evin alani: 231  11.12.2023 16:48:26
+Yeni oluşturulan Evin yapim tarihi: 2022  11.12.2023 16:48:26
+Yeni oluşturulan Evin emlak numarasi: 609779  11.12.2023 16:48:26
+Yeni oluşturulan Evin ceşidi: Müstakil  11.12.2023 16:48:26
+Yeni oluşturulan Evin getiri orani: 0,08  11.12.2023 16:48:26
+Yeni oluşturulan Evin oda sayisi: 7  11.12.2023 16:48:26
+Yeni oluşturulan Evin kat numarası: 0  11.12.2023 16:48:26
+Yeni oluşturulan Evin semti: Beşyüzevler  11.12.2023 16:48:26
+Yeni oluşturulan Evin ilçesi: Bayrampaşa  11.12.2023 16:48:26
+Yeni oluşturulan Evin alani: 300  11.12.2023 16:48:26
+Yeni oluşturulan Evin yapim tarihi: 2014  11.12.2023 16:48:26
+Yeni oluşturulan Evin emlak numarasi: 309713  11.12.2023 16:48:26
+Yeni oluşturulan Evin ceşidi: Bahçeli  11.12.2023 16:48:26
+Yeni oluşturulan Evin getiri orani: 0,11  11.12.2023 16:48:26
+Yeni oluşturulan Evin oda sayisi: 2  11.12.2023 16:48:26
+Yeni oluşturulan Evin kat numarası: 1  11.12.2023 16:48:26
+Yeni oluşturulan Evin semti: Ortaköy  11.12.2023 16:48:26
+Yeni oluşturulan Evin ilçesi: Beşiktaş  11.12.2023 16:48:26
+Yeni oluşturulan Evin alani: 130  11.12.2023 16:48:26
+Yeni oluşturulan Evin yapim tarihi: 2014  11.12.2023 16:48:26
+Yeni oluşturulan Evin emlak numarasi: 309712  11.12.2023 16:48:26
+Yeni oluşturulan Evin ceşidi: Stüdyo  11.12.2023 16:48:26
+Yeni oluşturulan Evin getiri orani: 0,15  11.12.2023 16:48:26
+Yeni oluşturulan Evin oda sayisi: 3  11.12.2023 16:48:26
+Yeni oluşturulan Evin kat numarası: 1  11.12.2023 16:48:26
+Yeni oluşturulan Evin semti: Keberburgaz  11.12.2023 16:48:26
+Yeni oluşturulan Evin ilçesi: Eyüpsultan  11.12.2023 16:48:26
+Yeni oluşturulan Evin alani: 190  11.12.2023 16:48:26
+Yeni oluşturulan Evin yapim tarihi: 2002  11.12.2023 16:48:26
+Yeni oluşturulan Evin emlak numarasi: 309444  11.12.2023 16:48:26
+Yeni oluşturulan Evin ceşidi: Belirtilmemiş  11.12.2023 16:48:26
+Yeni oluşturulan Evin getiri orani: 0,13  11.12.2023 16:48:26
+Yeni oluşturulan Evin oda sayisi: 3  11.12.2023 16:48:51
+Yeni oluşturulan Evin kat numarası: 4  11.12.2023 16:48:51
+Yeni oluşturulan Evin semti: Cihangir  11.12.2023 16:48:51
+Yeni oluşturulan Evin ilçesi: Beşiktaş  11.12.2023 16:48:51
+Yeni oluşturulan Evin alani: 90  11.12.2023 16:48:51
+Yeni oluşturulan Evin ceşidi: Daire  11.12.2023 16:48:51
+Yeni oluşturulan Evin yapim tarihi: 2003  11.12.2023 16:48:51
+Yeni oluşturulan Evin emlak numarasi: 100023  11.12.2023 16:48:51
+Yeni oluşturulan Evin getiri orani: 0,06  11.12.2023 16:48:51
+Yeni oluşturulan Evin oda sayisi: 2  11.12.2023 16:48:51
+Yeni oluşturulan Evin kat numarası: 3  11.12.2023 16:48:51
+Yeni oluşturulan Evin semti: Bebek  11.12.2023 16:48:51
+Yeni oluşturulan Evin ilçesi: Beşiktaş  11.12.2023 16:48:51
+Yeni oluşturulan Evin alani: 41  11.12.2023 16:48:51
+Yeni oluşturulan Evin yapim tarihi: 2000  11.12.2023 16:48:51
+Yeni oluşturulan Evin emlak numarasi: 100022  11.12.2023 16:48:51
+Yeni oluşturulan Evin ceşidi: Daire  11.12.2023 16:48:51
+Yeni oluşturulan Evin getiri orani: 0,07  11.12.2023 16:48:51
+Yeni oluşturulan Evin oda sayisi: 3  11.12.2023 16:48:51
+Yeni oluşturulan Evin kat numarası: 4  11.12.2023 16:48:51
+Yeni oluşturulan Evin semti: Cihangir  11.12.2023 16:48:51
+Yeni oluşturulan Evin ilçesi: Beşiktaş  11.12.2023 16:48:51
+Yeni oluşturulan Evin alani: 90  11.12.2023 16:48:51
+Yeni oluşturulan Evin yapim tarihi: 2003  11.12.2023 16:48:51
+Yeni oluşturulan Evin emlak numarasi: 100023  11.12.2023 16:48:51
+Yeni oluşturulan Evin ceşidi: Daire  11.12.2023 16:48:51
+Yeni oluşturulan Evin getiri orani: 0,06  11.12.2023 16:48:51
+Yeni oluşturulan Evin oda sayisi: 1  11.12.2023 16:48:51
+Yeni oluşturulan Evin kat numarası: 5  11.12.2023 16:48:51
+Yeni oluşturulan Evin semti: Fener  11.12.2023 16:48:51
+Yeni oluşturulan Evin ilçesi: Fatih  11.12.2023 16:48:51
+Yeni oluşturulan Evin alani: 91  11.12.2023 16:48:51
+Yeni oluşturulan Evin yapim tarihi: 2010  11.12.2023 16:48:51
+Yeni oluşturulan Evin emlak numarasi: 100555  11.12.2023 16:48:51
+Yeni oluşturulan Evin ceşidi: Stüdyo  11.12.2023 16:48:51
+Yeni oluşturulan Evin getiri orani: 0,06  11.12.2023 16:48:51
+Yeni oluşturulan Evin oda sayisi: 2  11.12.2023 16:48:51
+Yeni oluşturulan Evin kat numarası: 5  11.12.2023 16:48:51
+Yeni oluşturulan Evin semti: Vefa  11.12.2023 16:48:51
+Yeni oluşturulan Evin ilçesi: Fatih  11.12.2023 16:48:51
+Yeni oluşturulan Evin alani: 120  11.12.2023 16:48:51
+Yeni oluşturulan Evin yapim tarihi: 2014  11.12.2023 16:48:51
+Yeni oluşturulan Evin emlak numarasi: 100560  11.12.2023 16:48:51
+Yeni oluşturulan Evin ceşidi: Daire  11.12.2023 16:48:51
+Yeni oluşturulan Evin getiri orani: 0,06  11.12.2023 16:48:51
+Yeni oluşturulan Evin oda sayisi: 4  11.12.2023 16:48:51
+Yeni oluşturulan Evin kat numarası: 5  11.12.2023 16:48:51
+Yeni oluşturulan Evin semti: Beylerbeyi  11.12.2023 16:48:51
+Yeni oluşturulan Evin ilçesi: Üsküdar  11.12.2023 16:48:51
+Yeni oluşturulan Evin alani: 110  11.12.2023 16:48:51
+Yeni oluşturulan Evin yapim tarihi: 2009  11.12.2023 16:48:51
+Yeni oluşturulan Evin emlak numarasi: 409999  11.12.2023 16:48:51
+Yeni oluşturulan Evin ceşidi: Daire  11.12.2023 16:48:51
+Yeni oluşturulan Evin getiri orani: 0,12  11.12.2023 16:48:51
+Yeni oluşturulan Evin oda sayisi: 4  11.12.2023 16:48:51
+Yeni oluşturulan Evin kat numarası: 2  11.12.2023 16:48:51
+Yeni oluşturulan Evin semti: Çatalçeşme  11.12.2023 16:48:51
+Yeni oluşturulan Evin ilçesi: Kadıköy  11.12.2023 16:48:51
+Yeni oluşturulan Evin alani: 140  11.12.2023 16:48:51
+Yeni oluşturulan Evin yapim tarihi: 2004  11.12.2023 16:48:51
+Yeni oluşturulan Evin emlak numarasi: 609965  11.12.2023 16:48:51
+Yeni oluşturulan Evin ceşidi: Dubleks  11.12.2023 16:48:51
+Yeni oluşturulan Evin getiri orani: 0,1  11.12.2023 16:48:51
+Yeni oluşturulan Evin oda sayisi: 4  11.12.2023 16:48:51
+Yeni oluşturulan Evin kat numarası: 0  11.12.2023 16:48:51
+Yeni oluşturulan Evin semti: Merter  11.12.2023 16:48:51
+Yeni oluşturulan Evin ilçesi: Zeytinburnu  11.12.2023 16:48:51
+Yeni oluşturulan Evin alani: 240  11.12.2023 16:48:51
+Yeni oluşturulan Evin yapim tarihi: 2005  11.12.2023 16:48:51
+Yeni oluşturulan Evin emlak numarasi: 609777  11.12.2023 16:48:51
+Yeni oluşturulan Evin ceşidi: Bahçeli  11.12.2023 16:48:51
+Yeni oluşturulan Evin getiri orani: 0,1  11.12.2023 16:48:51
+Yeni oluşturulan Evin oda sayisi: 6  11.12.2023 16:48:51
+Yeni oluşturulan Evin kat numarası: 0  11.12.2023 16:48:51
+Yeni oluşturulan Evin semti: Akaretler  11.12.2023 16:48:51
+Yeni oluşturulan Evin ilçesi: Beşiktaş  11.12.2023 16:48:51
+Yeni oluşturulan Evin alani: 231  11.12.2023 16:48:51
+Yeni oluşturulan Evin yapim tarihi: 2022  11.12.2023 16:48:51
+Yeni oluşturulan Evin emlak numarasi: 609779  11.12.2023 16:48:51
+Yeni oluşturulan Evin ceşidi: Müstakil  11.12.2023 16:48:51
+Yeni oluşturulan Evin getiri orani: 0,08  11.12.2023 16:48:51
+Yeni oluşturulan Evin oda sayisi: 7  11.12.2023 16:48:51
+Yeni oluşturulan Evin kat numarası: 0  11.12.2023 16:48:51
+Yeni oluşturulan Evin semti: Beşyüzevler  11.12.2023 16:48:51
+Yeni oluşturulan Evin ilçesi: Bayrampaşa  11.12.2023 16:48:51
+Yeni oluşturulan Evin alani: 300  11.12.2023 16:48:51
+Yeni oluşturulan Evin yapim tarihi: 2014  11.12.2023 16:48:51
+Yeni oluşturulan Evin emlak numarasi: 309713  11.12.2023 16:48:51
+Yeni oluşturulan Evin ceşidi: Bahçeli  11.12.2023 16:48:51
+Yeni oluşturulan Evin getiri orani: 0,11  11.12.2023 16:48:51
+Yeni oluşturulan Evin oda sayisi: 2  11.12.2023 16:48:51
+Yeni oluşturulan Evin kat numarası: 1  11.12.2023 16:48:51
+Yeni oluşturulan Evin semti: Ortaköy  11.12.2023 16:48:51
+Yeni oluşturulan Evin ilçesi: Beşiktaş  11.12.2023 16:48:51
+Yeni oluşturulan Evin alani: 130  11.12.2023 16:48:51
+Yeni oluşturulan Evin yapim tarihi: 2014  11.12.2023 16:48:51
+Yeni oluşturulan Evin emlak numarasi: 309712  11.12.2023 16:48:51
+Yeni oluşturulan Evin ceşidi: Stüdyo  11.12.2023 16:48:51
+Yeni oluşturulan Evin getiri orani: 0,15  11.12.2023 16:48:51
+Yeni oluşturulan Evin oda sayisi: 3  11.12.2023 16:48:51
+Yeni oluşturulan Evin kat numarası: 1  11.12.2023 16:48:51
+Yeni oluşturulan Evin semti: Keberburgaz  11.12.2023 16:48:51
+Yeni oluşturulan Evin ilçesi: Eyüpsultan  11.12.2023 16:48:51
+Yeni oluşturulan Evin alani: 190  11.12.2023 16:48:51
+Yeni oluşturulan Evin yapim tarihi: 2002  11.12.2023 16:48:51
+Yeni oluşturulan Evin emlak numarasi: 309444  11.12.2023 16:48:51
+Yeni oluşturulan Evin ceşidi: Belirtilmemiş  11.12.2023 16:48:51
+Yeni oluşturulan Evin getiri orani: 0,13  11.12.2023 16:48:51
+Yeni oluşturulan Evin oda sayisi: 3  11.12.2023 16:49:05
+Yeni oluşturulan Evin kat numarası: 4  11.12.2023 16:49:05
+Yeni oluşturulan Evin semti: Cihangir  11.12.2023 16:49:05
+Yeni oluşturulan Evin ilçesi: Beşiktaş  11.12.2023 16:49:05
+Yeni oluşturulan Evin alani: 90  11.12.2023 16:49:05
+Yeni oluşturulan Evin yapim tarihi: 2003  11.12.2023 16:49:05
+Yeni oluşturulan Evin emlak numarasi: 100023  11.12.2023 16:49:05
+Yeni oluşturulan Evin ceşidi: Daire  11.12.2023 16:49:05
+Yeni oluşturulan Evin getiri orani: 0,06  11.12.2023 16:49:05
+Yeni oluşturulan Evin oda sayisi: 1  11.12.2023 16:49:05
+Yeni oluşturulan Evin kat numarası: 5  11.12.2023 16:49:05
+Yeni oluşturulan Evin semti: Fener  11.12.2023 16:49:05
+Yeni oluşturulan Evin ilçesi: Fatih  11.12.2023 16:49:05
+Yeni oluşturulan Evin alani: 91  11.12.2023 16:49:05
+Yeni oluşturulan Evin yapim tarihi: 2010  11.12.2023 16:49:05
+Yeni oluşturulan Evin emlak numarasi: 100555  11.12.2023 16:49:05
+Yeni oluşturulan Evin ceşidi: Stüdyo  11.12.2023 16:49:05
+Yeni oluşturulan Evin getiri orani: 0,06  11.12.2023 16:49:05
+Yeni oluşturulan Evin oda sayisi: 2  11.12.2023 16:49:05
+Yeni oluşturulan Evin kat numarası: 5  11.12.2023 16:49:05
+Yeni oluşturulan Evin semti: Vefa  11.12.2023 16:49:05
+Yeni oluşturulan Evin ilçesi: Fatih  11.12.2023 16:49:05
+Yeni oluşturulan Evin alani: 120  11.12.2023 16:49:05
+Yeni oluşturulan Evin yapim tarihi: 2014  11.12.2023 16:49:05
+Yeni oluşturulan Evin emlak numarasi: 100560  11.12.2023 16:49:05
+Yeni oluşturulan Evin ceşidi: Daire  11.12.2023 16:49:05
+Yeni oluşturulan Evin getiri orani: 0,06  11.12.2023 16:49:05
+Yeni oluşturulan Evin oda sayisi: 4  11.12.2023 16:49:05
+Yeni oluşturulan Evin kat numarası: 5  11.12.2023 16:49:05
+Yeni oluşturulan Evin semti: Beylerbeyi  11.12.2023 16:49:05
+Yeni oluşturulan Evin ilçesi: Üsküdar  11.12.2023 16:49:05
+Yeni oluşturulan Evin alani: 110  11.12.2023 16:49:05
+Yeni oluşturulan Evin yapim tarihi: 2009  11.12.2023 16:49:05
+Yeni oluşturulan Evin emlak numarasi: 409999  11.12.2023 16:49:05
+Yeni oluşturulan Evin ceşidi: Daire  11.12.2023 16:49:05
+Yeni oluşturulan Evin getiri orani: 0,12  11.12.2023 16:49:05
+Yeni oluşturulan Evin oda sayisi: 4  11.12.2023 16:49:05
+Yeni oluşturulan Evin kat numarası: 2  11.12.2023 16:49:05
+Yeni oluşturulan Evin semti: Çatalçeşme  11.12.2023 16:49:05
+Yeni oluşturulan Evin ilçesi: Kadıköy  11.12.2023 16:49:05
+Yeni oluşturulan Evin alani: 140  11.12.2023 16:49:05
+Yeni oluşturulan Evin yapim tarihi: 2004  11.12.2023 16:49:05
+Yeni oluşturulan Evin emlak numarasi: 609965  11.12.2023 16:49:05
+Yeni oluşturulan Evin ceşidi: Dubleks  11.12.2023 16:49:05
+Yeni oluşturulan Evin getiri orani: 0,1  11.12.2023 16:49:05
+Yeni oluşturulan Evin oda sayisi: 4  11.12.2023 16:49:05
+Yeni oluşturulan Evin kat numarası: 0  11.12.2023 16:49:05
+Yeni oluşturulan Evin semti: Merter  11.12.2023 16:49:05
+Yeni oluşturulan Evin ilçesi: Zeytinburnu  11.12.2023 16:49:05
+Yeni oluşturulan Evin alani: 240  11.12.2023 16:49:05
+Yeni oluşturulan Evin yapim tarihi: 2005  11.12.2023 16:49:05
+Yeni oluşturulan Evin emlak numarasi: 609777  11.12.2023 16:49:05
+Yeni oluşturulan Evin ceşidi: Bahçeli  11.12.2023 16:49:05
+Yeni oluşturulan Evin getiri orani: 0,1  11.12.2023 16:49:05
+Yeni oluşturulan Evin oda sayisi: 6  11.12.2023 16:49:05
+Yeni oluşturulan Evin kat numarası: 0  11.12.2023 16:49:05
+Yeni oluşturulan Evin semti: Akaretler  11.12.2023 16:49:05
+Yeni oluşturulan Evin ilçesi: Beşiktaş  11.12.2023 16:49:05
+Yeni oluşturulan Evin alani: 231  11.12.2023 16:49:05
+Yeni oluşturulan Evin yapim tarihi: 2022  11.12.2023 16:49:05
+Yeni oluşturulan Evin emlak numarasi: 609779  11.12.2023 16:49:05
+Yeni oluşturulan Evin ceşidi: Müstakil  11.12.2023 16:49:05
+Yeni oluşturulan Evin getiri orani: 0,08  11.12.2023 16:49:05
+Yeni oluşturulan Evin oda sayisi: 7  11.12.2023 16:49:05
+Yeni oluşturulan Evin kat numarası: 0  11.12.2023 16:49:05
+Yeni oluşturulan Evin semti: Beşyüzevler  11.12.2023 16:49:05
+Yeni oluşturulan Evin ilçesi: Bayrampaşa  11.12.2023 16:49:05
+Yeni oluşturulan Evin alani: 300  11.12.2023 16:49:05
+Yeni oluşturulan Evin yapim tarihi: 2014  11.12.2023 16:49:05
+Yeni oluşturulan Evin emlak numarasi: 309713  11.12.2023 16:49:05
+Yeni oluşturulan Evin ceşidi: Bahçeli  11.12.2023 16:49:05
+Yeni oluşturulan Evin getiri orani: 0,11  11.12.2023 16:49:05
+Yeni oluşturulan Evin oda sayisi: 2  11.12.2023 16:49:05
+Yeni oluşturulan Evin kat numarası: 1  11.12.2023 16:49:05
+Yeni oluşturulan Evin semti: Ortaköy  11.12.2023 16:49:05
+Yeni oluşturulan Evin ilçesi: Beşiktaş  11.12.2023 16:49:05
+Yeni oluşturulan Evin alani: 130  11.12.2023 16:49:05
+Yeni oluşturulan Evin yapim tarihi: 2014  11.12.2023 16:49:05
+Yeni oluşturulan Evin emlak numarasi: 309712  11.12.2023 16:49:05
+Yeni oluşturulan Evin ceşidi: Stüdyo  11.12.2023 16:49:05
+Yeni oluşturulan Evin getiri orani: 0,15  11.12.2023 16:49:05
+Yeni oluşturulan Evin oda sayisi: 3  11.12.2023 16:49:05
+Yeni oluşturulan Evin kat numarası: 1  11.12.2023 16:49:05
+Yeni oluşturulan Evin semti: Keberburgaz  11.12.2023 16:49:05
+Yeni oluşturulan Evin ilçesi: Eyüpsultan  11.12.2023 16:49:05
+Yeni oluşturulan Evin alani: 190  11.12.2023 16:49:05
+Yeni oluşturulan Evin yapim tarihi: 2002  11.12.2023 16:49:05
+Yeni oluşturulan Evin emlak numarasi: 309444  11.12.2023 16:49:05
+Yeni oluşturulan Evin ceşidi: Belirtilmemiş  11.12.2023 16:49:05
+Yeni oluşturulan Evin getiri orani: 0,13  11.12.2023 16:49:05
+Yeni oluşturulan Evin oda sayisi: 3  11.12.2023 16:50:29
+Yeni oluşturulan Evin kat numarası: 4  11.12.2023 16:50:29
+Yeni oluşturulan Evin semti: Cihangir  11.12.2023 16:50:29
+Yeni oluşturulan Evin ilçesi: Beşiktaş  11.12.2023 16:50:29
+Yeni oluşturulan Evin alani: 90  11.12.2023 16:50:29
+Yeni oluşturulan Evin yapim tarihi: 2003  11.12.2023 16:50:29
+Yeni oluşturulan Evin emlak numarasi: 100023  11.12.2023 16:50:29
+Yeni oluşturulan Evin ceşidi: Daire  11.12.2023 16:50:29
+Yeni oluşturulan Evin getiri orani: 0,06  11.12.2023 16:50:29
+Yeni oluşturulan Evin oda sayisi: 1  11.12.2023 16:50:29
+Yeni oluşturulan Evin kat numarası: 5  11.12.2023 16:50:29
+Yeni oluşturulan Evin semti: Fener  11.12.2023 16:50:29
+Yeni oluşturulan Evin ilçesi: Fatih  11.12.2023 16:50:29
+Yeni oluşturulan Evin alani: 91  11.12.2023 16:50:29
+Yeni oluşturulan Evin yapim tarihi: 2010  11.12.2023 16:50:29
+Yeni oluşturulan Evin emlak numarasi: 100555  11.12.2023 16:50:29
+Yeni oluşturulan Evin ceşidi: Stüdyo  11.12.2023 16:50:29
+Yeni oluşturulan Evin getiri orani: 0,06  11.12.2023 16:50:29
+Yeni oluşturulan Evin oda sayisi: 2  11.12.2023 16:50:29
+Yeni oluşturulan Evin kat numarası: 5  11.12.2023 16:50:29
+Yeni oluşturulan Evin semti: Vefa  11.12.2023 16:50:29
+Yeni oluşturulan Evin ilçesi: Fatih  11.12.2023 16:50:29
+Yeni oluşturulan Evin alani: 120  11.12.2023 16:50:29
+Yeni oluşturulan Evin yapim tarihi: 2014  11.12.2023 16:50:29
+Yeni oluşturulan Evin emlak numarasi: 100560  11.12.2023 16:50:29
+Yeni oluşturulan Evin ceşidi: Daire  11.12.2023 16:50:29
+Yeni oluşturulan Evin getiri orani: 0,06  11.12.2023 16:50:29
+Yeni oluşturulan Evin oda sayisi: 4  11.12.2023 16:50:29
+Yeni oluşturulan Evin kat numarası: 5  11.12.2023 16:50:29
+Yeni oluşturulan Evin semti: Beylerbeyi  11.12.2023 16:50:29
+Yeni oluşturulan Evin ilçesi: Üsküdar  11.12.2023 16:50:29
+Yeni oluşturulan Evin alani: 110  11.12.2023 16:50:29
+Yeni oluşturulan Evin yapim tarihi: 2009  11.12.2023 16:50:29
+Yeni oluşturulan Evin emlak numarasi: 409999  11.12.2023 16:50:29
+Yeni oluşturulan Evin ceşidi: Daire  11.12.2023 16:50:29
+Yeni oluşturulan Evin getiri orani: 0,12  11.12.2023 16:50:29
+Yeni oluşturulan Evin oda sayisi: 4  11.12.2023 16:50:29
+Yeni oluşturulan Evin kat numarası: 2  11.12.2023 16:50:29
+Yeni oluşturulan Evin semti: Çatalçeşme  11.12.2023 16:50:29
+Yeni oluşturulan Evin ilçesi: Kadıköy  11.12.2023 16:50:29
+Yeni oluşturulan Evin alani: 140  11.12.2023 16:50:29
+Yeni oluşturulan Evin yapim tarihi: 2004  11.12.2023 16:50:29
+Yeni oluşturulan Evin emlak numarasi: 609965  11.12.2023 16:50:29
+Yeni oluşturulan Evin ceşidi: Dubleks  11.12.2023 16:50:29
+Yeni oluşturulan Evin getiri orani: 0,1  11.12.2023 16:50:29
+Yeni oluşturulan Evin oda sayisi: 4  11.12.2023 16:50:29
+Yeni oluşturulan Evin kat numarası: 0  11.12.2023 16:50:29
+Yeni oluşturulan Evin semti: Merter  11.12.2023 16:50:29
+Yeni oluşturulan Evin ilçesi: Zeytinburnu  11.12.2023 16:50:29
+Yeni oluşturulan Evin alani: 240  11.12.2023 16:50:29
+Yeni oluşturulan Evin yapim tarihi: 2005  11.12.2023 16:50:29
+Yeni oluşturulan Evin emlak numarasi: 609777  11.12.2023 16:50:29
+Yeni oluşturulan Evin ceşidi: Bahçeli  11.12.2023 16:50:29
+Yeni oluşturulan Evin getiri orani: 0,1  11.12.2023 16:50:29
+Yeni oluşturulan Evin oda sayisi: 6  11.12.2023 16:50:29
+Yeni oluşturulan Evin kat numarası: 0  11.12.2023 16:50:29
+Yeni oluşturulan Evin semti: Akaretler  11.12.2023 16:50:29
+Yeni oluşturulan Evin ilçesi: Beşiktaş  11.12.2023 16:50:29
+Yeni oluşturulan Evin alani: 231  11.12.2023 16:50:29
+Yeni oluşturulan Evin yapim tarihi: 2022  11.12.2023 16:50:29
+Yeni oluşturulan Evin emlak numarasi: 609779  11.12.2023 16:50:29
+Yeni oluşturulan Evin ceşidi: Müstakil  11.12.2023 16:50:29
+Yeni oluşturulan Evin getiri orani: 0,08  11.12.2023 16:50:29
+Yeni oluşturulan Evin oda sayisi: 7  11.12.2023 16:50:29
+Yeni oluşturulan Evin kat numarası: 0  11.12.2023 16:50:29
+Yeni oluşturulan Evin semti: Beşyüzevler  11.12.2023 16:50:29
+Yeni oluşturulan Evin ilçesi: Bayrampaşa  11.12.2023 16:50:29
+Yeni oluşturulan Evin alani: 300  11.12.2023 16:50:29
+Yeni oluşturulan Evin yapim tarihi: 2014  11.12.2023 16:50:29
+Yeni oluşturulan Evin emlak numarasi: 309713  11.12.2023 16:50:29
+Yeni oluşturulan Evin ceşidi: Bahçeli  11.12.2023 16:50:29
+Yeni oluşturulan Evin getiri orani: 0,11  11.12.2023 16:50:29
+Yeni oluşturulan Evin oda sayisi: 2  11.12.2023 16:50:29
+Yeni oluşturulan Evin kat numarası: 1  11.12.2023 16:50:29
+Yeni oluşturulan Evin semti: Ortaköy  11.12.2023 16:50:29
+Yeni oluşturulan Evin ilçesi: Beşiktaş  11.12.2023 16:50:29
+Yeni oluşturulan Evin alani: 130  11.12.2023 16:50:29
+Yeni oluşturulan Evin yapim tarihi: 2014  11.12.2023 16:50:29
+Yeni oluşturulan Evin emlak numarasi: 309712  11.12.2023 16:50:29
+Yeni oluşturulan Evin ceşidi: Stüdyo  11.12.2023 16:50:29
+Yeni oluşturulan Evin getiri orani: 0,15  11.12.2023 16:50:29
+Yeni oluşturulan Evin oda sayisi: 3  11.12.2023 16:50:29
+Yeni oluşturulan Evin kat numarası: 1  11.12.2023 16:50:29
+Yeni oluşturulan Evin semti: Keberburgaz  11.12.2023 16:50:29
+Yeni oluşturulan Evin ilçesi: Eyüpsultan  11.12.2023 16:50:29
+Yeni oluşturulan Evin alani: 190  11.12.2023 16:50:29
+Yeni oluşturulan Evin yapim tarihi: 2002  11.12.2023 16:50:29
+Yeni oluşturulan Evin emlak numarasi: 309444  11.12.2023 16:50:29
+Yeni oluşturulan Evin ceşidi: Belirtilmemiş  11.12.2023 16:50:29
+Yeni oluşturulan Evin getiri orani: 0,13  11.12.2023 16:50:29
+Yeni oluşturulan Evin oda sayisi: 3  7.01.2024 22:32:11
+Yeni oluşturulan Evin kat numarası: 4  7.01.2024 22:32:11
+Yeni oluşturulan Evin semti: Cihangir  7.01.2024 22:32:11
+Yeni oluşturulan Evin ilçesi: Beşiktaş  7.01.2024 22:32:11
+Yeni oluşturulan Evin alani: 90  7.01.2024 22:32:11
+Yeni oluşturulan Evin yapim tarihi: 2003  7.01.2024 22:32:11
+Yeni oluşturulan Evin emlak numarasi: 100023  7.01.2024 22:32:11
+Yeni oluşturulan Evin ceşidi: Daire  7.01.2024 22:32:11
+Yeni oluşturulan Evin getiri orani: 0,06  7.01.2024 22:32:11
+Yeni oluşturulan Evin oda sayisi: 1  7.01.2024 22:32:11
+Yeni oluşturulan Evin kat numarası: 5  7.01.2024 22:32:11
+Yeni oluşturulan Evin semti: Fener  7.01.2024 22:32:11
+Yeni oluşturulan Evin ilçesi: Fatih  7.01.2024 22:32:11
+Yeni oluşturulan Evin alani: 91  7.01.2024 22:32:11
+Yeni oluşturulan Evin yapim tarihi: 2010  7.01.2024 22:32:11
+Yeni oluşturulan Evin emlak numarasi: 100555  7.01.2024 22:32:11
+Yeni oluşturulan Evin ceşidi: Stüdyo  7.01.2024 22:32:11
+Yeni oluşturulan Evin getiri orani: 0,06  7.01.2024 22:32:11
+Yeni oluşturulan Evin oda sayisi: 2  7.01.2024 22:32:11
+Yeni oluşturulan Evin kat numarası: 5  7.01.2024 22:32:11
+Yeni oluşturulan Evin semti: Vefa  7.01.2024 22:32:11
+Yeni oluşturulan Evin ilçesi: Fatih  7.01.2024 22:32:11
+Yeni oluşturulan Evin alani: 120  7.01.2024 22:32:11
+Yeni oluşturulan Evin yapim tarihi: 2014  7.01.2024 22:32:11
+Yeni oluşturulan Evin emlak numarasi: 100560  7.01.2024 22:32:11
+Yeni oluşturulan Evin ceşidi: Daire  7.01.2024 22:32:11
+Yeni oluşturulan Evin getiri orani: 0,06  7.01.2024 22:32:11
+Yeni oluşturulan Evin oda sayisi: 4  7.01.2024 22:32:11
+Yeni oluşturulan Evin kat numarası: 5  7.01.2024 22:32:11
+Yeni oluşturulan Evin semti: Beylerbeyi  7.01.2024 22:32:11
+Yeni oluşturulan Evin ilçesi: Üsküdar  7.01.2024 22:32:11
+Yeni oluşturulan Evin alani: 110  7.01.2024 22:32:11
+Yeni oluşturulan Evin yapim tarihi: 2009  7.01.2024 22:32:11
+Yeni oluşturulan Evin emlak numarasi: 409999  7.01.2024 22:32:11
+Yeni oluşturulan Evin ceşidi: Daire  7.01.2024 22:32:11
+Yeni oluşturulan Evin getiri orani: 0,12  7.01.2024 22:32:11
+Yeni oluşturulan Evin oda sayisi: 4  7.01.2024 22:32:11
+Yeni oluşturulan Evin kat numarası: 2  7.01.2024 22:32:11
+Yeni oluşturulan Evin semti: Çatalçeşme  7.01.2024 22:32:11
+Yeni oluşturulan Evin ilçesi: Kadıköy  7.01.2024 22:32:11
+Yeni oluşturulan Evin alani: 140  7.01.2024 22:32:11
+Yeni oluşturulan Evin yapim tarihi: 2004  7.01.2024 22:32:11
+Yeni oluşturulan Evin emlak numarasi: 609965  7.01.2024 22:32:11
+Yeni oluşturulan Evin ceşidi: Dubleks  7.01.2024 22:32:11
+Yeni oluşturulan Evin getiri orani: 0,1  7.01.2024 22:32:11
+Yeni oluşturulan Evin oda sayisi: 4  7.01.2024 22:32:11
+Yeni oluşturulan Evin kat numarası: 0  7.01.2024 22:32:11
+Yeni oluşturulan Evin semti: Merter  7.01.2024 22:32:11
+Yeni oluşturulan Evin ilçesi: Zeytinburnu  7.01.2024 22:32:11
+Yeni oluşturulan Evin alani: 240  7.01.2024 22:32:11
+Yeni oluşturulan Evin yapim tarihi: 2005  7.01.2024 22:32:11
+Yeni oluşturulan Evin emlak numarasi: 609777  7.01.2024 22:32:11
+Yeni oluşturulan Evin ceşidi: Bahçeli  7.01.2024 22:32:11
+Yeni oluşturulan Evin getiri orani: 0,1  7.01.2024 22:32:11
+Yeni oluşturulan Evin oda sayisi: 6  7.01.2024 22:32:11
+Yeni oluşturulan Evin kat numarası: 0  7.01.2024 22:32:11
+Yeni oluşturulan Evin semti: Akaretler  7.01.2024 22:32:11
+Yeni oluşturulan Evin ilçesi: Beşiktaş  7.01.2024 22:32:11
+Yeni oluşturulan Evin alani: 231  7.01.2024 22:32:11
+Yeni oluşturulan Evin yapim tarihi: 2022  7.01.2024 22:32:11
+Yeni oluşturulan Evin emlak numarasi: 609779  7.01.2024 22:32:11
+Yeni oluşturulan Evin ceşidi: Müstakil  7.01.2024 22:32:11
+Yeni oluşturulan Evin getiri orani: 0,08  7.01.2024 22:32:11
+Yeni oluşturulan Evin oda sayisi: 7  7.01.2024 22:32:11
+Yeni oluşturulan Evin kat numarası: 0  7.01.2024 22:32:11
+Yeni oluşturulan Evin semti: Beşyüzevler  7.01.2024 22:32:11
+Yeni oluşturulan Evin ilçesi: Bayrampaşa  7.01.2024 22:32:11
+Yeni oluşturulan Evin alani: 300  7.01.2024 22:32:11
+Yeni oluşturulan Evin yapim tarihi: 2014  7.01.2024 22:32:11
+Yeni oluşturulan Evin emlak numarasi: 309713  7.01.2024 22:32:11
+Yeni oluşturulan Evin ceşidi: Bahçeli  7.01.2024 22:32:11
+Yeni oluşturulan Evin getiri orani: 0,11  7.01.2024 22:32:11
+Yeni oluşturulan Evin oda sayisi: 2  7.01.2024 22:32:11
+Yeni oluşturulan Evin kat numarası: 1  7.01.2024 22:32:11
+Yeni oluşturulan Evin semti: Ortaköy  7.01.2024 22:32:11
+Yeni oluşturulan Evin ilçesi: Beşiktaş  7.01.2024 22:32:11
+Yeni oluşturulan Evin alani: 130  7.01.2024 22:32:11
+Yeni oluşturulan Evin yapim tarihi: 2014  7.01.2024 22:32:11
+Yeni oluşturulan Evin emlak numarasi: 309712  7.01.2024 22:32:11
+Yeni oluşturulan Evin ceşidi: Stüdyo  7.01.2024 22:32:11
+Yeni oluşturulan Evin getiri orani: 0,15  7.01.2024 22:32:11
+Yeni oluşturulan Evin oda sayisi: 3  7.01.2024 22:32:11
+Yeni oluşturulan Evin kat numarası: 1  7.01.2024 22:32:11
+Yeni oluşturulan Evin semti: Keberburgaz  7.01.2024 22:32:11
+Yeni oluşturulan Evin ilçesi: Eyüpsultan  7.01.2024 22:32:11
+Yeni oluşturulan Evin alani: 190  7.01.2024 22:32:11
+Yeni oluşturulan Evin yapim tarihi: 2002  7.01.2024 22:32:11
+Yeni oluşturulan Evin emlak numarasi: 309444  7.01.2024 22:32:11
+Yeni oluşturulan Evin ceşidi: Belirtilmemiş  7.01.2024 22:32:11
+Yeni oluşturulan Evin getiri orani: 0,13  7.01.2024 22:32:11
